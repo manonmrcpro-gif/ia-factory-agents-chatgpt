@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Propale"
+  short_description: "Rédiger une proposition ancrée dans le diagnostic"
+  default_prompt: "Utilise $propale pour m’aider à rédiger une proposition ancrée dans le diagnostic."

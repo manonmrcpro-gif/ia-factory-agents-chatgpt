@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Cadrage d'offre & Pricing"
+  short_description: "Structurer des offres rentables et leur pricing"
+  default_prompt: "Utilise $cadrage-offre-pricing pour m’aider à structurer des offres rentables et leur pricing."

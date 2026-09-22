@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Stratégie édito"
+  short_description: "Définir la ligne éditoriale et alimenter le calendrier"
+  default_prompt: "Utilise $strategie-edito pour m’aider à définir la ligne éditoriale et alimenter le calendrier."

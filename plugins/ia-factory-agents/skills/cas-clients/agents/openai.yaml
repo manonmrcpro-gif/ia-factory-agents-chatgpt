@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Cas Clients"
+  short_description: "Transformer les résultats en cas clients convaincants"
+  default_prompt: "Utilise $cas-clients pour m’aider à transformer les résultats en cas clients convaincants."

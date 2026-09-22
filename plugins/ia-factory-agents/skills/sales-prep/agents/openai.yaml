@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Sales"
+  short_description: "Préparer une découverte commerciale précise et utile"
+  default_prompt: "Utilise $sales-prep pour m’aider à préparer une découverte commerciale précise et utile."

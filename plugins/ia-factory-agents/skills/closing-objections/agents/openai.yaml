@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Closing & Objections"
+  short_description: "Préparer le suivi commercial après un rendez-vous"
+  default_prompt: "Utilise $closing-objections pour m’aider à préparer le suivi commercial après un rendez-vous."

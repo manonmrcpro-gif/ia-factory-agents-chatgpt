@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent VoC (Voix du Client)"
+  short_description: "Extraire les mots et besoins réels des clients"
+  default_prompt: "Utilise $voc-voix-du-client pour m’aider à extraire les mots et besoins réels des clients."

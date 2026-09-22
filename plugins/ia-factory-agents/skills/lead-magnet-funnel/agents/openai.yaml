@@ -1,0 +1,4 @@
+interface:
+  display_name: "Projet Lead Magnet"
+  short_description: "Créer un aimant à prospects et son funnel complet"
+  default_prompt: "Utilise $lead-magnet-funnel pour m’aider à créer un aimant à prospects et son funnel complet."

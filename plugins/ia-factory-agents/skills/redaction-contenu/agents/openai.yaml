@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Rédaction"
+  short_description: "Rédiger les contenus dans votre voix et au bon format"
+  default_prompt: "Utilise $redaction-contenu pour m’aider à rédiger les contenus dans votre voix et au bon format."

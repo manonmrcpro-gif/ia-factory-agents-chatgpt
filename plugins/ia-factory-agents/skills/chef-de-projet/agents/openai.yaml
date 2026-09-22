@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Chef de projet"
+  short_description: "Piloter la mission et préparer les récaps clients"
+  default_prompt: "Utilise $chef-de-projet pour m’aider à piloter la mission et préparer les récaps clients."

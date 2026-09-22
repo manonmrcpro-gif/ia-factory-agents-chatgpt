@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Transcript to Drive/Notion + Next Actions"
+  short_description: "Classer les réunions et extraire les prochaines actions"
+  default_prompt: "Utilise $transcript-next-actions pour m’aider à classer les réunions et extraire les prochaines actions."
