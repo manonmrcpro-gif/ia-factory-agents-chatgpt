@@ -1,7 +1,7 @@
 {
   "name": "ia-factory-agents",
-  "version": "1.0.0",
-  "description": "Les 11 agents IA Factory : voix du client, contenu, vente, delivery et offres.",
+  "version": "1.1.0",
+  "description": "Les 11 agents IA Factory, plus l'interview qui crée tes documents de référence : voix du client, contenu, vente, delivery et offres.",
   "author": {
     "name": "Johanna Prévost",
     "url": "https://github.com/prevostjohanna"
@@ -10,11 +10,12 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "IA Factory — Agents",
-    "shortDescription": "11 agents pour structurer et développer votre activité",
+    "shortDescription": "11 agents + l'interview qui crée tes documents de référence",
     "longDescription": "Les méthodes IA Factory en français, adaptées à Codex : analyser les clients, préparer les ventes, créer les contenus et suivre les missions.",
     "developerName": "Johanna Prévost",
     "category": "Productivity",
     "defaultPrompt": [
+      "Lance mon interview pour créer mes documents de référence.",
       "Analyse ces retours avec l’agent Voix du Client.",
       "Prépare mon prochain rendez-vous de découverte.",
       "Aide-moi à cadrer ma stratégie éditoriale."
