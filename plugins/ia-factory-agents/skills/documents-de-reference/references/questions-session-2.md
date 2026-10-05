@@ -1,4 +1,4 @@
-# Session 2 · Ta voix et tes règles IA (Q83 à Q108, 5 blocs, 30 min à 1h)
+# Session 2 · Ta voix et tes règles IA (Q83 à Q108, 5 blocs, 45 min à 1 h)
 
 Avant de commencer, rappelle-lui de garder sous la main 4 à 5 vrais textes : 2 posts dont elle est fière, un mail client récent, un extrait de propale. Distinction clé de cette session : comment elle parle à son audience (externe) et comment elle parle à ses clients (interne). Souvent les deux sont différents, et c'est normal.
 

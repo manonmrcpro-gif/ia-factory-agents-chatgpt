@@ -1,4 +1,4 @@
-# Session 1 · Ton business (Q1 à Q82, 17 blocs, environ 2 h à 3 h, en 2 ou 3 fois)
+# Session 1 · Ton business (Q1 à Q82, 17 blocs, environ 2 h à 2 h 30, en 2 ou 3 fois)
 
 Pose chaque bloc d'un coup. Les phrases en italique sont les indices à donner avec la question.
 

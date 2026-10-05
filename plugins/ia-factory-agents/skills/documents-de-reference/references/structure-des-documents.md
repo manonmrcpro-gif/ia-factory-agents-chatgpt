@@ -4,14 +4,19 @@ Les noms des documents et les titres des sections sont fixes : les agents du plu
 
 ## Les 4 règles de rédaction
 
-**1. Réorganiser, pas résumer.** Ton travail est de ranger ce qu'elle a dit dans les bonnes sections, en gardant :
-- toutes ses anecdotes, en entier, avec leur contexte ;
+**1. Condenser sans perdre.** Tu ranges ce qu'elle a dit dans les bonnes sections et tu enlèves les répétitions, les hésitations et le remplissage. Tu gardes tels quels :
 - tous les chiffres, dates, prix, noms de clients et de boîtes ;
-- ses expressions, ses formules, ses tics de langage : ce sont ses marqueurs ;
-- ses exemples concrets et ses nuances (« ça dépend », « par exemple ») : c'est là que sa pensée se précise ;
+- ses formulations marquantes, ses expressions, ses tics de langage : ce sont ses marqueurs ;
 - les verbatims de ses clients qu'elle a cités.
 
-Si elle a parlé 5 minutes d'un sujet, ça ne tient pas en 3 lignes. Repère par section : si une section fait moins d'un tiers de la matière brute qui la nourrit, tu as résumé, reprends-la. Si la matière est courte, la section est courte : tu ne combles pas.
+Une anecdote tient en 2 ou 3 phrases : le contexte, ce qui s'est passé, ce qu'elle en retient. Si la matière est courte, la section est courte : tu ne combles pas.
+
+**Plafonds de longueur** (un document trop long ralentit l'IA et dilue ce qui compte) :
+- ADN, méthode & économie : 4 000 mots maximum, environ 2 000 pour les sections 1 à 6 et 2 000 pour les sections 7 à 12.
+- Ma voix : 2 000 mots maximum hors section 4. La section 4 garde ses vrais textes en entier (4 à 5 textes).
+- Mes règles IA : 600 mots maximum, plus la version courte à moins de 1 400 caractères.
+
+Si tu dépasses, coupe d'abord les redites et les détails secondaires, jamais les chiffres ni ses formulations. Le détail complet reste dans les fichiers de matière brute, en archive.
 
 **2. Ses mots, pas les tiens.** Garde ses formulations exactes pour le positionnement, les valeurs, la méthode, la voix. Dès qu'elle a une formulation marquante, garde-la entre guillemets. Une section sans formulation marquante n'en a pas. Si elle parle cru, reste cru ; si elle est chaleureuse, reste chaleureuse.
 
@@ -23,7 +28,7 @@ Les documents 1 et 2 sont rédigés à la 1re personne, avec sa voix (« Je vend
 
 En tête de chaque document : `Dernière mise à jour : <date du jour>`.
 
-Avant de livrer un document, vérifie : chaque anecdote est-elle quelque part ? Chaque chiffre, nom propre et prix est-il conservé ? Ses formulations sont-elles intactes ? Si non, complète avant de livrer.
+Avant de livrer un document, vérifie : chaque chiffre, nom propre et prix est-il conservé ? Ses formulations marquantes sont-elles intactes ? Le plafond de mots est-il respecté ? Si non, corrige avant de livrer.
 
 ---
 
@@ -32,11 +37,11 @@ Fichier : `ADN-methode-economie.md` · Matière : session 1. À produire en 2 te
 
 1. **Qui je suis**
    - 1.1 Identité de base (prénom, nom, où je vis, ce que je fais en une phrase)
-   - 1.2 Mon parcours (toutes les étapes racontées, dans l'ordre, avec mes mots)
-   - 1.3 Mes expériences marquantes (toutes les anecdotes, en entier : la fierté, l'échec, les rencontres, le déclic)
+   - 1.2 Mon parcours (les étapes clés, dans l'ordre, avec mes mots)
+   - 1.3 Mes expériences marquantes (chaque anecdote en 2 ou 3 phrases : la fierté, l'échec, les rencontres, le déclic)
    - 1.4 Ma mission (verbatim de mes formulations sur le pourquoi)
    - 1.5 Mes valeurs et principes opérationnels (un par un, avec l'exemple concret donné)
-2. **Mes offres** : une sous-section 2.X complète par offre (nom commercial ; à qui elle s'adresse ; le problème qu'elle résout ; format, durée, prix ; résultat promis en une phrase ; parcours client après signature ; livrables ; bonus ; tout ce que j'ai dit en plus)
+2. **Mes offres** : une sous-section 2.X complète par offre (nom commercial ; à qui elle s'adresse ; le problème qu'elle résout ; format, durée, prix ; résultat promis en une phrase ; parcours client après signature ; livrables ; bonus ; ce que j'ai dit d'important en plus)
 3. **Mon équation business et mon modèle économique**
    - 3.1 Objectif de CA et son équation (offres × panier × clients)
    - 3.2 Panier moyen actuel et cible, leviers pour le faire monter
@@ -59,7 +64,7 @@ Fichier : `ADN-methode-economie.md` · Matière : session 1. À produire en 2 te
    - 7.2 Ce que je fais AVEC mon client vs À SA PLACE
    - 7.3 Ce que je refuse dans la relation
    - 7.4 Ma gestion des désaccords
-8. **Mon principe fondateur** : la phrase mantra, la philosophie, tout ce que j'ai dit autour
+8. **Mon principe fondateur** : la phrase mantra et la philosophie qui va avec
 9. **Ce qui me rend irremplaçable**
    - 9.1 Mon mix unique (chaque expérience et ce qu'elle apporte)
    - 9.2 Mes concurrents et inspirations (les noms cités et ma différence pour chacun)
@@ -105,7 +110,7 @@ Fichier : `Ma-voix.md` · Matière : session 2 (blocs 1 à 4).
    - 3.5 Ma structure de récap hebdo
    - 3.6 Ma gestion du recadrage
    - 3.7 Mes interdits avec mes clients
-4. **Exemples concrets de ma voix** : tous les textes fournis, recopiés en entier (posts, mails, extraits de propales, autres formats)
+4. **Exemples concrets de ma voix** : les 4 à 5 textes fournis, recopiés en entier (posts, mails, extraits de propales, autres formats)
 
 ---
 
