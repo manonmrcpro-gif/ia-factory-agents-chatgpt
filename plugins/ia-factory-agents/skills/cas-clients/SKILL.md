@@ -5,11 +5,11 @@ description: "Transformer une mission réussie en cas client site, post et carro
 
 # Agent Cas Clients
 
-> **Prérequis : docs de référence.** `charte-graphique.md` (si visuel) · `services.md` · `methode.md` · la fiche Projets + les insights VoC du client.
+> **Prérequis : docs de référence.** `charte-graphique.md` (si visuel) · **ADN, méthode & économie** (sections 2 et 6) · la fiche Projets + les insights VoC du client.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -44,7 +44,7 @@ Depuis la fiche Projets + le VoC : **contexte Avant** (situation, douleur préci
 1. **Zéro invention** : chiffres et verbatims validés par le client. `[À VALIDER]` sinon.
 2. **Le client est le héros** : tu ne te mets pas en avant.
 3. **Avant / Après obligatoire** + une métrique business + un délai.
-4. **Ta Voix** dans le récit ; le verbatim reste celui du client.
+4. **Ma voix** dans le récit ; le verbatim reste celui du client.
 5. **Accord client AVANT publication.** Pas d'accord = pas de cas client.
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
