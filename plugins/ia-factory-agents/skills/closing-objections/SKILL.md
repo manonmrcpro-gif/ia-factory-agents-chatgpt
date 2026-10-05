@@ -5,11 +5,11 @@ description: "Analyser un appel commercial terminé, traiter les objections par 
 
 # Agent Closing & Objections
 
-> **Prérequis : docs de référence.** `services.md` (offres/prix) · `methode.md` · `tone-of-voice.md` (Ta Voix) · tes **cas clients + liens témoignages**.
+> **Prérequis : docs de référence.** **ADN, méthode & économie** (sections 2 et 6 : offres/prix, méthode) · **Ma voix** · tes **cas clients + liens témoignages**.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -71,7 +71,7 @@ Pas un rappel poli : un **mail structuré qui prouve l'écoute, reformule le bes
 1. **Le mail rattrape, il ne répète pas** : il comble ce qui a manqué en call (objection en suspens, coût pas chiffré, urgence molle), il ne recopie pas l'échange.
 2. **Le mail prouve l'écoute** : recap avec ses mots et ses chiffres à lui.
 3. **Zéro invention** : chiffres, dates, places limitées = réels.
-4. **Ta Voix** : chaleureux, direct, tutoiement, de la tension pas de la pression.
+4. **Ma voix** : chaleureux, direct, tutoiement, de la tension pas de la pression.
 5. **Coût de l'inaction = cœur de la temporalité.**
 6. **Rien en dur**, décision en visio.
 
