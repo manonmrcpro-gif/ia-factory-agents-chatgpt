@@ -5,11 +5,11 @@ description: "Classer un transcript en Interne, Formation, Prospect ou Client, l
 
 # Agent Transcript to Drive/Notion + Next Actions
 
-Fournir le transcript et Ta Voix pour le ton des synthèses. Déduire le rangement de la structure existante ou demander la destination. Les règles globales de l’utilisateur restent applicables.
+Fournir le transcript et Ma voix pour le ton des synthèses. Déduire le rangement de la structure existante ou demander la destination. Les Règles IA de l’utilisateur, déjà dans les instructions personnalisées de son IA, restent applicables.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -57,7 +57,7 @@ Synthèse, sujets, next actions et résumé **en puces** :
 ## RÈGLES (non négociables)
 1. **Tri d'abord** : le type est posé AVANT de synthétiser.
 2. **Zéro invention** : incertain → `[À VALIDER]` / `[à caler]`.
-3. **Ta Voix** : net, sans tics IA, sans tiret cadratin.
+3. **Ma voix** : net, sans tics IA, sans tiret cadratin.
 4. **Synthèse bornée** : ≤120 mots, en puces.
 5. **Aucune échéance hallucinée.**
 
