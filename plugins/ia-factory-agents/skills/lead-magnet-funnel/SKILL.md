@@ -65,6 +65,24 @@ Tu ne passes en Partie 1 que quand tu peux remplir en une phrase nette chacune d
 3. **3 à 4 résultats / profils** : un nom de profil + un mini-diagnostic + le prochain pas (qui ouvre vers ton offre). Le « comment » global reste pour la suite.
 4. **La capture email se fait AVANT d'afficher le résultat** (« où on t'envoie ton résultat ? »).
 5. **Les réponses nourrissent la qualification** : le profil remonte dans le CRM, l'Agent Sales sait déjà à qui il a affaire.
+6. **Le résultat vise un vrai rapport de diagnostic** (zoom ci-dessous), pas un simple score.
+
+### Zoom : le résultat du quiz, viser un vrai rapport de diagnostic
+
+Un score seul ne marque personne. Le résultat qui fait dire « waouh, elle m'a cerné·e » ressemble à un **rapport de diagnostic personnalisé**. Anatomie à viser :
+
+1. **En-tête personnalisé** : prénom, date, « méthode en N axes » (la grille de la Phase 0).
+2. **Tableau de bord** : un score par axe (ex. 4/5 + niveau : Débutant, Avancé, Expert) et un **score global** affiché en gros. Comparaison à la moyenne des répondants seulement si la donnée existe vraiment.
+3. **Les 3 chiffres qui piquent** : l'objectif déclaré · le **facteur limitant n°1** · le **manque à gagner estimé** (fourchette, hypothèses affichées).
+4. **Analyse axe par axe** : situation actuelle · force n°1 · prochain levier · un commentaire d'expert, dans la voix de l'utilisateur, qui nomme le vrai problème.
+5. **Les 3 priorités** : pour chacune, pourquoi maintenant · résultat attendu · délai.
+6. **Le plan 90 jours** : par mois, un cap, 3 actions, 1 jalon mesurable. Le plan dit QUOI et QUAND, pas le COMMENT détaillé.
+7. **Le mot de clôture** : le vrai problème vs le symptôme apparent, en 3 phrases.
+8. **Le CTA vers l'offre**, répété : deux voies (« tu avances seul·e » / « on avance ensemble »).
+
+Ton : tutoiement, chiffres précis, lucide ET motivant. La personnalisation vient des réponses du quiz + des infos demandées (activité, CA, objectif, canaux).
+
+**Réalisme** : V1 = quiz + profils (Tally, Typeform…), en ligne vite. V2 = le rapport généré par IA à partir des réponses (formulaire → automatisation → modèle IA nourri de la grille de diagnostic → page web, PDF ou email). Ne pas bloquer la V1 pour la V2.
 
 ## PARTIE 2 : LA PAGE DE CAPTURE
 Une seule action : laisser son email. **Headline** (la promesse) → **sous-titre** (le bénéfice) → **réassurance** (gratuit, rapide, sans spam) → **les 3 étapes** (tu télécharges → tu appliques → tu obtiens) → **bénéfices** (puces) → **preuve** (verbatim, chiffre, logos) → **CTA répété** (haut + bas). Pas de menu, pas de lien sortant : la page ne fait qu'une chose.
