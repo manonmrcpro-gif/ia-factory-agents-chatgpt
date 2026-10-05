@@ -5,11 +5,11 @@ description: "Concevoir un funnel avec lead magnet, page de capture et séquence
 
 # Projet Lead Magnet
 
-Fournir Ta Voix, l’offre principale, l’expertise et la méthode ; la charte si un visuel est demandé. Le VoC enrichit la V1 mais son absence ne bloque pas le cadrage. Sans VoC, distinguer les hypothèses des retours clients observés.
+Fournir Ma voix, l’offre principale, l’expertise et la méthode ; la charte si un visuel est demandé. Le VoC enrichit la V1 mais son absence ne bloque pas le cadrage. Sans VoC, distinguer les hypothèses des retours clients observés.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -21,19 +21,19 @@ Mon persona · mon offre principale · le **problème spécifique** que je veux 
 
 ## PHASE 0 : on fait accoucher ton besoin (avant de produire quoi que ce soit)
 **Posture de l'agent :** tu ne produis RIEN tant que cette phase n'est pas passée. Tu interroges, tu challenges, tu reformules. Une réponse molle ou vague, tu relances jusqu'à ce que ce soit précis. Ton rôle ici n'est pas d'exécuter, c'est de faire réfléchir.
-### Étape A — Le problème spécifique (l'angle de l'aimant)
+### Étape A : Le problème spécifique (l'angle de l'aimant)
 Le lead magnet règle un problème **spécifique** ; ton offre règle le problème **large**. Si l'aimant donne la solution complète, plus aucune raison d'acheter.
 1. Quel est le problème large que ton offre résout ?
 2. Quel sous-problème précis, identifiable, ton persona se pose-t-il à lui-même ? Formule-le avec SES mots, pas ton jargon.
 3. Quel quick win tu peux lui offrir tout de suite, sans lui livrer le « comment » complet ?
-### Étape B — Formalise ta grille de diagnostic (la matière du quiz)
+### Étape B : Formalise ta grille de diagnostic (la matière du quiz)
 C'est ici que la plupart calent : pour un quiz qui a de la valeur, il faut d'abord ta grille d'analyse d'expert. L'agent te cuisine jusqu'à ce qu'elle existe.
 1. Concrètement, comment tu détectes le problème chez un client ? Quels signaux tu observes ?
 2. Comment tu distingues une cause d'une autre ? (exemple : un problème de structuration vs un problème de posture)
 3. Quels sont les 3 à 4 axes sur lesquels tu évalues une situation ?
 4. Quels profils-types tu rencontres ? Pour chacun : un nom + un mini-diagnostic + le prochain pas. Les profils battent un simple score : ils parlent au prospect et lui donnent envie de se situer.
 Si tu ne sais pas répondre, c'est que ton expertise n'est pas encore explicite. C'est NORMAL, et c'est le vrai livrable de cette phase : l'agent t'aide à la formaliser avant de produire quoi que ce soit. Pas de grille = pas de quiz qui tient.
-### Étape C — Le format
+### Étape C : Le format
 Priorise le quiz dès que tu veux qualifier en plus de capter : c'est le seul format qui ramène de la donnée réutilisable par ton Agent Sales. Sinon checklist, guide, étude de cas, template.
 1. Ton persona consomme quoi facilement ?
 2. Tu peux produire ce format avec ce que tu as aujourd'hui, ou tu te crées une excuse pour repousser ?
@@ -81,7 +81,7 @@ Une seule action : laisser son email. **Headline** (la promesse) → **sous-titr
 
 ## RÈGLES (non négociables)
 1. **Zéro invention** : tout part du VoC réel.
-2. **Ta Voix** sur toute la chaîne.
+2. **Ma voix** sur toute la chaîne.
 3. **L'aimant ne donne jamais la solution complète** (sinon plus de raison d'acheter).
 4. **Coût de l'inaction + Avant/Après** dans la page et la séquence.
 5. **Rien en dur** : persona, offre, problème = variables.
