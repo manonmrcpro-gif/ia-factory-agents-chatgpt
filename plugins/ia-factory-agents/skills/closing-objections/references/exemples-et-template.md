@@ -6,7 +6,7 @@ Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 > **Objet :** Notre échange + la suite
 > RÈGLES (non négociables)
 > Hello `{Prénom}`,
-> **Ta Voix** : tu invites, tu n'imposes pas. Pas de pression, mais de la tension.
+> **Ma voix** : tu invites, tu n'imposes pas. Pas de pression, mais de la tension.
 > Merci pour notre échange ce matin, dense et franc : j'ai eu en face quelqu'un qui sait où il va et qui a déjà bien creusé le sujet. C'est le profil avec lequel j'aime bosser.
 > **Rien en dur**, et la décision se finalise en visio.
 > **Ce que je retiens :**
