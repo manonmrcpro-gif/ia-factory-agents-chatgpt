@@ -5,11 +5,11 @@ description: "Préparer un premier rendez-vous de découverte à partir du formu
 
 # Agent Sales
 
-> **Prérequis : docs de référence.** Ta Voix · `services.md` (tes offres/prix) · ton **script de découverte R1** · `methode.md`.
+> **Prérequis : docs de référence.** Ma voix · **ADN, méthode & économie** (sections 2 et 6 : tes offres/prix, ta méthode) · ton **script de découverte R1**.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -52,7 +52,7 @@ Le **formulaire de réservation Calendly** rempli par le prospect (source n°1 :
 - **Quick win / ROI** · **2-3 red flags** à tester · **1-2 icebreakers** vérifiables.
 ### B) Guide de call (ton script R1 ; à défaut, trame modulable (environ 45–50 min, à raccourcir selon le créneau))
 **1. Intro & cadrage (2 min).** Icebreaker → « tu / vous ? » → plan (10 min enjeux · 10 min outils · 10 min approche) → « OK pour des notes IA ? »
-**2. Storytelling perso (2 min).** `{ton histoire fondatrice}` reliée à ses enjeux.
+**2. Storytelling perso (2 min).** `{ton histoire fondatrice}` (ADN, méthode & économie, section 1) reliée à ses enjeux.
 **3. Exploration (10 min) :**
 - « Qu'est-ce qui vous a donné envie d'accepter ce call ? »
 - « Votre priorité côté `{fonction}`, c'est quoi exactement ? »
@@ -74,7 +74,7 @@ Qui **porte le projet** · qui **signe / tient le budget** · qui peut **freiner
 
 ## RÈGLES (non négociables)
 1. **Zéro invention** : aucun chiffre non sourcé → `[À VALIDER]`.
-2. **Ta Voix** (posture miroir : ton adapté au profil DG / Ops / BizDev).
+2. **Ma voix** (posture miroir : ton adapté au profil DG / Ops / BizDev).
 3. **Coût de l'inaction** dans la cheat-sheet : le levier qui ouvre le besoin.
 4. **Rien en dur** : histoire, offres, preuves = variables.
 
