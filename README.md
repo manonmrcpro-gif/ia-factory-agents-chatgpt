@@ -1,6 +1,6 @@
 # IA Factory — Agents pour Codex
 
-11 skills en français issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
+12 skills en français issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
 
 ## Installer
 
@@ -18,13 +18,14 @@ Alternative locale : cloner le dépôt puis copier les dossiers de `plugins/ia-f
 
 La procédure marketplace suit la [documentation officielle OpenAI](https://developers.openai.com/plugins/build/plugins).
 
-## Les skills (11 agents + l'interview)
+## Les skills (12 agents + l'interview)
 
 | Agent | Skill |
 | --- | --- |
 | Mes documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
 | Agent VoC (Voix du Client) | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
-| Agent Closing & Objections | [closing-objections](plugins/ia-factory-agents/skills/closing-objections/SKILL.md) |
+| Coach Process & IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
+| Agent Analyse de call et closing | [closing-objections](plugins/ia-factory-agents/skills/closing-objections/SKILL.md) |
 | Agent Cas Clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
 | Agent Cadrage d'offre & Pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
 | Projet Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
