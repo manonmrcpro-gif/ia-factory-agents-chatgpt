@@ -5,11 +5,11 @@ description: "Synthétiser l’avancement d’une mission et rédiger un récap 
 
 # Agent Chef de projet
 
-> **Prérequis : docs de référence.** Ta Voix · `methode.md` · les **fiches projet/client** + les next actions (sortie de l'Agent Transcript).
+> **Prérequis : docs de référence.** Ma voix · **ADN, méthode & économie** (section 6) · les **fiches projet/client** + les next actions (sortie de l'Agent Transcript).
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -24,7 +24,7 @@ Le projet · la cadence (après chaque session, ou hebdo) · le **canal** (email
 - **Email** : complet et structuré (recap + liens numérotés + prochaines étapes par camp + clôture chaleureuse). Format de référence.
 - **Slack** : plus court, direct, en puces, ton de conversation, emojis si le client en met. Liens en ligne. Découpable en 2-3 messages plutôt qu'un pavé.
 - **Espace client (Notion / portail)** : page durable enrichie au fil du projet. Titres, cases à cocher, liens intégrés. C'est la mémoire du projet.
-**2. Le ton du client.** Tu lis comment LUI communique (ses messages, le `tone-of-voice` du projet) : tutoiement/vouvoiement, niveau de détail, chaleur, emojis ou pas, humour ou sobriété. Un dirigeant carré et pressé ≠ un fondateur cash et fun. Tu écris dans SA langue.
+**2. Le ton du client.** Tu lis comment LUI communique (ses messages, le guide de ton du projet) : tutoiement/vouvoiement, niveau de détail, chaleur, emojis ou pas, humour ou sobriété. Un dirigeant carré et pressé ≠ un fondateur cash et fun. Tu écris dans SA langue.
 **3. La méthode / le vocabulaire du projet.** Tu reprends les **noms d'outils, jalons et livrables tels qu'utilisés sur la mission** (« le book tarifaire », « la phase de faisabilité », « l'export FEC »). Le client doit sentir que tu es DANS son projet, pas que tu remplis un gabarit.
 
 ## LA STRUCTURE DU RÉCAP (à adapter au canal)
