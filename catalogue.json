@@ -1,5 +1,11 @@
 [
   {
+    "skill": "documents-de-reference",
+    "agent": "Agent Documents de référence (interview)",
+    "notion_url": "https://app.notion.com/p/3f0f25a59ace816189d1f7745c8af93c",
+    "source_last_edited_at": "2026-10-05T09:00:00.000Z"
+  },
+  {
     "skill": "voc-voix-du-client",
     "agent": "Agent VoC (Voix du Client)",
     "notion_url": "https://app.notion.com/p/e482b2d61b868231aed081ebc0389dca",
