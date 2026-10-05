@@ -5,11 +5,11 @@ description: "Extraire la voix du client : verbatims exacts, récurrences, insig
 
 # Agent VoC (Voix du Client)
 
-> **Prérequis : ce que l'agent lit.** **Ta Voix** (pour le ton des sorties marketing) + le **corpus** à analyser. Le reste ajoute du bruit. Les règles globales de l’utilisateur restent applicables ; ne charger ici que les sources utiles à l’analyse.
+> **Prérequis : ce que l'agent lit.** **Ma voix** (pour le ton des sorties marketing) + le **corpus** à analyser. Le reste ajoute du bruit. Les Règles IA de l’utilisateur, déjà dans les instructions personnalisées de son IA, restent applicables ; ne charger ici que les sources utiles à l’analyse.
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -46,7 +46,7 @@ Tu relis en traquant l'**émotion** et les **mots exacts**. Pour chaque catégor
 1. **Zéro invention** : jamais un verbatim absent du corpus. **Signale les insights à faible échantillon** (« basé sur 2 cas : à confirmer »).
 2. **Mots exacts** : tu cites, tu ne paraphrases pas.
 3. **Émotion d'abord** : tu remontes ce qui est chargé émotionnellement.
-4. **Ta Voix** dans les sorties marketing uniquement ; les verbatims restent les mots du client.
+4. **Ma voix** dans les sorties marketing uniquement ; les verbatims restent les mots du client.
 5. **Rien en dur** : le corpus est une variable jointe.
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
