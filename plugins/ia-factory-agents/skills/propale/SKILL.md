@@ -5,11 +5,11 @@ description: "Rédiger une proposition commerciale après un appel qualifié : d
 
 # Agent Propale
 
-> **Prérequis : docs de référence.** Ta Voix (le ton) · Économie (offres/marges) · Offres & pricing · 1-2 cas clients (la preuve).
+> **Prérequis : docs de référence.** Ma voix (le ton) · ADN, méthode & économie (sections 2 et 3 : offres, prix, marges) · 1-2 cas clients (la preuve).
 
 ## Utilisation dans Codex
 
-Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ta Voix », « Économie », offres et méthode sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
+Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre demandé. Les documents « Ma voix » et « ADN, méthode & économie » sont ceux de l’utilisateur, pas des fichiers livrés avec le plugin. Demander les informations indispensables manquantes ; les noms de fichiers indiqués sont des exemples.
 
 Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
@@ -23,7 +23,7 @@ Une propale qui démarre par « qui je suis » parle dans le vide. La bonne prop
 Le transcript (ou mes notes) du R1 · le nom du client + secteur · le niveau de relation (froid / déjà parlé).
 
 ## CE QUE TU LIS AVANT D'ÉCRIRE
-Ta Voix + Économie · le doc Offres & pricing · les 1-2 cas clients joints.
+Ma voix + ADN, méthode & économie (sections 2 et 3) · les 1-2 cas clients joints.
 
 ## AVANT D'ÉCRIRE : LA PASSE D'EXTRACTION
 Lis le transcript et remplis cet intake. C'est le seul matériau fiable de la propale.
@@ -82,7 +82,7 @@ Un benchmark externe sert à **borner une hypothèse**, jamais à affirmer le r�
 
 ## RÈGLES (non négociables)
 1. **Zéro invention** : chiffres et verbatims issus de ce que je te donne, ou d'une source citée. Une hypothèse s'assume et s'étiquette, elle ne se déguise jamais en fait.
-2. **Ma Voix**, pas la langue IA neutre. Pas de tics IA, pas de faux enthousiasme.
+2. **Ma voix**, pas la langue IA neutre. Pas de tics IA, pas de faux enthousiasme.
 3. **Coût de l'inaction + Avant/Après** : le moteur qui fait signer.
 4. **100% des variables résolues** : aucune propale ne sort avec un `{client}` ou un `[montant]` vide. Info manquante critique → tu me la demandes AVANT d'écrire (c'est le garde-fou).
 5. **Le client est le héros** : on démarre par lui, pas par toi.
