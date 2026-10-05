@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coach Process & IA"
+  short_description: "Diagnostiquer ses processus et choisir quoi traiter en premier"
+  default_prompt: "Utilise $coach-process-ia pour diagnostiquer mes processus et décider quoi traiter en premier."
