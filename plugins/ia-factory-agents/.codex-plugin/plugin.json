@@ -9,7 +9,7 @@
   "repository": "https://github.com/prevostjohanna/ia-factory-agents-codex",
   "skills": "./skills/",
   "interface": {
-    "displayName": "IA Factory — Agents",
+    "displayName": "IA Factory : Agents",
     "shortDescription": "11 agents + l'interview qui crée tes documents de référence",
     "longDescription": "Les méthodes IA Factory en français, adaptées à Codex : analyser les clients, préparer les ventes, créer les contenus et suivre les missions.",
     "developerName": "Johanna Prévost",
