@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mes documents de référence"
+  short_description: "Interview en notes vocales pour créer tes 3 documents de référence"
+  default_prompt: "Utilise $documents-de-reference pour lancer mon interview et créer mes documents de référence."
