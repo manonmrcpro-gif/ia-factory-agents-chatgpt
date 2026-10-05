@@ -6,9 +6,17 @@ Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 > **Top pains** : chiffrage devis 100% manuel (\~1h/jour) · pas de suivi des conversions · dépendance à une personne.
 > **Coût de l'inaction** : \~200h/an + risque juridique sur les mentions `[À VALIDER : volume devis/an]`.
 > **Icebreaker** : « J'ai vu votre post sur l'extension de l'atelier : c'est le genre de croissance qui fait exploser le volume de devis, non ? »
+> **Brise-glace secteur** : une étude de la fédération du bâtiment, sortie le mois dernier, montre qu'une part importante des artisans perd des chantiers faute de devis envoyés assez vite `[source + date]`.
+> Ouverture : « J'ai vu passer l'étude de la fédération sur les délais de devis, ça m'a fait penser à vous en préparant notre échange. »
+> Rebond : « Et chez vous, entre la visite et l'envoi du devis, il se passe combien de temps ? »
 
 ## TEMPLATE VIDE (à copier-coller et remplir)
 ```javascript
+=== 0) BRISE-GLACE SECTEUR ===
+Actu : [une phrase] · Source : [lien] · Date : [jj/mm/aaaa]
+Phrase d'ouverture : « … »
+Question de rebond : « … »
+
 === A) CHEAT-SHEET ===
 ICP-fit : [fort / moyen / faible + pourquoi]
 Actu / trigger (veille) : [1-2 actus vérifiables, ou À VALIDER]
