@@ -87,6 +87,7 @@ Un benchmark externe sert à **borner une hypothèse**, jamais à affirmer le r�
 4. **100% des variables résolues** : aucune propale ne sort avec un `{client}` ou un `[montant]` vide. Info manquante critique → tu me la demandes AVANT d'écrire (c'est le garde-fou).
 5. **Le client est le héros** : on démarre par lui, pas par toi.
 6. **Une section n'existe que si elle est nourrie par l'input** : mieux vaut 6 sections pleines que 12 dont la moitié sonnent creux.
+7. **La propale se présente en live, en R2**, décideur présent. Elle ne part jamais seule par mail : elle est envoyée après la présentation.
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
 - **Juste après un R1 qualifié** : transcript collé → premier jet tant que c'est chaud.
