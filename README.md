@@ -9,19 +9,20 @@ Prérequis : Codex avec prise en charge des plugins, Git et un accès GitHub au 
 Ajouter le dépôt comme marketplace :
 
 ```sh
-codex plugin marketplace add prevostjohanna/ia-factory-agents-codex
+codex plugin marketplace add manonmrcpro-gif/ia-factory-agents-chatgpt
 ```
 
 Dans l’annuaire des plugins Codex, sélectionner cette marketplace (`personal` / `Personal`) puis installer **IA Factory — Agents**. Ouvrir ensuite une nouvelle tâche pour charger les skills. Si une autre marketplace porte déjà le nom `personal`, utiliser l’installation locale des skills ci-dessous pour éviter une collision.
 
-Alternative locale : cloner le dépôt puis copier les 11 dossiers de `plugins/ia-factory-agents/skills/` dans `~/.codex/skills/`, en vérifiant au préalable qu’aucun skill du même nom ne serait écrasé.
+Alternative locale : cloner le dépôt puis copier les dossiers de `plugins/ia-factory-agents/skills/` dans `~/.codex/skills/`, en vérifiant au préalable qu’aucun skill du même nom ne serait écrasé.
 
 La procédure marketplace suit la [documentation officielle OpenAI](https://developers.openai.com/plugins/build/plugins).
 
-## Les 11 skills
+## Les skills (11 agents + l'interview)
 
 | Agent | Skill |
 | --- | --- |
+| Mes documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
 | Agent VoC (Voix du Client) | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
 | Agent Closing & Objections | [closing-objections](plugins/ia-factory-agents/skills/closing-objections/SKILL.md) |
 | Agent Cas Clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
@@ -42,7 +43,7 @@ Exemples de demandes :
 - « Utilise $strategie-edito pour cadrer ma ligne éditoriale. »
 - « Utilise $propale pour préparer une proposition à partir de ces notes de découverte. »
 
-Joindre les documents utiles : Ta Voix, méthode, offres et prix, Économie, transcripts, VoC ou fiches projet selon le skill. Ces documents propres à chaque utilisateur ne sont pas inclus. Les skills peuvent aussi être sélectionnés automatiquement selon la demande.
+Commencer par « Utilise $documents-de-reference pour lancer mon interview » : il crée tes 3 documents de référence (ADN, méthode & économie ; Ma voix ; Mes règles IA). Joindre ensuite les documents utiles selon le skill : ADN, méthode & économie (offres, prix, méthode, économie), Ma voix, transcripts, VoC ou fiches projet. Mes règles IA se collent dans les instructions personnalisées de ChatGPT. Ces documents propres à chaque utilisateur ne sont pas inclus. Les skills peuvent aussi être sélectionnés automatiquement selon la demande.
 
 Notion et Drive sont optionnels : connecter son propre compte pour y lire ou mettre à jour les données. Sans connecteur, les skills travaillent sur les fichiers fournis et livrent du contenu prêt à intégrer. Le plugin ne contient aucun compte, aucune base client, aucun identifiant de connecteur et aucune automatisation active. Les messages sont préparés en brouillon, l’envoi ou la publication nécessite une demande explicite.
 
