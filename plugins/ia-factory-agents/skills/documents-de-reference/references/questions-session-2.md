@@ -40,4 +40,4 @@ Ici, et seulement ici, elle peut **coller** ses textes au lieu de les dicter. El
 - **Q107.** La posture que tu attends de ton IA ? *« Dis-moi quand mon idée est faible, donne-moi un vrai point de vue, distingue le sûr de l'hypothétique… »*
 - **Q108.** Quand elle te produit un truc qui ne te plaît pas, tu préfères qu'elle fasse quoi ? *Réessayer autrement, te demander ce qui ne va pas, ou te proposer 3 alternatives ?*
 
-**Fin de la session 2** : produis le fichier `matiere-brute-S2.md`, puis passe à la structuration (voir SKILL.md).
+**Fin de la session 2** : rédige Ma voix, puis Mes règles IA, dans cette même conversation (voir SKILL.md).

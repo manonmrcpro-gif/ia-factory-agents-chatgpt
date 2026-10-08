@@ -16,7 +16,7 @@ Une anecdote tient en 2 ou 3 phrases : le contexte, ce qui s'est passé, ce qu'e
 - Ma voix : 2 000 mots maximum hors section 4. La section 4 garde ses vrais textes en entier (4 à 5 textes).
 - Mes règles IA : 600 mots maximum, plus la version courte à moins de 1 400 caractères.
 
-Si tu dépasses, coupe d'abord les redites et les détails secondaires, jamais les chiffres ni ses formulations. Le détail complet reste dans les fichiers de matière brute, en archive.
+Si tu dépasses, coupe d'abord les redites et les détails secondaires, jamais les chiffres ni ses formulations.
 
 **2. Ses mots, pas les tiens.** Garde ses formulations exactes pour le positionnement, les valeurs, la méthode, la voix. Dès qu'elle a une formulation marquante, garde-la entre guillemets. Une section sans formulation marquante n'en a pas. Si elle parle cru, reste cru ; si elle est chaleureuse, reste chaleureuse.
 
@@ -118,10 +118,13 @@ Fichier : `Ma-voix.md` · Matière : session 2 (blocs 1 à 4).
 Fichier : `Mes-regles-IA.md` · Matière : session 2 (bloc 5). Pas de longueur minimum : tout ce qu'elle a dit, rien de plus. Une section sans matière devient `[À CREUSER]`.
 Rédigé à la 2e personne, adressé à l'IA (« Tu réponds en français… »), pour pouvoir être collé tel quel dans les instructions personnalisées de son outil. Transforme ses phrases en consignes (« Tu me dis quand mon idée est faible ») et garde entre guillemets ses expressions qui donnent le ton ou la raison.
 
-0. **Version courte à coller** : l'essentiel des 6 sections en moins de 1 400 caractères, espaces compris (le champ d'instructions personnalisées de ChatGPT est limité en taille). Sur Claude, elle peut coller la version complète.
+0. **Version courte à coller** : l'essentiel des 7 sections en moins de 1 400 caractères, espaces compris (le champ d'instructions personnalisées de ChatGPT est limité en taille). Sur Claude, elle peut coller la version complète.
 1. Langue par défaut
 2. Comportement avant de produire (questions d'abord ou proposition directe)
 3. Tics de langage interdits (liste complète, tirets cadratins inclus)
 4. Règles de formatage
 5. Posture attendue
 6. Gestion des itérations (quoi faire quand un résultat ne plaît pas)
+7. **Mes documents de référence** : toujours ces 2 consignes, à reprendre aussi dans la version courte, avec le lieu qu'elle a indiqué (Notion ou Google Drive) :
+   - « Avant de produire un contenu, lis mes documents ADN, méthode & économie et Ma voix dans [mon Notion, page Mes documents de référence / mon Google Drive, dossier Mes documents de référence]. »
+   - « Si je mentionne un changement dans mon offre, mes prix, ma cible ou ma méthode, signale-le à la fin de ta réponse et propose-moi de mettre à jour mes documents de référence. »
