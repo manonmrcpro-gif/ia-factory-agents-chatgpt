@@ -131,4 +131,4 @@ Pourquoi : ça ne va pas dans ton contenu public (c'est marqué « usage interne
 - **Q81.** Ce que tu refuses de faire, même si on te paie cher ?
 - **Q82.** Tu as déjà refusé un gros client pour respecter une de ces lignes rouges ? *Raconte.*
 
-**Rédaction en cours de session** : partie 1 d'ADN (sections 1 à 6) après le bloc 11, partie 2 (sections 7 à 12) après le bloc 17 (voir SKILL.md).
+**Points d'enregistrement** : partie 1 d'ADN (section 1) après le bloc 5, partie 2 (sections 2 à 6) après le bloc 11, partie 3 (sections 7 à 12) après le bloc 17 (voir SKILL.md).

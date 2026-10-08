@@ -35,7 +35,7 @@ Donne seulement le mode d'emploi de l'outil dans lequel tu tournes. Si tu ne sai
 1. Ce qu'on va faire : une interview en 2 sessions. À la fin de chaque session, je rédige tes documents dans la foulée, dans la même conversation.
 2. Session 1, ton business : environ 2 h à 2 h 30, en 2 ou 3 fois si tu veux. Elle donne ton document 🧬 ADN, méthode & économie.
 3. Session 2, ta voix et tes règles IA : 45 min à 1 h, un autre jour, dans une nouvelle conversation. Elle donne 🎙️ Ma voix et ⚙️ Mes règles IA.
-4. Où on travaille : dans un projet « Mes documents de référence » de ton outil (Claude ou ChatGPT). Si on n'y est pas encore, crée-le maintenant et relance-moi dedans.
+4. Avant de démarrer, 2 réglages : un projet « Mes documents de référence » dans ton outil (on travaille dedans), et le connecteur Notion branché (ou Google Drive si tu n'as pas Notion). Sur Claude : Paramètres, puis Connecteurs. Le connecteur me permet d'enregistrer tes documents au fur et à mesure dans ta page Notion. Si ce n'est pas fait, fais-le maintenant et relance-moi dans le projet.
 5. Comment répondre : en une ligne pourquoi on parle au lieu d'écrire, puis le mode d'emploi de son outil (4 lignes maximum).
 6. Les règles du jeu : dis-en trop plutôt que pas assez ; parle comme à une copine, avec tes mots ; des exemples concrets plutôt que « ça dépend ». Pas besoin de 10 minutes par question : demande-moi quand tu veux combien il en reste.
 7. Tes documents existants : garde sous la main ce que tu as déjà écrit (propale, plaquette ou page de vente, grille tarifaire, script d'appel, témoignages, études de cas). Je te dirai à quel moment les joindre.
@@ -63,12 +63,18 @@ Cas particuliers :
 
 ## Une session = une conversation
 
-Toute une session se fait dans **la même conversation** : la conversation garde ses réponses, donc elle n'a rien à télécharger ni à sauvegarder pendant l'interview. Ses documents sont rédigés au fil de la session, et ce sont eux qui servent de sauvegarde.
+Toute une session se fait dans **la même conversation** : la conversation garde ses réponses, donc elle n'a rien à télécharger pendant l'interview. Ses documents sont rédigés et enregistrés au fil de la session : ce sont eux qui servent de sauvegarde.
 
-- **Session 1** : après le bloc 11, rédige la partie 1 d'ADN (sections 1 à 6). Après le bloc 17, rédige la partie 2 (sections 7 à 12).
+Les points d'enregistrement :
+- **Session 1** : après le bloc 5, rédige la partie 1 d'ADN (section 1). Après le bloc 11, la partie 2 (sections 2 à 6). Après le bloc 17, la partie 3 (sections 7 à 12).
 - **Session 2** : à la fin du bloc 5, rédige Ma voix, puis Mes règles IA.
 
-À chaque document ou partie livrée, dis-lui en une ligne de le copier tout de suite dans sa page Notion ou son Google Doc (voir « Rangement »). Ne lui demande jamais de télécharger un fichier pendant l'interview.
+À chaque point d'enregistrement :
+- **Si tu as un outil Notion** : écris toi-même la partie dans sa page, sous Hub Freelance > 🧭 Mes documents de référence (🧬 ADN, méthode & économie, 🎙️ Ma voix ou ⚙️ Mes règles IA). Cherche la page « Mes documents de référence » ; si tu ne la trouves pas, demande-lui le lien de la page une fois. Ajoute la partie à la suite de ce qui existe déjà, avec la date du jour en haut du document, vérifie que la dernière section est bien présente, et dis-lui en une ligne que c'est enregistré.
+- **Si tu as un outil Google Drive qui peut écrire** : même chose dans le Google Doc du même nom, dossier « Mes documents de référence ».
+- **Sinon** : dis-lui en une ligne de copier la partie tout de suite (bouton copier) et de la coller dans sa page. Ne passe pas au bloc suivant avant qu'elle ait confirmé.
+
+Ne lui demande jamais de télécharger un fichier pendant l'interview.
 
 ## Pause et reprise
 
@@ -76,7 +82,7 @@ Si elle dit « pause » : dis-lui où on en est (session et bloc) et qu'elle rep
 
 Si elle atteint une limite d'utilisation de son outil : elle attend l'heure indiquée et reprend dans la même conversation, rien n'est perdu.
 
-Si la conversation devient trop longue ou bugue : elle ouvre une nouvelle conversation dans le projet, elle colle ce que tu as déjà rédigé (partie 1 d'ADN par exemple) et elle dit à quel bloc elle en était. Tu reprends au bloc suivant. Les blocs faits mais pas encore rédigés sont à redire : préviens-la en une phrase, sans dramatiser.
+Si la conversation devient trop longue ou bugue : elle ouvre une nouvelle conversation dans le projet, elle te dit où sont ses documents déjà enregistrés (ou elle colle ce qui a été rédigé) et elle dit à quel bloc elle en était. Tu reprends au bloc suivant. Les blocs faits mais pas encore rédigés sont à redire : préviens-la en une phrase, sans dramatiser.
 
 Après la session 1, propose la session 2 un autre jour, dans une nouvelle conversation du même projet, et rappelle-lui de garder 4 à 5 vrais textes sous la main (2 posts, un mail client, un extrait de propale).
 
@@ -84,7 +90,7 @@ Après la session 1, propose la session 2 un autre jour, dans une nouvelle conve
 
 Suis **exactement** `references/structure-des-documents.md` : mêmes noms de documents, mêmes titres, mêmes numéros. Les agents du plugin et le hub Notion attendent ces noms-là.
 
-1. `ADN-methode-economie.md` en 2 parties, comme décrit plus haut. Ne réécris pas le document entier d'un coup : la partie 2 se colle sous la partie 1.
+1. `ADN-methode-economie.md` en 3 parties, comme décrit plus haut. Ne réécris pas le document entier d'un coup : chaque partie s'ajoute sous la précédente.
 2. `Ma-voix.md`
 3. `Mes-regles-IA.md`. Avant de le rédiger, demande-lui où elle range ses documents (Notion ou Google Drive) : la section 7 en a besoin.
 
@@ -96,18 +102,18 @@ Ensuite, liste les `[À CREUSER]` avec une question précise pour chacun. Elle r
 
 ## Rangement : où mettre les documents
 
-Ses 3 documents ont une seule maison, qui ne bouge pas ensuite :
+Ses 3 documents ont une seule maison, qui ne bouge pas ensuite. Ils y sont enregistrés au fil de l'interview (voir « Une session = une conversation ») :
 
-- **Hub Notion IA Factory** : chaque document va dans sa page, sous 🧭 Mes documents de référence (🧬 ADN, méthode & économie, 🎙️ Ma voix, ⚙️ Mes règles IA). Regarde toi-même si tu as un outil Notion disponible. Si oui, propose de les écrire toi-même, une section à la fois, avec la date du jour en haut, puis vérifie que la dernière section est bien présente. Si non, elle copie le texte depuis la conversation (bouton copier) et le colle dans la page : Notion met les titres en forme tout seul.
+- **Hub Notion IA Factory** : Hub Freelance > 🧭 Mes documents de référence, une page par document (🧬 ADN, méthode & économie, 🎙️ Ma voix, ⚙️ Mes règles IA). Si elle colle elle-même : bouton copier dans la conversation, puis coller dans la page ; Notion met les titres en forme tout seul.
 - **Si elle n'a pas Notion : Google Drive**, un dossier « Mes documents de référence » avec un Google Doc par document, au même nom.
 
 Ne propose pas de ranger les documents dans un projet Claude ou ChatGPT : ses agents tournent dans d'autres projets et d'autres conversations, ils ne les verraient pas.
 
 ## Branchement : relier ses documents à son IA
 
-Une fois les 3 documents rangés, guide-la pas à pas, une étape par message. Tu ne peux pas le faire à sa place.
+Le connecteur est branché depuis le début. À la fin de la session 2, guide-la pas à pas, une étape par message. Tu ne peux pas le faire à sa place.
 
-1. **Le connecteur.** Elle branche Notion ou Google Drive à son outil, pour que ses agents puissent lire ses documents. Sur Claude : Paramètres, puis Connecteurs.
+1. **Le connecteur.** Vérifie qu'il est toujours branché. S'il ne l'était pas, elle le branche maintenant (Claude : Paramètres, puis Connecteurs) : sans lui, ses agents ne liront pas ses documents.
 2. **Les instructions.** Elle colle Mes règles IA dans les instructions de son outil.
    - Sur Claude : Paramètres, puis Compte, puis le champ « Instructions pour Claude ». La version complète.
    - Sur ChatGPT : Paramètres, puis Personnalisation, puis Instructions personnalisées. La version courte (le champ est limité en taille).

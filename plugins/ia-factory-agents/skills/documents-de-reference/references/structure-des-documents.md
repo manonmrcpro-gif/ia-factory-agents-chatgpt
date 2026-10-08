@@ -33,7 +33,7 @@ Avant de livrer un document, vérifie : chaque chiffre, nom propre et prix est-i
 ---
 
 ## Document 1 · 🧬 ADN, méthode & économie
-Fichier : `ADN-methode-economie.md` · Matière : session 1. À produire en 2 temps (sections 1 à 6, puis 7 à 12 ajoutées à la suite).
+Fichier : `ADN-methode-economie.md` · Matière : session 1. À produire en 3 temps (section 1, puis sections 2 à 6, puis 7 à 12, chaque partie ajoutée à la suite).
 
 1. **Qui je suis**
    - 1.1 Identité de base (prénom, nom, où je vis, ce que je fais en une phrase)
@@ -126,5 +126,5 @@ Rédigé à la 2e personne, adressé à l'IA (« Tu réponds en français… »)
 5. Posture attendue
 6. Gestion des itérations (quoi faire quand un résultat ne plaît pas)
 7. **Mes documents de référence** : toujours ces 2 consignes, à reprendre aussi dans la version courte, avec le lieu qu'elle a indiqué (Notion ou Google Drive) :
-   - « Avant de produire un contenu, lis mes documents ADN, méthode & économie et Ma voix dans [mon Notion, page Mes documents de référence / mon Google Drive, dossier Mes documents de référence]. »
+   - « Avant de produire un contenu, lis mes documents ADN, méthode & économie et Ma voix dans [mon Notion, page Hub Freelance > Mes documents de référence / mon Google Drive, dossier Mes documents de référence]. »
    - « Si je mentionne un changement dans mon offre, mes prix, ma cible ou ma méthode, signale-le à la fin de ta réponse et propose-moi de mettre à jour mes documents de référence. »
