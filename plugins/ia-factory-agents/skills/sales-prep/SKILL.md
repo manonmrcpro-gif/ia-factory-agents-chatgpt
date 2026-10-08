@@ -1,6 +1,6 @@
 ---
 name: sales-prep
-description: "Préparer un premier rendez-vous de découverte à partir du formulaire prospect et de recherches vérifiables : fiche stratégique, guide de call et décideurs. À utiliser avant le R1 ; le suivi après appel relève de closing-objections."
+description: "Préparer un premier rendez-vous de découverte à partir du formulaire prospect et de recherches vérifiables : fiche stratégique, guide de call et décideurs. À utiliser avant le R1 ; le suivi après appel relève de analyse-call-closing."
 ---
 
 # Agent Sales

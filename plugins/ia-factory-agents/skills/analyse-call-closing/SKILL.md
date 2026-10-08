@@ -1,5 +1,5 @@
 ---
-name: closing-objections
+name: analyse-call-closing
 description: "Après un rendez-vous commercial (R1 ou R2), à partir du transcript : analyser le call pour faire progresser la personne qui l'a mené, traiter les objections par des questions, construire le plan d'action commun et rédiger le mail de suivi et les relances. Pour préparer un premier appel, utiliser sales-prep."
 ---
 

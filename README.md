@@ -25,7 +25,7 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 | Mes documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
 | Agent VoC (Voix du Client) | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
 | Coach Process & IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
-| Agent Analyse de call et closing | [closing-objections](plugins/ia-factory-agents/skills/closing-objections/SKILL.md) |
+| Agent Analyse de call et closing | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
 | Agent Cas Clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
 | Agent Cadrage d'offre & Pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
 | Projet Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |

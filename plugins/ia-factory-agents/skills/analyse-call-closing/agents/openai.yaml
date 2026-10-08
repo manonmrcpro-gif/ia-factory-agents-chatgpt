@@ -1,4 +1,4 @@
 interface:
   display_name: "Agent Analyse de call et closing"
   short_description: "Analyser un appel de vente et préparer le suivi commercial"
-  default_prompt: "Utilise $closing-objections pour analyser mon appel de vente, me faire progresser et préparer le mail de suivi."
+  default_prompt: "Utilise $analyse-call-closing pour analyser mon appel de vente, me faire progresser et préparer le mail de suivi."
