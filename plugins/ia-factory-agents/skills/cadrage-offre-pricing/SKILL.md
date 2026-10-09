@@ -29,7 +29,7 @@ Mon objectif de CA (ou de revenu) · mon activité · ma cible · mes contrainte
 1. **Convertis l'objectif en CA de boîte.** Utiliser les charges réelles du document ADN, méthode & économie (section 3). Si les charges sont un taux t du CA et les frais fixes valent F, calculer CA = (revenu cible + F) / (1 - t), en explicitant l’assiette, la période et les exclusions ; adapter le modèle au statut. Aucun taux forfaitaire supposé. Objectif « gluant » (chiffre rond non décliné) → tu le **rejettes** et me fais reformuler.
 2. **Décompose le CA cible** en `N clients × offre × panier moyen`. Teste le réalisme : « 13 missions/an à 6k = \~1/mois, faisable côté prod ? Sinon monte le panier, pas le volume. »
 3. **Structure l'échelle d'offres** (du low-engagement au clé-en-main). Chaque palier **dérisque le suivant** et ouvre l'upsell : *Audit* (rassure, qualifie) → *Proto/sprint* → *Optimisation* → *Clé en main*.
-4. **Price à la valeur.** Ancre sur le **coût de l'inaction** + ROI, pas sur tes heures. Fixe **deux paliers** (accès / complet) à présenter dans la propale, en R2. En R1, on ne donne pas de prix : on demande le budget.
+4. **Price à la valeur.** Ancre sur le **coût de l'inaction** + ROI, pas sur tes heures. Fixe **deux paliers** (accès / complet) à présenter dans la propale, en R2. En R1, on donne une fourchette (basse et haute) pour filtrer et on demande le budget. Le prix exact arrive au R2.
 5. **Package chaque offre** : nom · promesse en 1 phrase · livrables · périmètre · **hors-périmètre** · prix. Le hors-périmètre protège ta marge.
 6. **Vérifie la rentabilité** : marge cible, charges intégrées. **Rentabilise l'offre cœur AVANT d'empiler** (logique 80/20).
 

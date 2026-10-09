@@ -28,7 +28,7 @@ Si l'utilisateur ne demande qu'une partie (seulement le mail, seulement une obje
 
 ## Le cycle de vente de référence
 
-**R1 découverte** (le prospect nomme lui-même ses problèmes et les chiffre ; pas de prix pour une prestation sur mesure) → **mail récap** qui verrouille le R2 → **R2 quelques jours après**, propale présentée en live, décideur présent → **réponse en live** ou dernier call fixé. Pas de second appel de découverte, pas de devis envoyé par mail. Si le R1 a laissé des trous, dire quoi revalider en ouverture du R2.
+**R1 découverte** (le prospect nomme lui-même ses problèmes et les chiffre ; une fourchette de prix pour filtrer, pas de tarif précis) → **mail récap** qui verrouille le R2 → **R2 quelques jours après**, propale présentée en live, décideur présent → **réponse en live** ou dernier call fixé. Pas de second appel de découverte, pas de devis envoyé par mail. Si le R1 a laissé des trous, dire quoi revalider en ouverture du R2.
 
 ## Les 7 principes de closing
 
@@ -50,7 +50,7 @@ Grille de lecture, utilisée en interne (détail, erreurs fréquentes, formulati
 4. **Reformulation** : besoin résumé puis validé (« j'ai bien résumé ? »).
 5. **Leadership** : cadrage au départ (temps, plan), le vendeur tient le fil. Signaux faibles : se justifier, s'excuser, se dévaloriser.
 6. **Lien et langage** : points communs trouvés tôt, langage calé sur le prospect, zéro jargon : il achète un résultat, pas une méthode ni des outils.
-7. **Pitch et prix** : en R1, pas de prix ni de pitch détaillé. En R2, propale reliée à ses mots et ses chiffres, prix assumé, présenté en live.
+7. **Pitch et prix** : en R1, une fourchette de prix pour filtrer, pas de tarif précis ni de pitch détaillé. En R2, propale reliée à ses mots et ses chiffres, prix assumé, présenté en live.
 8. **Objections** : creusées par une question, ou esquivées ? Retour à chaud demandé ?
 9. **Qualification** : urgence · budget · **le décideur économique est-il en face ?** (sinon, est-il invité au R2 ?) · concurrence (dont « ne rien faire »).
 10. **Next step** : fin de R1 = R2 calé ; fin de R2 = réponse ou dernier call fixé.

@@ -77,9 +77,9 @@ Garde-fous : rien de clivant (politique, polémique), pas d'actu négative sur s
 - **Décideur** : « Qui d'autre a son mot à dire sur ce projet ? » Si le décideur n'est pas en face, il doit être là au R2.
 - → + 1 phrase de **disqualification élégante** si le fit manque (logique Host/Lost).
 **5. Outils & stack (10 min)** : grille outil / usage réel / friction. Outils principaux ? Vraiment utilisés ? Communiquent-ils ? Où perd-on du temps ? Déjà automatisé, résultat ? On garde quoi si on repart de zéro ?
-**6. Expertise & pitch (8-10 min), P.A.S.P.** : **P**roblème → **A**giter (coût chiffré) → **S**olution (`{ta méthode en 3-4 étapes}`) → **P**rojection (+ 1 preuve). Pas de prix en R1 : le R1 récolte la matière de la propale. Le double palier (« Twingo vs Rolls ») vit dans la propale, présentée en R2.
+**6. Expertise & fourchette (5 min max), P.A.S.P. en version courte** : **P**roblème et **A**giter = ta reformulation, avec son coût chiffré à lui → **S**olution = `{ta méthode}` en une phrase → **P**rojection = 1 preuve. La méthode déroulée sur son cas, c'est le cœur du R2 : au R1, tu écoutes 80 % du temps. Prix : une **fourchette** basse et haute pour filtrer, pas de tarif précis. Le prix exact (1 ou 2 options, double palier « Twingo vs Rolls ») vit dans la propale, présentée en R2.
 **7. Questions du prospect.** « Tu as des questions ? » → c'est là que sortent les vraies objections.
-**8. Closing (5 min).** Conclusion → **R2 calé quelques jours après** pour présenter la proposition sur mesure, avec le décideur présent. On ne signe pas par mail et on n'envoie pas de devis : « Je te prépare une proposition sur mesure, on se cale jeudi pour que je te la présente ? »
+**8. Closing (5 min).** Le **R2 se cale avant de raccrocher** : 2 créneaux dans les 48 à 72 h, avec le décideur présent (« Qui d'autre décide avec vous : il peut être là ? »). On ne signe pas par mail et on n'envoie pas de devis : « Je te prépare une proposition sur mesure, je te propose jeudi 10 h ou vendredi 14 h pour te la présenter ? »
 ### C) Qui décide
 Qui **porte le projet** · qui **signe / tient le budget** · qui peut **freiner**. + la prochaine étape.
 
