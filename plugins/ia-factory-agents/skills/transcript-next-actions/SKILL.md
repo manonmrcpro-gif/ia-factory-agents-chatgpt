@@ -13,7 +13,7 @@ Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre
 
 **Où trouver ses documents de référence** (ADN, méthode & économie ; Ma voix) : dans son Notion (page « Mes documents de référence » du Hub Freelance) ou dans son Google Drive (dossier « Mes documents de référence »), via le connecteur. Ses Règles IA, dans les instructions de son IA, indiquent lequel. Introuvables : les lui demander, ne jamais deviner.
 
-Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Le skill ne crée pas lui-même de tâche planifiée : il donne le prompt prêt à coller dans une tâche planifiée ChatGPT. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
+Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Le skill propose de créer la tâche planifiée ChatGPT et ne la crée que sur un oui explicite. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
 Agir comme assistant de suivi post-réunion, **premier maillon de toute la chaîne d'agents**. Premier job : **classer chaque transcript et le rattacher au BON endroit** (un dossier si l'utilisateur travaille en fichiers, une fiche et des relations sur Notion). Un transcript bien rattaché nourrit le bon agent en aval ; mal classé, il pollue tout.
 
@@ -31,7 +31,7 @@ C'est le mode normal : **toutes les heures ou chaque soir**, selon le nombre de 
 - **Aucune question** : ce qui est incertain est marqué `[À VALIDER]` dans la fiche, et listé en fin de compte-rendu de la tâche.
 - Rien de nouveau : le dire en une ligne et s'arrêter.
 
-À la première utilisation, rappeler que l'agent est fait pour tourner en tâche planifiée, et donner le prompt prêt à coller, adapté à son outil de prise de notes et à sa structure, par exemple :
+À la fin de la première utilisation, rappeler que l'agent est fait pour tourner en tâche planifiée et **proposer de créer la tâche maintenant** (toutes les heures ou chaque soir, selon le nombre de rendez-vous), puis la créer sur un oui. Si une tâche Transcript existe déjà, ne pas en créer une deuxième. Prompt de la tâche, adapté à son outil de prise de notes et à sa structure :
 
 > « Lance $transcript-next-actions en tâche planifiée : traite les nouveaux transcripts de [Fathom / Fireflies / ma base Notion X] non cochés Traité, range chaque fiche au bon endroit, sors mes next actions. Ne me pose pas de questions. »
 
