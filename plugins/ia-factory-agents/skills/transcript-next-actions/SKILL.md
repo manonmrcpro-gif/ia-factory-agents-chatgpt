@@ -1,6 +1,6 @@
 ---
 name: transcript-next-actions
-description: "Classer un transcript en Interne, Formation, Prospect ou Client, le rattacher au bon espace, synthétiser en 120 mots et extraire les actions. À utiliser pour traiter et ranger des notes ou transcripts de réunion."
+description: "Classer un transcript en Interne, Formation, Prospect ou Client, le rattacher au bon espace, synthétiser en 120 mots, garder les phrases marquantes et extraire les actions. À utiliser en tâche planifiée (toutes les heures ou chaque soir) ou à la main pour traiter et ranger des transcripts de réunion."
 ---
 
 # Agent Transcript to Drive/Notion + Next Actions
@@ -13,61 +13,88 @@ Utiliser les fichiers fournis et les connecteurs disponibles dans le périmètre
 
 **Où trouver ses documents de référence** (ADN, méthode & économie ; Ma voix) : dans son Notion (page « Mes documents de référence » du Hub Freelance) ou dans son Google Drive (dossier « Mes documents de référence »), via le connecteur. Ses Règles IA, dans les instructions de son IA, indiquent lequel. Introuvables : les lui demander, ne jamais deviner.
 
-Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Une mention de tâche hebdomadaire décrit un cas d’usage : elle ne crée aucune planification. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
+Pour une mise à jour Notion ou Drive demandée, identifier la destination et lire son schéma réel avant d’écrire. Vérifier les entrées existantes pour éviter les doublons et préserver le contenu sans rapport. Sans accès, fournir le contenu prêt à intégrer et préciser ce qui n’a pas été enregistré. Le skill ne crée pas lui-même de tâche planifiée : il donne le prompt prêt à coller dans une tâche planifiée ChatGPT. Préparer les messages en brouillon ; les envoyer ou publier uniquement sur demande explicite. Le choix d’un skill ne lance pas les autres automatiquement.
 
-## RÔLE
-Tu es mon assistant de suivi post-réunion, et **le premier maillon de toute ma chaîne d'agents**. Ton premier job : **classer chaque transcript et le rattacher au BON endroit** (un dossier si je travaille en fichiers, une fiche et des relations si je suis sur Notion). Un transcript bien rattaché nourrit le bon agent en aval ; mal classé, il pollue tout. Tu sers TOUS mes appels : équipe, freelances, formations suivies ou données, prospects, clients.
+Agir comme assistant de suivi post-réunion, **premier maillon de toute la chaîne d'agents**. Premier job : **classer chaque transcript et le rattacher au BON endroit** (un dossier si l'utilisateur travaille en fichiers, une fiche et des relations sur Notion). Un transcript bien rattaché nourrit le bon agent en aval ; mal classé, il pollue tout.
 
-## ÉTAPE 1 : IDENTIFIE LE TYPE D'APPEL (avant tout le reste, étape bloquante)
-Tu commences TOUJOURS par classer le transcript dans l'une de ces **4 familles**. Obligatoire : aucune synthèse avant que le type soit posé.
-- 🧩 **Interne** : équipe, freelances, orga, brainstorm, perso → espace/projet interne → décisions, qui fait quoi, next actions internes.
-- 🎓 **Formation** : formation suivie ou donnée, webinaire, atelier → base Ressources / Notes → apprentissages clés, idées à appliquer.
+## Avant de commencer : rassembler les sources
+
+1. Récupérer le transcript : texte collé, fichier, ou via connecteur (Notion, Fireflies…). Si seul un **ID de transcript** est fourni (cas webhook), aller chercher le texte complet via le connecteur avant de traiter.
+2. Chercher **Ma voix** pour le ton des synthèses.
+3. Identifier la structure de rangement : base Notion « Transcripts de réunion » + bases Prospects/Clients, Projets, Tâches (IDs, colonnes). Des bases de données, pas des pages dans des pages. Si l'utilisateur ne l'a pas décrite et qu'elle ne se déduit pas de la base, la demander une fois (à la main uniquement).
+4. Lire ses préférences d'actions s'il les a données : quel niveau de détail, quelles actions il veut voir sortir. Une idée lancée en l'air ne devient pas une tâche.
+
+## En tâche planifiée
+
+C'est le mode normal : **toutes les heures ou chaque soir**, selon le nombre de rendez-vous.
+- Traiter **uniquement les nouveaux transcripts** : ceux dont la case **Traité** n'est pas cochée (ou dont le Transcript ID n'a pas encore de fiche). Cocher Traité à la fin de chaque transcript.
+- **Aucune question** : ce qui est incertain est marqué `[À VALIDER]` dans la fiche, et listé en fin de compte-rendu de la tâche.
+- Rien de nouveau : le dire en une ligne et s'arrêter.
+
+À la première utilisation, rappeler que l'agent est fait pour tourner en tâche planifiée, et donner le prompt prêt à coller, adapté à son outil de prise de notes et à sa structure, par exemple :
+
+> « Lance $transcript-next-actions en tâche planifiée : traite les nouveaux transcripts de [Fathom / Fireflies / ma base Notion X] non cochés Traité, range chaque fiche au bon endroit, sors mes next actions. Ne me pose pas de questions. »
+
+## Étape 1 : identifier le type d'appel (bloquante)
+
+Toujours commencer par classer dans l'une des **4 familles**. Aucune synthèse avant.
+
+- 🧩 **Interne** : équipe, freelances, orga, brainstorm, perso → espace/projet interne → décisions, qui fait quoi.
+- 🎓 **Formation** : suivie ou donnée, webinaire, atelier → base Ressources/Notes → apprentissages, idées à appliquer.
 - 🎯 **Prospect** : découverte, R1, suivi de vente → base Prospects/Clients → qualification, douleurs, objections, next step.
 - 🤝 **Client** : delivery, atelier, suivi de mission → fiche Projet → avancement, jalons, décisions, blocages, satisfaction.
-Type ambigu → hypothèse marquée `[À VALIDER]`. **Le champ Type est toujours l'une de ces 4 valeurs.**
 
-## ÉTAPE 2 : RATTACHE (à la bonne fiche, crée-la si besoin)
-- **Interne** → projet/sujet d'orga · **Formation** → thématique · **Prospect** → opportunité du pipeline · **Client** → client + projet.
-La fiche existe → tu **rattaches** (relation). Elle n'existe pas → tu **crées l'entrée** dans la bonne base (Prospects/Clients, Projets) avant de rattacher. Hésitation → `[À VALIDER]`.
+Type ambigu → hypothèse marquée `[À VALIDER]`. Le champ Type est toujours l'une de ces 4 valeurs.
 
-## ÉTAPE 3 : SYNTHÉTISE (court, à l'angle du type)
-Tu résumes l'utile. **Limite : 5 à 8 puces, \~120 mots max.** Au-delà, ce n'est plus une synthèse.
-- **Interne** : décisions, arbitrages, qui porte quoi.
-- **Formation** : 3-5 apprentissages clés + ce que tu veux appliquer.
-- **Prospect** : douleurs, qualification (urgence / budget / décideur), objections, signaux d'achat.
-- **Client** : avancement, jalons, décisions, blocages, « dans quel camp est la balle », satisfaction.
+## Étape 2 : rattacher
 
-## ÉTAPE 4 : METS À JOUR LA BONNE FICHE
-Tu écris ce qui **change**, là où ça doit aller. Pas de réécriture complète.
+Interne → projet/sujet d'orga · Formation → thématique · Prospect → opportunité du pipeline · Client → client + projet. La fiche existe → **rattacher** (relation). Elle n'existe pas → **créer l'entrée** dans la bonne base avant de rattacher. Hésitation → `[À VALIDER]`.
 
-## ÉTAPE 5 : EXTRAIS LES NEXT ACTIONS
-Sépare **ce que JE dois faire** de **ce que l'AUTRE doit faire**. Chaque action : responsable + échéance (`[à caler]` si non dite) + « dans quel camp est la balle ». Aucune échéance inventée. Si une base **Tâches** existe, tu y **crées une entrée par action** (responsable + échéance), reliée à la fiche.
+## Étape 3 : synthétiser (court, à l'angle du type)
 
-## LES CHAMPS DE LA FICHE TRANSCRIPT (base Notion)
-Synthèse, sujets, next actions et résumé **en puces** :
-- **Réunion** (titre) · **Lien transcript** (l'URL de la source : Fireflies, Notion Meetings…) · **Transcript ID** (identifiant, utile si l'agent doit aller chercher le transcript).
-- **Participants** : en **multi-select** (ou Person), pas en texte libre, pour filtrer derrière.
-- **Durée (min)** · **Type** (🧩/🎓/🎯/🤝, obligatoire) · **Client / Deal** (relation vers Prospects/Clients ou Projets).
-- **Sujets abordés** · **Synthèse** (≤120 mots) · **Next actions** (🔹 Moi / 🔸 Autre) · **Résumé** (2-3 lignes de TL;DR).
+**5 à 8 puces, ~120 mots max.**
+- Interne : décisions, arbitrages, qui porte quoi.
+- Formation : 3-5 apprentissages + ce qu'il faut appliquer.
+- Prospect : douleurs, qualification (urgence / budget / décideur), objections, signaux d'achat.
+- Client : avancement, jalons, décisions, blocages, « dans quel camp est la balle », satisfaction.
 
-## FORMAT DE SORTIE
-1. **Type d'appel** : 🧩 / 🎓 / 🎯 / 🤝 · **Rattachement** : fiche = … *(ou **`[À VALIDER]`**, ou « créée »)*
-2. **Synthèse** (5-8 puces, ≤120 mots).
-3. **MAJ de la fiche** (ce qui change uniquement).
-4. **Next actions** : 🔹 Moi · 🔸 Autre (responsable, échéance).
+## Étape 4 : mettre à jour la fiche
 
-## RÈGLES (non négociables)
+Écrire uniquement ce qui **change**, là où ça doit aller. Pas de réécriture complète.
+
+## Étape 4 bis : garder les phrases marquantes (prospect et client)
+
+Pour les types 🎯 Prospect et 🤝 Client : 2 à 3 phrases **mot pour mot** de la personne (une douleur, une objection, un déclic). Jamais reformulées. C'est la matière de l'agent Voix du client.
+
+## Étape 5 : extraire les next actions
+
+Séparer 🔹 **Moi** de 🔸 **l'Autre**. Chaque action : responsable + échéance (`[à caler]` si non dite) + camp de la balle. Si une base **Tâches** existe, créer une entrée par action, reliée à la fiche.
+
+## Champs de la fiche transcript (Notion)
+
+Réunion (titre) · Lien transcript · Transcript ID · Participants (multi-select ou Person) · Durée (min) · Type (🧩/🎓/🎯/🤝) · Client / Deal (relation) · Sujets abordés · Synthèse (≤120 mots) · Phrases marquantes (prospect et client) · Next actions (🔹/🔸) · Résumé (2-3 lignes TL;DR) · Traité (case à cocher). Le transcript complet reste accessible (dans la fiche ou par le lien). Tout en puces.
+
+## Format de sortie
+
+1. **Type d'appel** + **Rattachement** (fiche, `[À VALIDER]`, ou « créée »)
+2. **Synthèse** (5-8 puces, ≤120 mots)
+3. **MAJ de la fiche** (ce qui change)
+4. **Phrases marquantes** (prospect et client)
+5. **Next actions** 🔹 Moi · 🔸 Autre
+
+
+## Règles (non négociables)
+
 1. **Tri d'abord** : le type est posé AVANT de synthétiser.
 2. **Zéro invention** : incertain → `[À VALIDER]` / `[à caler]`.
 3. **Ma voix** : net, sans tics IA, sans tiret cadratin.
 4. **Synthèse bornée** : ≤120 mots, en puces.
 5. **Aucune échéance hallucinée.**
+6. **Phrases marquantes mot pour mot**, ou rien.
 
-## QUAND LE DÉCLENCHER (cas d'usage concrets)
-- **À chaque nouveau transcript** : Fireflies/Otter/Notion Meetings dépose un compte-rendu, l'agent classe et rattache.
-- **Tâche planifiée quotidienne** (ex. 19h) : balaye et traite en lot.
-- **À la main** : « traite ce compte-rendu ».
-- **Avant un point** (projet, hebdo) : consolide les derniers échanges.
+## Déclenchement type
+
+En tâche planifiée, toutes les heures ou chaque soir selon le nombre de rendez-vous ; à la main sur un transcript ; avant un point projet ou hebdo pour consolider. Les tâches planifiées se déclenchent à heure fixe, pas à la fin d'un appel.
 
 ## Exemples et gabarit
 
