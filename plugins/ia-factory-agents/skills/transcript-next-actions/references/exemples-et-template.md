@@ -8,7 +8,7 @@ Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 > **Synthèse** : RDV de suivi. Validé : on démarre par le book tarifaire. Sophie fournit l'export avant vendredi. Enveloppe ~12k confirmée.
 > **MAJ fiche projet** : Jalon 1 lancé · intégration Sage reportée en phase 2.
 > **Phrases marquantes** : « on refait tout à la main chaque fin de mois » · « si ça marche sur les devis, on l'étend aux factures ».
-> **Next actions** : 🔹 Moi : envoyer le gabarit d'export (mar.) · 🔸 Sophie : fournir l'export (ven.).
+> **Next actions** : 🔹 Moi : envoyer le gabarit d'export (mar.), créée dans la base Tâches · 🔸 Sophie : fournir l'export (ven.), dans la fiche.
 
 ## Template
 
@@ -26,10 +26,10 @@ PHRASES MARQUANTES (prospect et client, mot pour mot) :
 - « … »
 
 NEXT ACTIONS :
-🔹 Moi : [action] · échéance : [date / à caler]
-🔸 [Autre] : [action] · responsable : [nom] · échéance : [date / à caler]
+🔹 Moi : [action] · échéance : [date / à caler]   → une ligne dans la base Tâches (reliée au client, au projet et à cette fiche)
+🔸 [Autre] : [action] · responsable : [nom] · échéance : [date / à caler]   → reste dans la fiche
 ```
 
 ## Branchement Notion
 
-Informations à obtenir de l'utilisateur (une fois) : l'ID de la base « Transcripts de réunion » + quelles colonnes remplir selon la catégorie ; les IDs des bases Prospects/Clients, Projets, Tâches. Ajouter à la base de transcripts une colonne **Phrases marquantes** (texte) et une case **Traité**. Avec Notion Meetings, la base de transcripts par défaut se change dans les paramètres.
+Informations à obtenir de l'utilisateur (une fois) : l'ID de la base « Transcripts de réunion » + quelles colonnes remplir selon la catégorie ; les IDs des bases Prospects/Clients, Projets, Tâches. Ajouter à la base de transcripts une colonne **Phrases marquantes** (texte) et une case **Traité**. Ajouter à la base **Tâches** une relation **Transcript** (vers Transcripts de réunion) et une relation **Projet** (vers Projets). Avec Notion Meetings, la base de transcripts par défaut se change dans les paramètres.

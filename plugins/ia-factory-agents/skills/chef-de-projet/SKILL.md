@@ -5,7 +5,7 @@ description: "Synthétiser l’avancement d’une mission et rédiger un récap 
 
 # Agent Chef de projet
 
-> **Prérequis : docs de référence.** Ma voix · **ADN, méthode & économie** (section 6) · les **fiches projet/client** + les next actions (sortie de l'Agent Transcript).
+> **Prérequis : docs de référence.** Ma voix · **ADN, méthode & économie** (section 6) · les **fiches projet/client** + les next actions (sortie de l'Agent Transcript : colonne Next actions de la fiche transcript, et les tâches de l'utilisateur dans la base Tâches).
 
 ## Utilisation dans Codex
 

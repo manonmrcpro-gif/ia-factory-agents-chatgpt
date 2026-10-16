@@ -1,6 +1,6 @@
 ---
 name: transcript-next-actions
-description: "Classer un transcript en Interne, Formation, Prospect ou Client, le rattacher au bon espace, synthétiser en 120 mots, garder les phrases marquantes et extraire les actions. À utiliser en tâche planifiée (toutes les heures ou chaque soir) ou à la main pour traiter et ranger des transcripts de réunion."
+description: "Classer un transcript en Interne, Formation, Prospect ou Client, le rattacher au bon espace, synthétiser en 120 mots, garder les phrases marquantes, extraire les actions et ranger celles de l'utilisateur dans sa base Tâches. À utiliser en tâche planifiée (toutes les heures ou chaque soir) ou à la main pour traiter et ranger des transcripts de réunion."
 ---
 
 # Agent Transcript to Drive/Notion + Next Actions
@@ -33,7 +33,14 @@ C'est le mode normal : **toutes les heures ou chaque soir**, selon le nombre de 
 
 À la fin de la première utilisation, rappeler que l'agent est fait pour tourner en tâche planifiée et **proposer de créer la tâche maintenant** (toutes les heures ou chaque soir, selon le nombre de rendez-vous), puis la créer sur un oui. Si une tâche Transcript existe déjà, ne pas en créer une deuxième. Prompt de la tâche, adapté à son outil de prise de notes et à sa structure :
 
-> « Lance $transcript-next-actions en tâche planifiée : traite les nouveaux transcripts de [Fathom / Fireflies / ma base Notion X] non cochés Traité, range chaque fiche au bon endroit, sors mes next actions. Ne me pose pas de questions. »
+> « Lance $transcript-next-actions en tâche planifiée : traite les nouveaux transcripts de [Fathom / Fireflies / ma base Notion X] non cochés Traité, range chaque fiche au bon endroit, mets mes actions dans ma base Tâches. Ne me pose pas de questions. »
+
+## Qui fait quoi : Transcript, Voix du client, Chef de projet
+
+- **Cet agent (Transcript)** est l'assistante administrative, appel par appel : il range, résume ce qui s'est dit, sort les actions et garde 2 à 3 phrases marquantes. Il n'analyse pas au-delà de l'appel.
+- **L'agent Voix du client** est l'analyste marketing, sur tous les appels prospects et clients à la fois : il repère ce qui revient d'un appel à l'autre, le confronte à l'ADN et propose. Il part des phrases marquantes pour s'orienter : elles ne font pas doublon avec lui, elles sont son point d'entrée. Les garder même quand l'agent Voix du client est installé.
+- **L'agent Chef de projet** rédige le récap à envoyer au client. Cet agent n'en écrit pas : sa synthèse reste interne.
+- Pas de base de verbatims à part : tout reste dans la fiche transcript, avec le transcript complet.
 
 ## Étape 1 : identifier le type d'appel (bloquante)
 
@@ -52,7 +59,7 @@ Interne → projet/sujet d'orga · Formation → thématique · Prospect → opp
 
 ## Étape 3 : synthétiser (court, à l'angle du type)
 
-**5 à 8 puces, ~120 mots max.**
+**5 à 8 puces, ~120 mots max.** Rapporter ce qui s'est dit dans cet appel, sans interpréter au-delà : les récurrences entre appels, c'est l'agent Voix du client.
 - Interne : décisions, arbitrages, qui porte quoi.
 - Formation : 3-5 apprentissages + ce qu'il faut appliquer.
 - Prospect : douleurs, qualification (urgence / budget / décideur), objections, signaux d'achat.
@@ -64,15 +71,20 @@ Interne → projet/sujet d'orga · Formation → thématique · Prospect → opp
 
 ## Étape 4 bis : garder les phrases marquantes (prospect et client)
 
-Pour les types 🎯 Prospect et 🤝 Client : 2 à 3 phrases **mot pour mot** de la personne (une douleur, une objection, un déclic). Jamais reformulées. C'est la matière de l'agent Voix du client.
+Pour les types 🎯 Prospect et 🤝 Client : 2 à 3 phrases **mot pour mot** de la personne (une douleur, une objection, un déclic). Jamais reformulées, jamais plus de 3 : un appel ne doit pas peser plus que les autres. C'est le point d'entrée de l'agent Voix du client, à garder même quand cet agent est installé.
 
-## Étape 5 : extraire les next actions
+## Étape 5 : extraire et ranger les next actions
 
-Séparer 🔹 **Moi** de 🔸 **l'Autre**. Chaque action : responsable + échéance (`[à caler]` si non dite) + camp de la balle. Si une base **Tâches** existe, créer une entrée par action, reliée à la fiche.
+Séparer 🔹 **Moi** de 🔸 **l'Autre**. Chaque action : responsable + échéance (`[à caler]` si non dite) + camp de la balle.
+
+- 🔹 **Les actions de l'utilisateur vont dans la base Tâches** (la base « Tâches » du Hub Freelance, ou sa propre base de tâches). Une ligne par action : Tâche (verbe + objet), Échéance (vide si personne ne l'a dite), Statut « À faire », Type (Acquisition / Delivery / Contenu / Admin), relations **Client / Deal**, **Projet** (mission client) et **Transcript** (la fiche de l'appel). Avant de créer, vérifier qu'une tâche identique n'existe pas déjà.
+- 🔸 **Les actions de l'Autre restent dans la fiche transcript**, colonne Next actions. Elles ne vont pas dans la base Tâches : elles ne dépendent pas de l'utilisateur.
+- La colonne **Next actions** de la fiche garde le récap des deux camps, une ligne par action. La base Tâches reste la seule liste de travail.
+- Pas de base Tâches trouvée : écrire les actions dans la fiche et le signaler en fin de compte-rendu (« tes actions sont dans la fiche, dis-moi quelle base Tâches utiliser »). Relation Transcript ou Projet absente de la base Tâches : remplir ce qui existe et le signaler une fois. En tâche planifiée, le noter sans poser de question.
 
 ## Champs de la fiche transcript (Notion)
 
-Réunion (titre) · Lien transcript · Transcript ID · Participants (multi-select ou Person) · Durée (min) · Type (🧩/🎓/🎯/🤝) · Client / Deal (relation) · Sujets abordés · Synthèse (≤120 mots) · Phrases marquantes (prospect et client) · Next actions (🔹/🔸) · Résumé (2-3 lignes TL;DR) · Traité (case à cocher). Le transcript complet reste accessible (dans la fiche ou par le lien). Tout en puces.
+Réunion (titre) · Lien transcript · Transcript ID · Participants (multi-select ou Person) · Durée (min) · Type (🧩/🎓/🎯/🤝) · Client / Deal (relation) · Sujets abordés · Synthèse (≤120 mots) · Phrases marquantes (prospect et client) · Next actions (récap 🔹/🔸 ; les actions de l'utilisateur vivent dans la base Tâches) · Résumé (2-3 lignes TL;DR) · Traité (case à cocher). Le transcript complet reste accessible (dans la fiche ou par le lien). Tout en puces.
 
 ## Format de sortie
 
@@ -80,7 +92,7 @@ Réunion (titre) · Lien transcript · Transcript ID · Participants (multi-sele
 2. **Synthèse** (5-8 puces, ≤120 mots)
 3. **MAJ de la fiche** (ce qui change)
 4. **Phrases marquantes** (prospect et client)
-5. **Next actions** 🔹 Moi · 🔸 Autre
+5. **Next actions** 🔹 Moi (créées dans la base Tâches) · 🔸 Autre (dans la fiche)
 
 
 ## Règles (non négociables)
@@ -91,6 +103,8 @@ Réunion (titre) · Lien transcript · Transcript ID · Participants (multi-sele
 4. **Synthèse bornée** : ≤120 mots, en puces.
 5. **Aucune échéance hallucinée.**
 6. **Phrases marquantes mot pour mot**, ou rien.
+7. **Les actions de l'utilisateur dans la base Tâches**, celles des autres dans la fiche.
+8. **Pas de récap client** : c'est l'agent Chef de projet.
 
 ## Déclenchement type
 
