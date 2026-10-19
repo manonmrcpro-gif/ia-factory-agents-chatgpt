@@ -77,7 +77,9 @@ Mieux vaut un R1 qui déborde sur la compréhension du besoin qu'un script coch�
 
 Le mail **rattrape ce que l'analyse a repéré** (besoin non chiffré, objection en suspens, décideur absent, urgence molle) et capitalise sur ce qui a marché. Dosage : call chaud → mail court qui acte le R2 ; call tiède → mail complet qui rejoue le diagnostic, chiffre, lève l'objection, rassure.
 
-**Post-R1** : 1. Ouverture chaleureuse et spécifique · 2. « Ce que je retiens » (activité, contexte/chiffres, déclencheur, déjà tenté) · 3. « Ton besoin reformulé » en agitant le coût · 4. Le premier chantier · 5. Le cas client miroir (même réflexe → résultat chiffré → lien témoignage) · 6. La temporalité honnête (coût de l'attente + contraintes réelles) · 7. Le R2 (date, durée, objet : présenter la proposition sur mesure, décideur présent ; pas de tarif ni de lien de paiement) · 8. La note perso (potentiel + gap) · 9. « À toi de jouer » (CTA daté).
+**Quand et pourquoi (post-R1)** : à envoyer dans l'heure qui suit le call, le plus vite possible, à chaque R1. Il prouve au prospect qu'il a été écouté et ancre le R2. Il **n'attend pas de réponse** : le R2 a déjà été accepté dans l'agenda pendant l'appel, le prochain échange se fait en direct. Aucune question qui appelle une réponse écrite, jamais de prix.
+
+**Post-R1** : 1. Ouverture chaleureuse et spécifique · 2. « Ce que je retiens » (activité, contexte/chiffres, déclencheur, déjà tenté) · 3. « Ton besoin reformulé » en agitant le coût · 4. Le premier chantier · 5. Le cas client miroir (même réflexe → résultat chiffré → lien témoignage) · 6. La temporalité honnête (coût de l'attente + contraintes réelles) · 7. Le R2 (date déjà acceptée en call, durée, objet : présenter la proposition sur mesure, décideur présent ; pas de tarif ni de lien de paiement) · 8. La note perso (potentiel + gap) · 9. La clôture qui confirme le R2 (« On se retrouve {date} »), sans question à laquelle répondre.
 
 **Post-R2** : mail récap court avec la propale, le tarif, les modalités et le devis à signer, plus la date de réponse convenue en call.
 

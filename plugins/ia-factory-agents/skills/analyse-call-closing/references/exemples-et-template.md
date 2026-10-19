@@ -27,11 +27,11 @@ Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 >
 > **Côté timing :** je peux démarrer `{date}`, il me reste `{N}` places d'accompagnement ce trimestre.
 >
-> **La suite :** je te prépare une proposition sur mesure et je te la présente `{date}` (30 min). Si `{associé}` a son mot à dire, le mieux, c'est qu'il soit là.
+> **La suite :** je te prépare une proposition sur mesure et je te la présente `{date}` (30 min), comme on l'a calé ensemble. Si `{associé}` a son mot à dire, le mieux, c'est qu'il soit là.
 >
 > Je sens un vrai potentiel d'industrialisation de ton expertise : ce qui te manque, c'est le cadre stratégique pour que ton outil serve ton business.
 > *Pourquoi il tient : il chiffre la perte, pose le choix comme un coût assumé, et laisse partir. C'est le détachement qui crée la tension, pas l'insistance.*
-> À toi de jouer : une question avant ta validation ? WhatsApp au `{numéro}`. Belle journée, `{Signature}`
+> On se retrouve `{date}`. D'ici là, je reste joignable sur WhatsApp au `{numéro}`. Belle journée, `{Signature}`
 
 ## EXEMPLE B : recap post-R1 d'un prospect "PME / pilotage" (générique, plus court)
 > **Objet :** Notre échange + la prochaine étape
@@ -65,6 +65,6 @@ Un client à regarder : [même réflexe] → [résultat chiffré] → [lien tém
 Côté timing : [ce que l'attente coûte] + [contraintes réelles : places, dates]
 R2 : [date] · [durée] · présentation de la proposition sur mesure · [décideur présent]
 [Note perso : potentiel + gap]
-À toi de jouer : [CTA daté] · [WhatsApp/numéro]
+On se retrouve : [date du R2] · [WhatsApp/numéro si besoin d'ici là]
 Belle journée, [Signature]
 ```
