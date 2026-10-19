@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Préparation RDV découverte"
+  short_description: "Préparer une découverte commerciale précise et utile"
+  default_prompt: "Utilise $preparation-rdv-decouverte pour m’aider à préparer une découverte commerciale précise et utile."

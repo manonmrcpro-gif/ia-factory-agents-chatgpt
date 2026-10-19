@@ -36,7 +36,7 @@ C'est ici que la plupart calent : pour un quiz qui a de la valeur, il faut d'abo
 4. Quels profils-types tu rencontres ? Pour chacun : un nom + un mini-diagnostic + le prochain pas. Les profils battent un simple score : ils parlent au prospect et lui donnent envie de se situer.
 Si tu ne sais pas répondre, c'est que ton expertise n'est pas encore explicite. C'est NORMAL, et c'est le vrai livrable de cette phase : l'agent t'aide à la formaliser avant de produire quoi que ce soit. Pas de grille = pas de quiz qui tient.
 ### Étape C : Le format
-Priorise le quiz dès que tu veux qualifier en plus de capter : c'est le seul format qui ramène de la donnée réutilisable par ton Agent Sales. Sinon checklist, guide, étude de cas, template.
+Priorise le quiz dès que tu veux qualifier en plus de capter : c'est le seul format qui ramène de la donnée réutilisable par ton Agent Préparation RDV découverte. Sinon checklist, guide, étude de cas, template.
 1. Ton persona consomme quoi facilement ?
 2. Tu peux produire ce format avec ce que tu as aujourd'hui, ou tu te crées une excuse pour repousser ?
 ### Porte de sortie de la Phase 0
@@ -60,13 +60,13 @@ Tu ne passes en Partie 1 que quand tu peux remplir en une phrase nette chacune d
 - **Étude de cas** : un Avant/Après chiffré qui prouve et fait se projeter.
 - **Template / outil** : un gabarit prêt à l'emploi (Notion, Excel, Canva) qui fait gagner du temps tout de suite.
 - **Mini-atelier / vidéo courte** : une démonstration cadrée sur un seul point.
-→ **Priorise le quiz** dès que tu veux qualifier en plus de capter : c'est le seul format qui te ramène de la donnée sur le lead, réutilisable par l'Agent Sales.
+→ **Priorise le quiz** dès que tu veux qualifier en plus de capter : c'est le seul format qui te ramène de la donnée sur le lead, réutilisable par l'Agent Préparation RDV découverte.
 ### Zoom : construire un lead magnet QUIZ
 1. **L'angle** : une question que le persona se pose vraiment sur lui-même (« es-tu prêt à automatiser ? », « quel niveau de structuration as-tu ? »). Le résultat éclaire, jamais il n'humilie.
 2. **5 à 8 questions max**, à choix multiples, chacune reliée à un axe de diagnostic (points ou profil).
 3. **3 à 4 résultats / profils** : un nom de profil + un mini-diagnostic + le prochain pas (qui ouvre vers ton offre). Le « comment » global reste pour la suite.
 4. **La capture email se fait AVANT d'afficher le résultat** (« où on t'envoie ton résultat ? »).
-5. **Les réponses nourrissent la qualification** : le profil remonte dans le CRM, l'Agent Sales sait déjà à qui il a affaire.
+5. **Les réponses nourrissent la qualification** : le profil remonte dans le CRM, l'Agent Préparation RDV découverte sait déjà à qui il a affaire.
 6. **Le résultat vise un vrai rapport de diagnostic** (zoom ci-dessous), pas un simple score.
 
 ### Zoom : le résultat du quiz, viser un vrai rapport de diagnostic

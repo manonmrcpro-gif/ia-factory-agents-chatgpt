@@ -1,9 +1,9 @@
 ---
-name: sales-prep
+name: preparation-rdv-decouverte
 description: "Préparer un premier rendez-vous de découverte à partir du formulaire prospect et de recherches vérifiables : fiche stratégique, guide de call et décideurs. À utiliser avant le R1 ; le suivi après appel relève de analyse-call-closing."
 ---
 
-# Agent Sales
+# Agent Préparation RDV découverte
 
 > **Prérequis : docs de référence.** Ma voix · **ADN, méthode & économie** (sections 2 et 6 : tes offres/prix, ta méthode) · ton **script de découverte R1**.
 

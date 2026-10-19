@@ -31,7 +31,7 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 | Projet Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
 | Agent Chef de projet | [chef-de-projet](plugins/ia-factory-agents/skills/chef-de-projet/SKILL.md) |
 | Agent Transcript to Drive/Notion + Next Actions | [transcript-next-actions](plugins/ia-factory-agents/skills/transcript-next-actions/SKILL.md) |
-| Agent Sales | [sales-prep](plugins/ia-factory-agents/skills/sales-prep/SKILL.md) |
+| Agent Préparation RDV découverte | [preparation-rdv-decouverte](plugins/ia-factory-agents/skills/preparation-rdv-decouverte/SKILL.md) |
 | Agent Rédaction | [redaction-contenu](plugins/ia-factory-agents/skills/redaction-contenu/SKILL.md) |
 | Agent Stratégie édito | [strategie-edito](plugins/ia-factory-agents/skills/strategie-edito/SKILL.md) |
 | Agent Propale | [propale](plugins/ia-factory-agents/skills/propale/SKILL.md) |
@@ -48,13 +48,13 @@ Commencer par « Utilise $documents-de-reference pour lancer mon interview » : 
 
 Notion et Drive sont optionnels : connecter son propre compte pour y lire ou mettre à jour les données. Sans connecteur, les skills travaillent sur les fichiers fournis et livrent du contenu prêt à intégrer. Le plugin ne contient aucun compte, aucune base client, aucun identifiant de connecteur et aucune automatisation active. Les messages sont préparés en brouillon, l’envoi ou la publication nécessite une demande explicite.
 
-Chaînes possibles : Transcript → VoC → Stratégie édito → Rédaction ; Sales → Closing → Propale ; suivi de mission → Cas clients. Elles indiquent des passages de contexte, pas une exécution automatique.
+Chaînes possibles : Transcript → VoC → Stratégie édito → Rédaction ; Préparation RDV découverte → Closing → Propale ; suivi de mission → Cas clients. Elles indiquent des passages de contexte, pas une exécution automatique.
 
 ## Sources et adaptation
 
 [La bibliothèque Notion](https://app.notion.com/p/38e2b2d61b868316a57e01250a75b578) est la source métier. `catalogue.json` relie chaque skill à sa page et à sa date de modification. Aucun accès Notion à cette bibliothèque n’est nécessaire pour utiliser les skills installés.
 
-Les instructions de branchement Claude/Dust ont été remplacées par un fonctionnement Codex avec fichiers et connecteurs disponibles. Les méthodes, garde-fous et gabarits ont été conservés. Ajustements explicites : formule net/CA rendue dépendante de l’assiette réelle des charges ; durée du guide Sales cohérente avec ses séquences ; métaphore des « trois cerveaux » identifiée comme telle ; arithmétique incohérente de l’exemple Propale corrigée. L’exemple externe embarqué de Propale n’est pas redistribué.
+Les instructions de branchement Claude/Dust ont été remplacées par un fonctionnement Codex avec fichiers et connecteurs disponibles. Les méthodes, garde-fous et gabarits ont été conservés. Ajustements explicites : formule net/CA rendue dépendante de l’assiette réelle des charges ; durée du guide Préparation RDV découverte cohérente avec ses séquences ; métaphore des « trois cerveaux » identifiée comme telle ; arithmétique incohérente de l’exemple Propale corrigée. L’exemple externe embarqué de Propale n’est pas redistribué.
 
 Le [plugin Claude](https://github.com/prevostjohanna/ia-factory-agents-claude) reste distribué séparément.
 

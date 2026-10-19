@@ -93,7 +93,7 @@ Un benchmark externe sert à **borner une hypothèse**, jamais à affirmer le r�
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
 - **Juste après un R1 qualifié** : transcript collé → premier jet tant que c'est chaud.
-- **Chaîné après l'Agent Sales / Closing** : le débrief alimente la propale.
+- **Chaîné après l'Agent Préparation RDV découverte / Closing** : le débrief alimente la propale.
 - **À la main** : « prépare la propale pour \{prospect\} ».
 - *(à éviter)* sur un prospect non qualifié : sans diagnostic, la propale est creuse.
 

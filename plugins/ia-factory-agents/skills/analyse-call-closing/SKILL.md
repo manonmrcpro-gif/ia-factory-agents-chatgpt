@@ -1,6 +1,6 @@
 ---
 name: analyse-call-closing
-description: "Après un rendez-vous commercial (R1 ou R2), à partir du transcript : analyser le call pour faire progresser la personne qui l'a mené, traiter les objections par des questions, construire le plan d'action commun et rédiger le mail de suivi et les relances. Pour préparer un premier appel, utiliser sales-prep."
+description: "Après un rendez-vous commercial (R1 ou R2), à partir du transcript : analyser le call pour faire progresser la personne qui l'a mené, traiter les objections par des questions, construire le plan d'action commun et rédiger le mail de suivi et les relances. Pour préparer un premier appel, utiliser preparation-rdv-decouverte."
 ---
 
 # Agent Analyse de call et closing
@@ -22,7 +22,7 @@ Si l'utilisateur ne demande qu'une partie (seulement le mail, seulement une obje
 ## Avant de commencer : rassembler les sources
 
 1. Le **transcript** (même incomplet) ou les notes du call · le **nom du prospect** · **où on en est** (R1 ou R2) · l'**offre concernée**. Le type d'appel se déduit du contenu ; ne demander que ce qui bloque le mail.
-2. Docs : **ADN, méthode & économie** (sections 2 et 6 : offres/prix, modalités, liens, méthode) · **Ma voix** · **cas clients + liens témoignages** · le **script de découverte R1** et la fiche `sales-prep` du prospect si disponibles (ce qui était prévu vs ce qui s'est passé). Sans cas client disponible, le signaler : ne jamais en inventer un.
+2. Docs : **ADN, méthode & économie** (sections 2 et 6 : offres/prix, modalités, liens, méthode) · **Ma voix** · **cas clients + liens témoignages** · le **script de découverte R1** et la fiche `preparation-rdv-decouverte` du prospect si disponibles (ce qui était prévu vs ce qui s'est passé). Sans cas client disponible, le signaler : ne jamais en inventer un.
 3. Contraintes réelles de timing (dates de démarrage, places) : les demander si non documentées. Jamais inventées.
 4. L'utilisateur est la personne qui a mené le call. Ne pas lui demander son rôle.
 
@@ -109,4 +109,4 @@ Exemples complets (A coaching, B PME) et template : [exemples-et-template.md](re
 
 ## Chaînage
 
-En amont : `sales-prep` (la fiche prépa sert de référence). En aval : `propale`, présentée en live au R2. Si l'utilisateur partage plusieurs calls dans le temps, comparer : le point n°1 du dernier call a-t-il progressé ?
+En amont : `preparation-rdv-decouverte` (la fiche prépa sert de référence). En aval : `propale`, présentée en live au R2. Si l'utilisateur partage plusieurs calls dans le temps, comparer : le point n°1 du dernier call a-t-il progressé ?
