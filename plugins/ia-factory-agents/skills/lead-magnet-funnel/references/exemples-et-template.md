@@ -4,8 +4,9 @@ Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 
 ## EXEMPLE (extraits)
 > **Lead magnet (quiz)** : « Es-tu en train de perdre de l'argent sur tes devis ? (test en 6 questions) ». Résultat = un profil (« artisan du devis » / « semi-outillé » / « prêt à automatiser ») + le premier pas. Capte l'email ET qualifie.
-> **Email 3** : Objet « Le vrai coût d'un devis fait à la main ». Agite le coût de l'inaction (200h/an), présente le quiz/la checklist comme premier pas.
-> **Email 9 (final)** : Objet « On automatise ton chiffrage ? ». Récap Avant/Après + 1 cas client chiffré + l'offre. Aucune mention du lead magnet.
+> **Email 1 (J0)** : Objet « Ton résultat : tu es [profil] ». Le résultat du quiz, un mot perso, comment s'en servir en 2 lignes.
+> **Email 4** : Objet « Le vrai coût d'un devis fait à la main ». Lève l'objection « j'ai pas le temps de m'y mettre » avec le coût de l'inaction (en heures par an, à partir des chiffres de l'utilisateur).
+> **Email 5 (final)** : Objet « On automatise ton chiffrage ? ». Récap Avant/Après + l'offre + le lien de prise de rendez-vous.
 
 ## TEMPLATE VIDE (à copier-coller et remplir)
 ```javascript
@@ -19,9 +20,10 @@ LEAD MAGNET
 PAGE DE CAPTURE
 Headline : … · Sous-titre : … · 3 étapes : … · Preuve : … · CTA : « … »
 
-SÉQUENCE EMAIL (niveau de conscience entre crochets)
-1. [inconscient] Objet : … · message : …
-2. [conscient du problème] …
-3. [conscient de la solution → présente l'aimant] …
-4-9. [produit → très conscient] preuve / objection / coût de l'inaction / urgence / offre
+5 EMAILS APRÈS L'INSCRIPTION (automatisation Brevo, délai entre crochets)
+1. [J0] Le lead magnet · Objet : … · message : …
+2. [J+2] Un conseil pour aller plus loin · …
+3. [J+4] Un cas client, Avant / Après · …
+4. [J+7] Une objection levée + coût de l'inaction · …
+5. [J+10] L'offre + lien de prise de rendez-vous · …
 ```

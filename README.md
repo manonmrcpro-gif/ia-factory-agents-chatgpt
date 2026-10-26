@@ -28,7 +28,7 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 | Agent Analyse de call et closing | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
 | Agent Cas Clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
 | Agent Cadrage d'offre & Pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
-| Projet Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
+| Agent Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
 | Agent Chef de projet | [chef-de-projet](plugins/ia-factory-agents/skills/chef-de-projet/SKILL.md) |
 | Agent Transcript to Drive/Notion + Next Actions | [transcript-next-actions](plugins/ia-factory-agents/skills/transcript-next-actions/SKILL.md) |
 | Agent Préparation RDV découverte | [preparation-rdv-decouverte](plugins/ia-factory-agents/skills/preparation-rdv-decouverte/SKILL.md) |
