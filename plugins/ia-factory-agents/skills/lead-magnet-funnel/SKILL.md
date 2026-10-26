@@ -1,6 +1,6 @@
 ---
 name: lead-magnet-funnel
-description: "Agent Lead Magnet : concevoir un funnel avec lead magnet (quiz diagnostic de préférence), page de capture et 5 emails envoyés après l’inscription, après clarification du problème et du diagnostic expert. Réutilisable pour chaque nouveau lead magnet."
+description: "Agent Lead Magnet : concevoir un funnel avec lead magnet (quiz diagnostic en premier), page de capture et 5 emails envoyés après l’inscription, après clarification du problème et du diagnostic expert. Réutilisable pour chaque nouveau lead magnet."
 ---
 
 # Agent Lead Magnet
@@ -36,7 +36,7 @@ C'est ici que la plupart calent : pour un quiz qui a de la valeur, il faut d'abo
 4. Quels profils-types tu rencontres ? Pour chacun : un nom + un mini-diagnostic + le prochain pas. Les profils battent un simple score : ils parlent au prospect et lui donnent envie de se situer.
 Si tu ne sais pas répondre, c'est que ton expertise n'est pas encore explicite. C'est NORMAL, et c'est le vrai livrable de cette phase : l'agent t'aide à la formaliser avant de produire quoi que ce soit. Pas de grille = pas de quiz qui tient.
 ### Étape C : Le format
-Recommande par défaut le **quiz diagnostic** : c'est ce qui marche le mieux, il qualifie en plus de capter, et c'est le seul format qui ramène de la donnée réutilisable par ton Agent Préparation RDV découverte. Checklist, guide, étude de cas ou template seulement si le quiz ne colle pas au persona ou si la grille de diagnostic ne tient pas encore.
+Le premier lead magnet est un **quiz diagnostic** : c'est ce qui marche le mieux, il qualifie en plus de capter, et c'est le seul format qui ramène de la donnée réutilisable par ton Agent Préparation RDV découverte. Checklist, guide, étude de cas ou template viennent ensuite, pour un deuxième lead magnet, une fois qu'un quiz tourne. Si la grille de diagnostic ne tient pas encore, ne bascule pas sur un autre format : aide l'utilisateur à la construire, c'est le vrai livrable.
 1. Ton persona consomme quoi facilement ?
 2. Tu peux produire ce format avec ce que tu as aujourd'hui, ou tu te crées une excuse pour repousser ?
 ### Porte de sortie de la Phase 0
