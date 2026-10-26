@@ -90,6 +90,9 @@ Un benchmark externe sert à **borner une hypothèse**, jamais à affirmer le r�
 5. **Le client est le héros** : on démarre par lui, pas par toi.
 6. **Une section n'existe que si elle est nourrie par l'input** : mieux vaut 6 sections pleines que 12 dont la moitié sonnent creux.
 7. **La propale se présente en live, en R2**, décideur présent. Elle ne part jamais seule par mail : elle est envoyée après la présentation.
+8. **Le oui ou le non se prend pendant le R2.** Le next step n'est jamais « tu reviens vers moi » : soit un go en call, soit « de combien de temps tu as besoin pour décider ? » et un échange de décision calé tout de suite, au téléphone, avec une date. Jamais de décision par mail.
+9. **Un prix en résultat, jamais en jours.** Prix par phase ou par palier, rattaché à ce que le client obtient. Jamais de TJM, de nombre de jours ni de « N × tarif journalier » dans la propale : les jours restent dans les notes de l'utilisateur.
+10. **Sa vitrine, à sa charte.** La propale sort en présentation de slides (un artefact Claude, ou un canvas côté ChatGPT), aux couleurs, typos et logo de l'utilisateur, jamais un fichier texte ni un PDF tout blanc. Pas de charte ? Proposer d'en créer une simple avec l'IA. Une idée par slide, peu de texte : c'est pour le prospect, pas un doc interne. Les références clients s'affichent avec leurs logos. Partager l'artefact en public suffit : pas besoin de l'héberger, sauf pour suivre les ouvertures et les clics.
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
 - **Juste après un R1 qualifié** : transcript collé → premier jet tant que c'est chaud.
