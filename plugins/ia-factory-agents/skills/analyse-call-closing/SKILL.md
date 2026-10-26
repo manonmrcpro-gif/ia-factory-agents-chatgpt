@@ -1,6 +1,6 @@
 ---
 name: analyse-call-closing
-description: "Après un rendez-vous commercial (R1 ou R2), à partir du transcript : analyser le call pour faire progresser la personne qui l'a mené, traiter les objections par des questions, construire le plan d'action commun et rédiger le mail de suivi et les relances. Pour préparer un premier appel, utiliser preparation-rdv-decouverte."
+description: "Après un rendez-vous commercial (R1 ou R2), à partir du transcript : analyser le call pour faire progresser la personne qui l'a mené, traiter les objections par des questions, construire le plan d'action commun et rédiger le mail de suivi et caler l'échange de décision. Pour préparer un premier appel, utiliser preparation-rdv-decouverte."
 ---
 
 # Agent Analyse de call et closing
@@ -38,7 +38,7 @@ Si l'utilisateur ne demande qu'une partie (seulement le mail, seulement une obje
 4. **La tension vient du coût de l'inaction, jamais de la pression.**
 5. **Toujours finir sur un next step daté**, formulé comme acquis.
 6. **Le détachement crée la tension.** La rareté honnête vaut mille relances.
-7. **Le suivi est un système** : relances cadencées, et on recontacte un peu avant la date annoncée par le prospect (« dans un mois » → au bout de trois semaines).
+7. **Chaque rendez-vous est une prise de décision, jamais en asynchrone.** Le oui ou le non se prend pendant l'appel. S'il hésite : « de combien de temps tu as besoin pour décider ? », et le prochain échange se cale tout de suite (téléphone, quelques jours ou une semaine après, avec une date). On ne laisse jamais le prospect partir sur « je réfléchis, je reviens vers toi ».
 
 ## Étape 1 : analyser le call (la casquette coach)
 
@@ -81,9 +81,9 @@ Le mail **rattrape ce que l'analyse a repéré** (besoin non chiffré, objection
 
 **Post-R1** : 1. Ouverture chaleureuse et spécifique · 2. « Ce que je retiens » (activité, contexte/chiffres, déclencheur, déjà tenté) · 3. « Ton besoin reformulé » en agitant le coût · 4. Le premier chantier · 5. Le cas client miroir (même réflexe → résultat chiffré → lien témoignage) · 6. La temporalité honnête (coût de l'attente + contraintes réelles) · 7. Le R2 (date déjà acceptée en call, durée, objet : présenter la proposition sur mesure, décideur présent ; pas de tarif ni de lien de paiement) · 8. La note perso (potentiel + gap) · 9. La clôture qui confirme le R2 (« On se retrouve {date} »), sans question à laquelle répondre.
 
-**Post-R2** : mail récap court avec la propale, le tarif, les modalités et le devis à signer, plus la date de réponse convenue en call.
+**Post-R2** : mail récap court qui acte ce qui a été décidé pendant l'appel : en cas de oui, la propale, le tarif, les modalités et le devis à signer ; en cas d'hésitation, la date et l'heure de l'échange de décision calé en call. Le mail récapitule, il ne sert jamais à décider.
 
-**Relances** : courtes, espacées. J+3 un cas client de plus · J+7 reformulation + échéance · J+12 dernière relance honnête qui laisse partir.
+**Pas de série de relances.** Si le call s'est terminé sans décision ni échange calé, c'est l'axe d'amélioration n°1 de l'analyse. Le seul message à envoyer : proposer deux créneaux pour un échange de décision au téléphone, avant toute échéance du prospect. Si le prospect annule ou ne vient pas : un message court pour recaler, un seul.
 
 Exemples complets (A coaching, B PME) et template : [exemples-et-template.md](references/exemples-et-template.md).
 
@@ -96,7 +96,7 @@ Exemples complets (A coaching, B PME) et template : [exemples-et-template.md](re
 5. **Objections détectées** + la question qui débloque.
 6. **MAP.**
 7. **Mail de suivi** (brouillon prêt à relire ; si connecteur Gmail, créer un brouillon, jamais d'envoi direct).
-8. **Calendrier de relances.**
+8. **Le prochain échange de décision** : la date calée en call, ou, s'il manque, le message pour le caler.
 9. **Ce qui m'a manqué** : seulement si une info absente limite l'analyse ou le mail. Questions courtes, en fin de réponse, jamais en préambule.
 
 ## Règles (non négociables)
