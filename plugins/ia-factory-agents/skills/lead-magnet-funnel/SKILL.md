@@ -28,6 +28,8 @@ Le lead magnet règle un problème **spécifique** ; ton offre règle le problè
 1. Quel est le problème large que ton offre résout ?
 2. Quel sous-problème précis, identifiable, ton persona se pose-t-il à lui-même ? Formule-le avec SES mots, pas ton jargon.
 3. Quel quick win tu peux lui offrir tout de suite, sans lui livrer le « comment » complet ?
+
+Remonte en amont : la question que ton persona se pose en se levant le matin, partie de son ressenti. Pas un sujet trop niche, et pas ta méthode ou ton approche : personne ne télécharge une méthode, il veut qu'on règle une partie de son problème. Le lead magnet vise large et ne filtre pas : la qualification, c'est ton calendrier et ton rendez-vous de découverte.
 ### Étape B : Formalise ta grille de diagnostic (la matière du quiz)
 C'est ici que la plupart calent : pour un quiz qui a de la valeur, il faut d'abord ta grille d'analyse d'expert. L'agent te cuisine jusqu'à ce qu'elle existe.
 1. Concrètement, comment tu détectes le problème chez un client ? Quels signaux tu observes ?
@@ -54,7 +56,7 @@ Tu ne passes en Partie 1 que quand tu peux remplir en une phrase nette chacune d
 ### Le titre (un de ces frameworks)
 *Comment \[GAIN\] sans \[PAIN\]* · *Comment \[GAIN\] même si \[PAIN\]* · *X piliers / actions pour \[GAIN\] sans \[PAIN\]*.
 ### Le format (choisis selon le persona, le plus digeste possible)
-- **Quiz diagnostic** : le format recommandé, c'est ce qui marche le mieux. Le prospect répond à quelques questions et reçoit un **résultat personnalisé** (score, profil, diagnostic). Il **qualifie** en même temps qu'il capte l'email, taux de complétion élevé (« je veux mon résultat »).
+- **Quiz diagnostic** : le format recommandé, c'est ce qui marche le mieux. Le prospect répond à 8 à 10 questions à cocher et reçoit un **résultat personnalisé** (score, profil, diagnostic). Il **qualifie** en même temps qu'il capte l'email, taux de complétion élevé (« je veux mon résultat »).
 - **Checklist (PDF)** : courte, actionnable, un quick win.
 - **Guide / mini-ebook (PDF)** : un sous-problème précis traité de bout en bout (sans le « comment » complet de l'offre).
 - **Étude de cas** : un Avant/Après chiffré qui prouve et fait se projeter.
@@ -63,9 +65,9 @@ Tu ne passes en Partie 1 que quand tu peux remplir en une phrase nette chacune d
 → **Recommande le quiz diagnostic par défaut** : c'est le seul format qui te ramène de la donnée sur le lead, réutilisable par l'Agent Préparation RDV découverte.
 ### Zoom : construire un lead magnet QUIZ
 1. **L'angle** : une question que le persona se pose vraiment sur lui-même (« es-tu prêt à automatiser ? », « quel niveau de structuration as-tu ? »). Le résultat éclaire, jamais il n'humilie.
-2. **5 à 8 questions max**, à choix multiples, chacune reliée à un axe de diagnostic (points ou profil).
+2. **8 à 10 questions**, à cocher (jamais de texte libre : rapide à répondre), chacune reliée à un axe de diagnostic (points ou profil). Au-delà, ça devient un interrogatoire.
 3. **3 à 4 résultats / profils** : un nom de profil + un mini-diagnostic + le prochain pas (qui ouvre vers ton offre). Le « comment » global reste pour la suite.
-4. **La capture email se fait AVANT d'afficher le résultat** (« où on t'envoie ton résultat ? »).
+4. **Teaser, puis capture email** : après la dernière question, « Ton diagnostic est prêt » avec les premières lignes du résultat et le reste flouté, puis le formulaire Brevo (« où on t'envoie ton résultat complet ? »). Tout afficher à l'écran = plus aucune raison de laisser son mail. Le résultat complet part dans l'email 1, tout de suite.
 5. **Les réponses nourrissent la qualification** : le profil remonte dans le CRM, l'Agent Préparation RDV découverte sait déjà à qui il a affaire.
 6. **Le résultat vise un vrai rapport de diagnostic** (zoom ci-dessous), pas un simple score.
 
@@ -84,10 +86,12 @@ Un score seul ne marque personne. Le résultat qui fait dire « waouh, elle m'a 
 
 Ton : tutoiement, chiffres précis, lucide ET motivant. La personnalisation vient des réponses du quiz + des infos demandées (activité, CA, objectif, canaux).
 
-**Réalisme** : V1 = quiz + profils (Tally, Typeform…), en ligne vite. V2 = le rapport généré par IA à partir des réponses (formulaire → automatisation → modèle IA nourri de la grille de diagnostic → page web, PDF ou email). Ne pas bloquer la V1 pour la V2.
+**Réalisme** : V1 = la page du quiz codée par l'IA (un fichier HTML, hébergé sur Netlify) + le formulaire Brevo + un résultat par profil envoyé par l'email 1, en ligne vite. Le résultat reste digeste : le prospect doit en tirer de la valeur en moins de 15 minutes. V2 = le rapport généré par IA à partir des réponses (formulaire → automatisation → modèle IA nourri de la grille de diagnostic → page web, PDF ou email). Ne pas bloquer la V1 pour la V2.
 
 ## PARTIE 2 : LA PAGE DE CAPTURE
-Une seule action : laisser son email. **Headline** (la promesse) → **sous-titre** (le bénéfice) → **réassurance** (gratuit, rapide, sans spam) → **les 3 étapes** (tu télécharges → tu appliques → tu obtiens) → **bénéfices** (puces) → **preuve** (verbatim, chiffre, logos) → **formulaire d'inscription répété** (haut + bas). Pas de menu, pas de lien sortant : la page ne fait qu'une chose. Sur demande, livre la page en un seul fichier HTML avec un emplacement pour coller le code du formulaire Brevo (ne jamais inventer ce code).
+**Pour un quiz** (cas par défaut), la page EST le quiz : texte d'accueil court (promesse, bénéfice, réassurance : gratuit, quelques minutes) → les questions, une par écran, réponses à cocher → écran « Ton diagnostic est prêt » avec les premières lignes du résultat et le reste flouté → le formulaire Brevo juste en dessous (« pour recevoir ton résultat complet ») → message de confirmation. Pas de menu, pas de lien sortant. Je fais coder la page par mon IA en un seul fichier HTML, avec un emplacement pour coller le code du formulaire Brevo (ne jamais inventer ce code), et je l'héberge sur Netlify.
+
+**Pour un autre format** (checklist, guide…) : une seule action, laisser son email. **Headline** (la promesse) → **sous-titre** (le bénéfice) → **réassurance** (gratuit, rapide, sans spam) → **les 3 étapes** (tu télécharges → tu appliques → tu obtiens) → **bénéfices** (puces) → **preuve** (verbatim, chiffre, logos) → **formulaire d'inscription répété** (haut + bas). Pas de menu, pas de lien sortant : la page ne fait qu'une chose. Sur demande, livre la page en un seul fichier HTML avec un emplacement pour coller le code du formulaire Brevo (ne jamais inventer ce code).
 
 Le formulaire d'inscription se crée dans **Brevo** (plan gratuit pour commencer, Starter à 7 € par mois s'il bloque) et se colle dans la page. Le formulaire demande au minimum prénom, nom, mail, poste et entreprise, avec la case pour accepter de recevoir les mails : le lead magnet ne filtre pas, il ratisse large, la qualification se fait à la prise de rendez-vous. La page s'héberge sur **Netlify** (plan gratuit), sauf si l'utilisateur est déjà sur Vercel : dans ce cas, il y reste. Fais itérer la page dans la conversation et ne la remettre en ligne qu'une fois prête : sur le plan gratuit de Netlify, chaque mise en ligne consomme des crédits (une vingtaine par mois), et au-delà le site est mis en pause jusqu'au mois suivant.
 
@@ -99,7 +103,9 @@ La séquence part **automatiquement à l'inscription** (automatisation Brevo : �
 4. **Email 4 : une objection levée**, avec ce que coûte le fait de ne rien faire (coût de l'inaction).
 5. **Email 5 : l'offre**, et le **lien de prise de rendez-vous**.
 **La règle clé** : le lead magnet résout le problème **spécifique** ; ton offre résout le problème **large**. Dès l'email 2, montre que le spécifique n'est que le début. Pas de forcing, rien qui parte dans une autre direction que le lead magnet.
-**Gabarit de chaque email** : Objet (≤60 caractères, intriguant) → accroche perso (1 phrase) → un seul message → un seul CTA. Délais proposés par défaut : J0, J+1, J+2, J+4, J+6 (rapprochés au début, jamais plus de 2 jours d'écart au départ).
+**Gabarit de chaque email** : Objet (≤60 caractères ; explicite pour l'email 1, ex. « Score 16/30 : ton rapport personnalisé est prêt » ; intriguant pour les suivants) → accroche perso (1 phrase) → un seul message → un seul CTA. Délais proposés par défaut : J0, J+1, J+2, J+4, J+6 (rapprochés au début, jamais plus de 2 jours d'écart au départ).
+
+**Si Brevo est connecté** à mon IA (connecteur Brevo dans Claude, plugin Brevo dans ChatGPT), propose-moi d'écrire les 5 emails directement dans Brevo, en **templates** (brouillons). Le connecteur ne peut ni envoyer ni programmer : la liste, le formulaire et l'automatisation, je les crée à la main dans Brevo. Pas connecté : livre-moi les emails dans la conversation, prêts à coller.
 
 ## RÈGLES (non négociables)
 1. **Zéro invention** : tout part du VoC réel.

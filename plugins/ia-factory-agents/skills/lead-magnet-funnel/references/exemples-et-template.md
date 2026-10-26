@@ -3,8 +3,8 @@
 Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 
 ## EXEMPLE (extraits)
-> **Lead magnet (quiz)** : « Es-tu en train de perdre de l'argent sur tes devis ? (test en 6 questions) ». Résultat = un profil (« artisan du devis » / « semi-outillé » / « prêt à automatiser ») + le premier pas. Capte l'email ET qualifie.
-> **Email 1 (J0)** : Objet « Ton résultat : tu es [profil] ». Le résultat du quiz, un mot perso, comment s'en servir en 2 lignes.
+> **Lead magnet (quiz)** : « Es-tu en train de perdre de l'argent sur tes devis ? (test en 10 questions) ». Résultat = un profil (« artisan du devis » / « semi-outillé » / « prêt à automatiser ») + le premier pas. Capte l'email ET qualifie.
+> **Email 1 (J0)** : Objet « Ton résultat est prêt : tu es [profil] ». Le résultat du quiz, un mot perso, comment s'en servir en 2 lignes.
 > **Email 4** : Objet « Le vrai coût d'un devis fait à la main ». Lève l'objection « j'ai pas le temps de m'y mettre » avec le coût de l'inaction (en heures par an, à partir des chiffres de l'utilisateur).
 > **Email 5 (final)** : Objet « On automatise ton chiffrage ? ». Récap Avant/Après + l'offre + le lien de prise de rendez-vous.
 
