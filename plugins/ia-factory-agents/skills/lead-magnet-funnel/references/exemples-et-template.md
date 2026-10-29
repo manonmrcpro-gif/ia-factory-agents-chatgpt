@@ -17,7 +17,17 @@ LEAD MAGNET
 - Quick win promis : …
 - Ce qu'il NE donne PAS (gardé pour l'offre) : …
 
-PAGE DE CAPTURE
+RÉSULTAT PAR PROFIL (un bloc par profil)
+- Profil : … · Diagnostic : … · 3 priorités : … · Ressource offerte : … · Prochain pas : …
+
+PAGE DU QUIZ
+Accueil : promesse … · bénéfice … · réassurance (gratuit, X minutes) · bouton « … »
+Questions (8 à 10, à cocher) : …
+Écran résultat : premières lignes … + reste flouté → formulaire Brevo
+Confirmation : récap en 2-3 lignes · « ton rapport complet t'attend dans ta boîte mail » · lien de prise de rendez-vous
+(Pas de témoignage, de logos ni de bannière : la vente, c'est le post LinkedIn.)
+
+PAGE DE CAPTURE (autre format que le quiz)
 Headline : … · Sous-titre : … · 3 étapes : … · Preuve : … · CTA : « … »
 
 5 EMAILS APRÈS L'INSCRIPTION (automatisation Brevo, délai entre crochets)
