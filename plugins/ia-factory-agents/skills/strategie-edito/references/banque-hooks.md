@@ -6,14 +6,14 @@ Source des modèles L1 à L43 : Laurine Bemer (agence Signé), partagés avec so
 
 ## Comment choisir
 
-| Style du post | Modèles à regarder en premier |
+| Style du post (Angle / Type) | Modèles à regarder en premier |
 |---|---|
-| Récit | F1, F2, L8, L10, L11, L12, L13, L15, L40 |
+| Storytelling / Retour XP | F1, F2, L8, L10, L11, L12, L13, L15, L40 |
 | Opinion tranchée | L7, L31, L32, L33, L34, L35, L36 |
-| Pédagogie | L19, L22, L23, L24, L38, L39, L42 |
-| Cas client | L18, L20, L21 |
-| Coulisses | F2, L9, L13, L16, L22 |
-| Réaction (actu, chiffre) | L1, L5, L7, L35 |
+| Pédagogie / Conseil | L19, L22, L23, L24, L38, L39, L42 |
+| Cas client / Preuve | L18, L20, L21 |
+| Coulisses / Perso | F2, L9, L13, L16, L22 |
+| Actu / Annonce | L1, L5, L7, L35 |
 | BOFU (offre, lead magnet, places) | L17, L18, L25 à L30 |
 
 Règles d'adaptation :
