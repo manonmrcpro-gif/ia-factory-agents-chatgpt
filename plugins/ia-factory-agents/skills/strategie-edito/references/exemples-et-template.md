@@ -10,11 +10,13 @@
 - Sujet : le prêt signé sans prévisionnel, et ce que ça m'a appris sur mon rôle
 - Source : ✨ Elle · Étape : 🟢 TOFU · Style : Récit · Objectif : portée
 - Hooks : 1) *J'ai laissé un client signer un prêt de 200 000 €. Il a failli déposer le bilan.* (L11, principal) · 2) *Ce jour-là, j'ai compris que mon boulot n'était pas de valider des chiffres.* (L12) · 3) *Tu peux avoir une banque d'accord… et quand même couler ta boîte.* (L6)
+- Structure : récit (hook, scène, tension, déclic, leçon, appel à l'action)
 - Squelette :
-  - le rendez-vous à la banque, le dirigeant soulagé
-  - 3 mois après, la trésorerie à sec
-  - ce que j'aurais dû exiger : le prévisionnel avant la signature
-  - question : « tu l'as fait, toi, ton prévisionnel de trésorerie ? »
+  - Scène : le rendez-vous à la banque, le dirigeant soulagé
+  - Tension : 3 mois après, la trésorerie à sec, ses appels paniqués
+  - Déclic : mon boulot, c'est d'exiger le prévisionnel avant la signature
+  - Leçon : un prêt accordé ne prouve pas que ta trésorerie tient
+  - Appel à l'action : « tu l'as fait, toi, ton prévisionnel de trésorerie ? »
 - Appel à l'action : question en commentaire · Format : texte seul · Statut : 💡 Idée
 
 ## Template
@@ -33,11 +35,12 @@ SEMAINE 1 (TOFU __ / MOFU __ / BOFU __ · sources : … · récits : __)
 [Jour] · Canal · Sujet
   Source : 🗣️/🔎/✨ · Matière d'origine : … · Étape : 🟢/🟡/🔴 · Style : … · Objectif : …
   Hooks : 1) … (modèle) · 2) … (modèle) · 3) … (modèle) → principal : n°
-  Squelette :
-    - …
-    - …
-    - …
-    - appel à l'action
+  Structure : [style] (references/structures-posts.md)
+  Squelette (un tiret par bloc) :
+    - [Bloc 2] : …
+    - [Bloc 3] : …
+    - [Bloc 4] : …
+    - Appel à l'action : …
   Appel à l'action : … · Format : … · Statut : 💡 Idée
 SEMAINE 2 … SEMAINE 3 … SEMAINE 4 …
 
