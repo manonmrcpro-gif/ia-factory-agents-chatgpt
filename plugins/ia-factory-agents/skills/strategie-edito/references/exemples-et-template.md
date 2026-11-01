@@ -1,32 +1,49 @@
-# Exemples et gabarit
+# Stratégie édito : exemple et template
 
-Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
+## Exemple (profil fictif : DAF freelance, 4 posts par semaine)
 
-## EXEMPLE (extrait d'entretien → ligne planifiée)
-> **Toi (agent)** : « Avant les idées, 2 questions. 1) Pour qui tu écris, précisément, et c'est quoi son problème n°1 ? 2) Sur ton métier, c'est quoi ton avis qui dérange ? »
-> **Moi** : « Les freelances. Ils veulent gagner plus. Et l'IA c'est puissant. »
-> **Toi** : « Trop large des deux côtés. "Gagner plus" comment : sortir du taux horaire ? Et "l'IA c'est puissant" ne dérange personne. C'est quoi ta conviction cash ? »
-> **Moi** : « Que 90% des freelances utilisent l'IA comme un ChatGPT amélioré et passent à côté. »
-> **Toi** : « Là on tient une ligne. → Pilier *Anti-bullshit IA*, conviction validée. »
-> **Ligne produite** : Sujet « Ton "usage de l'IA" se résume à un onglet ChatGPT ouvert » · Funnel 🟡 MOFU · Angle *Opinion tranchée* · Hook (constat cash) « Travailler avec l'IA, pour 90% des freelances, ça veut juste dire avoir un onglet ChatGPT ouvert. » · Format *Post* · Statut 💡 Idée.
+> **Agent** : « J'ai lu tes documents de référence, ta fiche offre et ton quiz. Deux questions. 1) Tu es passée dans des podcasts, des conférences, des webinaires ? 2) Raconte-moi une erreur qui t'a coûté cher dans ta carrière. »
+> **Utilisatrice** : « Un webinaire avec l'ordre des experts-comptables en mars. Et une erreur : j'ai laissé une PME signer un prêt sans prévisionnel de trésorerie, elle a failli déposer le bilan. »
+> **Agent** : « Le webinaire donne 4 posts, je les note avec la matière d'origine. L'erreur, c'est un récit fort : où, quand, qu'est-ce qui a été dit le jour où tu as compris ? »
 
-## TEMPLATE VIDE (à copier-coller et remplir)
-```javascript
-=== PHASE 1 : GABARIT (sortie d'entretien) ===
-Cible + problème n°1 : …
-Conviction (l'avis qui dérange) : …
-Messages (2-3) : … · Thématiques (2-3) : …
-Objectif business + offre visée + KPI suivi : …
-Plateforme(s) + cadence : [ex. LinkedIn 3x/sem] · Formats tenus : … · Ton + lignes rouges : …
+**Ligne produite** (semaine 1, mardi) :
+- Sujet : le prêt signé sans prévisionnel, et ce que ça m'a appris sur mon rôle
+- Source : ✨ Elle · Étape : 🟢 TOFU · Style : Récit · Objectif : portée
+- Hooks : 1) *J'ai laissé un client signer un prêt de 200 000 €. Il a failli déposer le bilan.* (L11, principal) · 2) *Ce jour-là, j'ai compris que mon boulot n'était pas de valider des chiffres.* (L12) · 3) *Tu peux avoir une banque d'accord… et quand même couler ta boîte.* (L6)
+- Squelette :
+  - le rendez-vous à la banque, le dirigeant soulagé
+  - 3 mois après, la trésorerie à sec
+  - ce que j'aurais dû exiger : le prévisionnel avant la signature
+  - question : « tu l'as fait, toi, ton prévisionnel de trésorerie ? »
+- Appel à l'action : question en commentaire · Format : texte seul · Statut : 💡 Idée
 
-=== PHASE 2 : PLAN ===
-LOT D'IDÉES SCORÉES
-| Idée | Pain source (VoC) | Impact 1-3 | Effort 1-3 | Priorité |
+## Template
 
-LIGNE DE CALENDRIER (par idée retenue)
-Sujet : … · Pilier : … · Funnel : [🟢/🟡/🔴] · Angle : …
-3 hooks : 1) direct/chiffré · 2) storytelling · 3) contre-intuitif → principal : [n°]
-Format : [Post/Carrousel/Reel/Story/Thread/Newsletter] · Date : … · Statut : 💡 Idée
+```
+=== CE QUE J'AI LU / CE QUI MANQUE ===
+…
 
-BILAN DU MIX : TOFU __ / MOFU __ / BOFU __ → ce qui manque : …
+=== VEILLE (comptes de 20 000 abonnés minimum) ===
+| Compte | Abonnés | Post (sujet) | Angle | Format | Interactions | Moyenne du compte | Score |
+Constats (2-3) : …
+Le trou à prendre : …
+
+=== CALENDRIER DU MOIS ===
+SEMAINE 1 (TOFU __ / MOFU __ / BOFU __ · sources : … · récits : __)
+[Jour] · Canal · Sujet
+  Source : 🗣️/🔎/✨ · Matière d'origine : … · Étape : 🟢/🟡/🔴 · Style : … · Objectif : …
+  Hooks : 1) … (modèle) · 2) … (modèle) · 3) … (modèle) → principal : n°
+  Squelette :
+    - …
+    - …
+    - …
+    - appel à l'action
+  Appel à l'action : … · Format : … · Statut : 💡 Idée
+SEMAINE 2 … SEMAINE 3 … SEMAINE 4 …
+
+=== TABLEAU DE BORD (une ligne par semaine) ===
+| Semaine | Posts | Impressions | Abonnés gagnés | Interactions | Engagement | Commentaires de la cible | Visites de profil | Inscrits lead magnet | Conversations en DM | RDV grâce au contenu | Signés (montant) | Post de la semaine |
+
+=== IDÉES GARDÉES POUR PLUS TARD ===
+- …
 ```

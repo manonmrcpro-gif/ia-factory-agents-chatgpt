@@ -41,7 +41,7 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 Exemples de demandes :
 
 - « Utilise $transcript-next-actions pour classer ce transcript et extraire les prochaines actions. »
-- « Utilise $strategie-edito pour cadrer ma ligne éditoriale. »
+- « Utilise $strategie-edito pour construire mon calendrier de contenu du mois. »
 - « Utilise $propale pour préparer une proposition à partir de ces notes de découverte. »
 
 Commencer par « Utilise $documents-de-reference pour lancer mon interview » : il crée tes 3 documents de référence (ADN, méthode & économie ; Ma voix ; Mes règles IA). Ranger ensuite ADN, méthode & économie et Ma voix dans Notion ou Google Drive et brancher le connecteur, pour que les skills les lisent ; à défaut, les joindre. Joindre les autres documents utiles selon le skill (transcripts, VoC, fiches projet). Mes règles IA se collent dans les instructions personnalisées de ChatGPT. Ces documents propres à chaque utilisateur ne sont pas inclus. Les skills peuvent aussi être sélectionnés automatiquement selon la demande.

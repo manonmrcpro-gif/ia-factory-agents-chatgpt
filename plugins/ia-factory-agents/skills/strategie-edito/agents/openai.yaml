@@ -1,4 +1,4 @@
 interface:
   display_name: "Agent Stratégie édito"
-  short_description: "Définir la ligne éditoriale et alimenter le calendrier"
-  default_prompt: "Utilise $strategie-edito pour m’aider à définir la ligne éditoriale et alimenter le calendrier."
+  short_description: "Calendrier du mois, veille et tableau de bord contenu"
+  default_prompt: "Utilise $strategie-edito pour faire ma veille et construire mon calendrier de contenu du mois avec son tableau de bord."
