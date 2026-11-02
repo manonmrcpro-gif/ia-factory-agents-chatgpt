@@ -32,7 +32,7 @@ Questions (8 à 10, à cocher) : …
 Écran résultat : premières lignes … + reste flouté → formulaire Brevo
 Nom de domaine : [oui / non]
 Après le formulaire, avec nom de domaine : récap en 2-3 lignes · « ton rapport complet t'attend dans ta boîte mail » · lien de prise de rendez-vous
-Après le formulaire, sans nom de domaine : résultat complet affiché · « je te l'envoie aussi, pense à tes spams » · lien de prise de rendez-vous
+Après le formulaire, sans nom de domaine : redirection vers la page de résultat (résultat complet du profil) · « je te l'envoie aussi, pense à tes spams » · lien de prise de rendez-vous
 (Pas de témoignage, de logos ni de bannière : la vente, c'est le post LinkedIn.)
 
 PAGE DE CAPTURE (autre format que le quiz)
