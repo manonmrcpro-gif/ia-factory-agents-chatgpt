@@ -3,7 +3,8 @@
 Exemples illustratifs à adapter, jamais à reprendre comme preuves client.
 
 ## EXEMPLE (extraits)
-> **Lead magnet (quiz)** : « Es-tu en train de perdre de l'argent sur tes devis ? (test en 10 questions) ». Résultat = un profil (« artisan du devis » / « semi-outillé » / « prêt à automatiser ») + le premier pas. Capte l'email ET qualifie.
+> **Lead magnet (quiz)** : « Es-tu en train de perdre de l'argent sur tes devis ? (test en 10 questions) ». 3 profils (« artisan du devis » / « semi-outillé » / « prêt à automatiser »). Capte l'email ET qualifie.
+> **Résultat (profil « semi-outillé »)** : *Où tu en es* : tu envoies 6 à 10 devis par mois, sous 3 à 5 jours, et tu en relances rarement (d'après tes réponses). *Les risques* : un devis envoyé après 48 h perd une bonne part de ses chances, et chaque devis non relancé est un chantier laissé au concurrent. *Tes 3 priorités* : 1. réduire le délai d'envoi, 2. relancer chaque devis, 3. suivre ton taux de signature. *Quoi faire maintenant* : un premier pas par priorité + un gabarit de relance. Puis le lien de prise de rendez-vous.
 > **Email 1 (J0)** : Objet « Ton résultat est prêt : tu es [profil] ». Le résultat du quiz, un mot perso, comment s'en servir en 2 lignes.
 > **Email 4** : Objet « Le vrai coût d'un devis fait à la main ». Lève l'objection « j'ai pas le temps de m'y mettre » avec le coût de l'inaction (en heures par an, à partir des chiffres de l'utilisateur).
 > **Email 5 (final)** : Objet « On automatise ton chiffrage ? ». Récap Avant/Après + l'offre + le lien de prise de rendez-vous.
@@ -18,13 +19,20 @@ LEAD MAGNET
 - Ce qu'il NE donne PAS (gardé pour l'offre) : …
 
 RÉSULTAT PAR PROFIL (un bloc par profil)
-- Profil : … · Diagnostic : … · 3 priorités : … · Ressource offerte : … · Prochain pas : …
+- Profil : …
+- Où tu en es (à partir de ses réponses) : …
+- Les risques (coût de l'inaction) : …
+- Tes 3 priorités : …
+- Quoi faire maintenant (un premier pas par priorité) + une ressource : …
+- Lien de prise de rendez-vous
 
 PAGE DU QUIZ
 Accueil : promesse … · bénéfice … · réassurance (gratuit, X minutes) · bouton « … »
 Questions (8 à 10, à cocher) : …
 Écran résultat : premières lignes … + reste flouté → formulaire Brevo
-Confirmation : récap en 2-3 lignes · « ton rapport complet t'attend dans ta boîte mail » · lien de prise de rendez-vous
+Nom de domaine : [oui / non]
+Après le formulaire, avec nom de domaine : récap en 2-3 lignes · « ton rapport complet t'attend dans ta boîte mail » · lien de prise de rendez-vous
+Après le formulaire, sans nom de domaine : résultat complet affiché · « je te l'envoie aussi, pense à tes spams » · lien de prise de rendez-vous
 (Pas de témoignage, de logos ni de bannière : la vente, c'est le post LinkedIn.)
 
 PAGE DE CAPTURE (autre format que le quiz)
