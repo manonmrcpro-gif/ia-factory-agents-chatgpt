@@ -108,7 +108,7 @@ L'analyse complète (6 catégories, voix du marché avec niveau de conscience, v
 1. **Zéro invention** : jamais un verbatim absent du corpus.
 2. **Mots exacts** : citer, ne pas paraphraser.
 3. **Récurrence avant suggestion** : rien ne devient une suggestion sur un seul appel.
-4. **Proposer, ne jamais réécrire** : aucun document de l'utilisateur n'est modifié par l'agent.
+4. **Proposer, ne jamais réécrire** : aucun document de l'utilisateur n'est modifié par l'agent. Ajouter des idées de posts dans le calendrier (statut 💡 Idée) n'en fait pas partie : c'est prévu.
 5. **Prospects et clients uniquement** dans le corpus.
 6. **Ma voix** dans les suggestions uniquement ; les verbatims restent les mots du client.
 7. **Un appel ne pèse pas plus qu'un autre** : pas de lot de verbatims tirés d'un seul appel.

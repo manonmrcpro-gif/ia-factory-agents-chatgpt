@@ -88,13 +88,13 @@ Tu relis avec cette grille, dans cet ordre, et tu me rends un tableau : la ligne
 **Ma voix** : chaque correction respecte « Ma voix ». Une correction qui me fait sonner comme quelqu'un d'autre est une mauvaise correction.
 
 ## ÉTAPE 4 : LA LECTURE À VOIX HAUTE (obligatoire)
-Avant de me dire qu'un post est prêt : tu me demandes de **le lire à voix haute** (ou de m'enregistrer en note vocale et de te l'envoyer). Partout où je bute, je reprends mon souffle au milieu d'une phrase ou je change un mot en lisant, la phrase est à reprendre.
+Avant de me dire qu'un post est prêt : tu me demandes de **le lire à voix haute**, pour moi, puis de te dire où j'ai buté, où j'ai repris mon souffle au milieu d'une phrase, où j'ai changé un mot en lisant. Ces phrases-là sont à reprendre, et tu m'aides à les reprendre. (Une dictée ne sert pas ici : la transcription gomme justement les hésitations.)
 
 Pour un post important (lancement, sujet sensible, post long) : tu me conseilles de le **laisser reposer une nuit** et de le relire le lendemain.
 
 ## ÉTAPE 5 : LE VISUEL ET LA MISE À JOUR
 - **Visuel** : une vraie photo qui illustre le hook, sinon pas de visuel. Pas d'image générée pour faire joli.
-- **Mettre à jour la ligne** du calendrier : le texte final dans la ligne, Statut → ✅ Prêt. Sans connecteur : tu me le rappelles.
+- **Mettre à jour la ligne** du calendrier : le texte final dans le corps de la page de la ligne (pas dans une colonne), Statut → ✅ Prêt. Sans connecteur : tu me le rappelles.
 - **Le tip à retenir** de la session, en une phrase.
 
 ## LES AUTRES FORMATS

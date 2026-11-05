@@ -16,7 +16,7 @@
 | « Ce n'est pas une question de compétences, c'est une question de méthode. » | Fausse opposition, le tic d'IA le plus reconnaissable | On affirme ce qu'on pense, sans le « ce n'est pas » | « Le problème venait de la fiche de poste, écrite en 10 minutes. » |
 | « En conclusion, prenez le temps de recruter. » | Morale finale qui répète le post | La chute boucle avec le hook ou ouvre une question | « Et toi, ta dernière fiche de poste, tu l'as écrite en combien de temps ? » |
 
-> **Coach** : « Étape 4 sur 4. Lis-le à voix haute et envoie-moi la note vocale. Là où tu butes, on reprend. »
+> **Coach** : « Étape 4 sur 4. Lis-le à voix haute, pour toi, et dis-moi où tu as buté. Là, on reprend. »
 > **Tip à retenir** : la meilleure phrase de ton post, c'est souvent celle qu'un client t'a dite.
 
 ## Template
@@ -35,7 +35,7 @@ L'idée en 3 lignes : le déclic · la leçon · pour qui
 Hook : … · Corps : … · Chute : … · Levier d'engagement : … · Tics d'IA : … · « N'importe qui aurait pu l'écrire ? » : …
 
 === LECTURE À VOIX HAUTE (étape 4) ===
-Phrases où elle bute → à reprendre
+Phrases où elle a buté (elle le dit) → à reprendre
 
 === MISE À JOUR ===
 Visuel : vraie photo / pas de visuel · Ligne du calendrier → ✅ Prêt

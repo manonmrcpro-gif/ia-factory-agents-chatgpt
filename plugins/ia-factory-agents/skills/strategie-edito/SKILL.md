@@ -94,7 +94,7 @@ But : voir ce qui marche sur mon marché, pour m'en inspirer sans copier.
 6. **Ce que ma cible cherche** : questions posées en commentaire chez les comptes suivis, recherches sur mon sujet, questions qui reviennent dans les groupes de ma cible.
 7. **Sortie** : un tableau des 5 à 10 posts qui surperforment (compte, sujet, angle, format, mécanique du hook, score) et des 2 ou 3 flops, puis **2 à 3 constats** et **le trou à prendre** : un angle que personne n'occupe sur mon marché, s'il y en a un. Aucun chiffre inventé.
 
-Tu ranges la veille dans la base « Veille » de mon Hub Freelance (Post, Compte, Abonnés du compte, Plateforme, Marché, Lien du post, Sujet, Angle, Format, Mécanique du hook, Interactions, Médiane du compte, Score, Date de publication, Statut ; tu la crées si mon hub n'en a pas, tu ajoutes les colonnes qui manquent sans toucher aux autres).
+Tu ranges la veille dans la base « Veille » de mon Hub Freelance (Post, Compte, Abonnés du compte, Plateforme, Marché, Lien du post, Sujet, Angle, Format, Mécanique du hook, Interactions, Médiane du compte, Score, Date de publication, Statut (Nouveau, Idée notée, Flop à éviter, Écarté) ; tu la crées si mon hub n'en a pas, tu ajoutes les colonnes qui manquent sans toucher aux autres ; une ancienne colonne « Moyenne du compte » se renomme en « Médiane du compte »).
 
 ## ÉTAPE 4 : LA STRATÉGIE DU MOIS (présentée avant de remplir)
 1. **Mes 3 piliers personnalisés** : pour chacun, 3 à 5 thèmes à moi.
@@ -128,12 +128,12 @@ Pour chaque post, tu remplis **tous** les champs :
 - **Matière d'origine** si le post vient d'un podcast, d'une conférence, d'une vidéo, d'un ancien post ou d'un transcript
 - **Étape** : 🟢 TOFU · 🟡 MOFU · 🔴 BOFU, et pour un post large, pourquoi il est large
 - **Style**
-- **Objectif** : portée, abonnés, inscriptions au lead magnet, conversations en message privé, rendez-vous
+- **Objectif** (options de la colonne) : Portée · Engagement · Abonnés · Inscriptions lead magnet · Conversations en DM · Rendez-vous
 - **3 hooks**, dans ma voix, chacun avec le **modèle de la banque** qu'il utilise ([banque-hooks.md](references/banque-hooks.md)) ; tu désignes le principal. Une phrase exacte d'un client passe avant un modèle. Jamais le même modèle deux fois dans la même semaine.
 - **Structure du post** : celle de son style, dans [structures-posts.md](references/structures-posts.md).
 - **Squelette en tirets** : un tiret par bloc de la structure, précédé du nom du bloc, quelques mots, jamais des phrases rédigées. Les tirets reprennent mes mots, pas les tiens. Un post court a peu de blocs.
 - **Appel à l'action** : question en commentaire, message privé, lead magnet (lien en PS) ou prise de rendez-vous. Un BOFU renvoie toujours vers mon lead magnet ou mon agenda.
-- **Format** : texte seul, carrousel, visuel (une vraie photo qui illustre le hook, sinon pas de visuel), vidéo courte, vidéo longue, story, email
+- **Format** (options de la colonne) : Post (texte seul) · Carrousel · Visuel (une vraie photo qui illustre le hook, sinon pas de visuel) · Reel / Vidéo · Vidéo longue · Story · Thread · Email
 - **Statut** : 💡 Idée
 
 Les semaines 1 et 2 sont remplies en entier. Les semaines 3 et 4 aussi, et tu me préviens qu'elles seront ajustées au point hebdo.
