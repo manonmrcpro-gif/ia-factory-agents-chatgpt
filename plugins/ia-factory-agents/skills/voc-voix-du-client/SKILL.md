@@ -60,7 +60,7 @@ Relire en traquant l'**émotion** et les **mots exacts**. Chaque insight est ran
 3. **Objection** : les « oui mais », ce qui empêche de passer à l'action.
 4. **Critère de décision** : ce qui les a fait (ou ferait) choisir.
 5. **Résultat attendu** : l'Après rêvé (souvent une émotion) et les gains déjà obtenus, idéalement chiffrés.
-6. **Contentement client** : ce que les clients actuels disent de la relation et du travail, en bien comme en mal. Surtout utile si la personne est en relation client longue (accompagnement, récurrent).
+6. **Mécontentement** : ce qu'un client reproche à son prestataire, à son outil ou à la façon dont on le traite aujourd'hui (y compris à la personne elle-même si c'est un client actuel). Surtout utile si la personne est en relation client longue (accompagnement, récurrent).
 
 ## La règle de récurrence
 
