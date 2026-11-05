@@ -22,7 +22,7 @@ Si son formulaire de prise de rendez-vous n'a pas la question « Comment tu m'as
 
 ## Où c'est rangé
 
-- **La base « Tableau de bord contenu »** du Hub Freelance, une ligne par semaine : Semaine, Posts publiés, Impressions, Abonnés gagnés, Réactions, Commentaires, Taux d'engagement (interactions ÷ impressions), Commentaires de la cible, Visites de profil, Inscrits au lead magnet, Conversations ouvertes, Rendez-vous grâce au contenu, Clients signés (montant), Post de la semaine, Arrête / Double / Teste. À créer si elle n'existe pas ; ajouter les colonnes qui manquent sans toucher aux autres.
+- **La base « Tableau de bord contenu »** du Hub Freelance, une ligne par semaine : Semaine, Début de semaine, Posts publiés, Impressions, Abonnés gagnés, Interactions (réactions + commentaires), Taux d'engagement (formule), Commentaires de la cible, Visites de profil, Inscrits lead magnet, Conversations ouvertes, RDV grâce au contenu, Clients signés, Montant signé, Post de la semaine, Arrête / Double / Teste, Elles commentent, Elles likent. À créer si elle n'existe pas ; ajouter les colonnes qui manquent sans toucher aux autres.
 - **Les chiffres de chaque post** dans la base « Calendrier de contenu » (`Lien du post`, `Impressions`, `Réactions`, `Commentaires`, `Engagement`, `Statut` → Publié).
 - **L'interface** : la base Notion fait foi. À chaque point hebdo, l'agent en montre la lecture en tableau (ou dans un canevas s'il peut l'afficher) : en haut le post qui a le mieux marché, puis les chiffres de la semaine comparés à la semaine précédente, les résultats par pilier, par étape et par style, et les personnes chaudes.
 
