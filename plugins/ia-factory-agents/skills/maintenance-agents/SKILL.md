@@ -26,7 +26,7 @@ En tâche planifiée : ni annonce ni question.
 
 ## Avant de commencer : rassembler les sources
 
-1. **La liste de ses agents** : ceux du plugin IA Factory qu'elle utilise tels quels, ceux qu'elle a dupliqués ou personnalisés (skills, projets, GPT personnalisés, instructions), et ceux qu'elle a créés elle-même. La Bibliothèque d'agents de son Hub Notion si elle l'a. Si la liste n'existe nulle part, la reconstruire avec elle une fois, puis la ranger dans le hub.
+1. **La liste de ses agents** : ceux du plugin IA Factory qu'elle utilise tels quels, ceux qu'elle a dupliqués ou personnalisés (skills, projets, GPT personnalisés, instructions), ceux qu'elle a créés elle-même, et **tous ses autres plugins ou kits installés** (un plugin interne monté avec son équipe compte aussi). La Bibliothèque d'agents de son Hub Notion si elle l'a. Si la liste n'existe nulle part, la reconstruire avec elle une fois, puis la ranger dans le hub.
 2. **Ses bases et documents** : le Hub Notion (ou son Google Drive) via le connecteur, avec leur schéma réel (colonnes, relations).
 3. **Son schéma d'écosystème** sur Miro (outils, agents, qui interagit avec quoi), via le connecteur Miro si elle l'a.
 4. **Le Hub Freelance modèle** (Notion) : https://no-code-flow-edito.notion.site/Hub-Freelance-ton-cockpit-business-380f25a59ace81b39bcdf17247d73fc1
@@ -89,7 +89,8 @@ Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqu�
    Le Miro ne bouge que si la mise à jour fait entrer un nouvel outil, une nouvelle base ou un nouvel agent : dans ce cas, appliquer le point 6 du mode 1.
 5. **Le hub Notion aussi.** Un hub dupliqué ne reçoit pas non plus les évolutions du modèle. Comparer son hub au Hub Freelance modèle (https://no-code-flow-edito.notion.site/Hub-Freelance-ton-cockpit-business-380f25a59ace81b39bcdf17247d73fc1) : bases, colonnes, relations, pages ressources, fiches de la Bibliothèque d'agents. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte, « Tu veux l'ajouter ? ». Sur un oui, l'ajouter sans toucher à ses données ni à ce qu'elle a construit elle-même. Une nouvelle base ajoutée = quelque chose de nouveau : appliquer le point 6 du mode 1.
 6. **La chasse aux doublons, sur tout le système.** À chaque passage de ce mode, refaire le point 2 du mode 1 sur l'ensemble de ses agents, pas seulement sur ceux qui ont changé : c'est souvent une mise à jour ou une nouvelle installation qui crée le doublon. Pour chaque doublon : les deux noms, ce qu'ils font de pareil, ce qui les différencie, et lequel garder (en général le plus récent et le plus proche de sa méthode, en reprenant dedans ce que l'autre avait de mieux). Ne rien supprimer : c'est elle qui retire l'autre.
-7. Proposer de faire ce contrôle (plugin + hub Notion + doublons) une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
+7. **Les noms et rôles qui changent.** Quand un agent du plugin change de nom, de commande ou de rôle, chercher partout où il est cité : ses agents perso, ses autres plugins ou kits, son hub, son Miro. Lister chaque endroit avec l'ancien et le nouveau nom, et proposer de tout mettre à jour d'un coup. Pareil quand elle supprime un agent : repérer ceux qui l'appellent encore.
+8. Proposer de faire ce contrôle (plugin + hub Notion + doublons + noms) une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
 
 ## Format de sortie
 
