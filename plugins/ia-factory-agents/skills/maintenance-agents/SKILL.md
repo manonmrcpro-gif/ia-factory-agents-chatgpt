@@ -45,7 +45,7 @@ En tâche planifiée : ni annonce ni question.
   - Flèches : outil → agent, agent → livrable.
 - Un outil utilisé par plusieurs agents = **une seule tuile**, avec une flèche vers chaque agent. Jamais deux tuiles pour le même outil.
 - Pas d'ordre ni de semaines sur ce schéma : l'ordre, c'est la roadmap.
-- Les frames « Process · <nom du process> » (avant/après en gris et rose) vivent sous le schéma. Chaque carte agent concernée porte une pastille « ▶ Process » qui renvoie vers la frame, et chaque case violette de la frame renvoie vers sa carte. Garder ces liens à jour (un agent renommé, un process qui gagne un agent).
+- Les frames « Process · <nom du process> » (avant/après en gris et rose) vivent sous le schéma, chacune sous l'îlot de son pilier, reliée à l'îlot par une flèche en pointillés « process ». Chaque carte agent concernée porte une pastille « ▶ Process » qui renvoie vers la frame, et chaque case violette de la frame renvoie vers sa carte. Garder ces liens à jour (un agent renommé, un process qui gagne un agent).
 
 **À chaque passage**, en plus de l'agent créé ou modifié :
 - Vérifier que chaque carte est à jour avec la dernière version du plugin : nom de l'agent, commande dans « Template », ce qu'il produit (ex. une commande renommée, un nombre d'emails qui a changé).
