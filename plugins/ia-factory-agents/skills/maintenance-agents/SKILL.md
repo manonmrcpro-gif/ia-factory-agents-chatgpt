@@ -22,7 +22,7 @@ Utiliser les connecteurs disponibles (Notion, Google Drive, Miro) dans le périm
 5. **Le process en sortie.** C'est moi qui le dessine sur Miro pour tous les agents (section « Les frames Process »).
 6. **Fin de session.** Finir par « Où on en est » : ce qui est fait, ce qui reste, où reprendre. Proposer de mettre à jour le contexte.
 
-En tâche planifiée : ni annonce ni question.
+En tâche planifiée : ni annonce ni question, mais toujours le compte rendu (point 9 du mode 2).
 
 ## Avant de commencer : rassembler les sources
 
@@ -73,10 +73,10 @@ Quand un agent est nouveau (ou qu'un process change parce qu'un outil ou une bas
 2. **Les doublons de rôle.** Le comparer aux cartes de **tous** ses autres agents, y compris ceux qu'elle a installés hors du plugin (skills de son compte, projets, GPT) et les vieilles copies d'un agent du plugin. Signes d'un doublon : deux agents déclenchés par les mêmes phrases (« prépare mon R1 »), qui lisent la même source et produisent le même livrable, ou une copie personnalisée qui tourne à côté de l'original. Dans ce cas, elle ne sait jamais lequel va répondre, et les deux livrables divergent. Une même étape = un seul agent. Deux agents qui font la même chose : proposer de fusionner, de retirer l'étape à l'un des deux, ou de renvoyer vers l'autre. Repère : si elle recrutait quelqu'un, ce serait la même personne ou deux personnes différentes ? **Exception : sa version à elle.** Un agent du plugin qu'elle a dupliqué et adapté exprès (sa méthode de vente, ses outils) n'est pas un doublon, c'est une variante assumée. Ne jamais proposer de la remplacer par l'agent du plugin ni de les fusionner. Vérifier seulement deux choses : que sa version dit clairement, dans sa description, qu'elle s'utilise à la place de l'agent du plugin (sinon les deux se déclenchent sur les mêmes phrases et le plugin peut répondre à sa place) ; et qu'elle n'utilise plus l'original à côté. Sur le Miro, sa carte porte « ta version de <prénom> », pas de post-it Doublon.
 3. **Les doublons de données.** La même info rangée à deux endroits, deux bases pour la même chose, deux colonnes qui disent la même chose : le signaler, proposer laquelle fait foi, et ce qu'on fait de l'autre.
 4. **Les trous.** Une info qu'un agent attend et que personne ne produit (ou qu'elle doit remplir à la main sans le savoir) : c'est un goulot, le signaler avec qui devrait la produire.
-5. **La documentation.** Mettre à jour la fiche de l'agent dans sa Bibliothèque d'agents (rôle, ce qu'il lit, où il écrit, avec les liens vers les bases), avec son accord.
-6. **Le Miro, seulement si quelque chose est nouveau** (un agent, un outil ou une base). Avec son accord : mettre le schéma d'écosystème à jour (section « Le schéma d'écosystème »), dessiner ou compléter la frame Process concernée (section « Les frames Process »), puis l'encadré « Ce que Constance, ta Maintenance, a changé ». Rien de nouveau : on ne touche pas au Miro.
+5. **La documentation.** Mettre à jour la fiche de l'agent dans sa Bibliothèque d'agents (rôle, ce qu'il lit, où il écrit, avec les liens vers les bases). Pas besoin de son accord : documenter ne change rien à son système.
+6. **Le Miro, seulement si quelque chose est nouveau** (un agent, un outil ou une base). Sans attendre son accord : mettre le schéma d'écosystème à jour (section « Le schéma d'écosystème »), dessiner ou compléter la frame Process concernée (section « Les frames Process »), puis l'encadré « Ce que Constance, ta Maintenance, a changé ». Rien de nouveau : on ne touche pas au Miro.
 
-Rien n'est supprimé, fusionné ou renommé sans son accord explicite.
+Rien n'est supprimé, fusionné ou renommé sans son accord explicite. Documenter (fiche, Miro) se fait sans attendre : c'est ce qui garde son système lisible.
 
 ## Mode 2 : ses agents et son hub Notion sont-ils à jour ? (mises à jour)
 
@@ -90,7 +90,10 @@ Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqu�
 5. **Le hub Notion aussi.** Un hub dupliqué ne reçoit pas non plus les évolutions du modèle. Comparer son hub au Hub Freelance modèle (https://no-code-flow-edito.notion.site/Hub-Freelance-ton-cockpit-business-380f25a59ace81b39bcdf17247d73fc1) : bases, colonnes, relations, pages ressources, fiches de la Bibliothèque d'agents. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte, « Tu veux l'ajouter ? ». Sur un oui, l'ajouter sans toucher à ses données ni à ce qu'elle a construit elle-même. Une nouvelle base ajoutée = quelque chose de nouveau : appliquer le point 6 du mode 1.
 6. **La chasse aux doublons, sur tout le système.** À chaque passage de ce mode, refaire le point 2 du mode 1 sur l'ensemble de ses agents, pas seulement sur ceux qui ont changé : c'est souvent une mise à jour ou une nouvelle installation qui crée le doublon. Pour chaque doublon : les deux noms, ce qu'ils font de pareil, ce qui les différencie, et lequel garder (en général le plus récent et le plus proche de sa méthode, en reprenant dedans ce que l'autre avait de mieux). Ne rien supprimer : c'est elle qui retire l'autre.
 7. **Les noms et rôles qui changent.** Quand un agent du plugin change de nom, de commande ou de rôle, chercher partout où il est cité : ses agents perso, ses autres plugins ou kits, son hub, son Miro. Lister chaque endroit avec l'ancien et le nouveau nom, et proposer de tout mettre à jour d'un coup. Pareil quand elle supprime un agent : repérer ceux qui l'appellent encore.
-8. Proposer de faire ce contrôle (plugin + hub Notion + doublons + noms) une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
+8. **Le passage hebdo, automatique.** À la première utilisation, lui proposer de la lancer chaque lundi d'une phrase (« fais le passage de Constance ») ou de la planifier si son IA le permet ; si une tâche Maintenance existe déjà, ne pas en créer une deuxième. À chaque passage, sans lui poser de question :
+   - **Les nouveautés de son système.** Repérer tout ce qui est apparu depuis le dernier passage : un agent (du plugin, de son compte, ou un agent sur mesure qu'elle a créé elle-même), un outil, une base. Pour chacun, appliquer tout seul les points 1, 4, 5 et 6 du mode 1 : sa carte d'identité, les trous, sa fiche dans la Bibliothèque d'agents, et le Miro (schéma d'écosystème et frame Process). Un doublon est seulement signalé (post-it orange « Doublon » sur le Miro et ligne dans le compte rendu), jamais supprimé ni fusionné.
+   - **Les mises à jour du plugin et du hub, les noms qui changent** : seulement listés, avec « Tu veux l'ajouter ? ». Rien de ce qu'elle a personnalisé n'est modifié sans son accord.
+9. **Le compte rendu, à chaque fois que le Miro a bougé** (en tâche planifiée comme à la main), commencer par : « J'ai mis à jour ton Miro : [lien direct vers la frame ou le board] », puis une ligne par changement : ce qui a été ajouté ou modifié (carte, frame Process, post-it), et pourquoi (le nouvel agent, outil ou base qui l'a déclenché). Rien n'a bougé : le dire en une ligne.
 
 ## Format de sortie
 
@@ -107,7 +110,9 @@ Tes agents
 Mises à jour disponibles
 - [Agent] : ce qui a changé ➜ ce que ça t'apporte. Tu veux l'ajouter ?
 
-Schéma d'écosystème : mis à jour / à reporter (liste)
+J'ai mis à jour ton Miro : [lien]
+- [ce qui a été ajouté ou modifié] ➜ [pourquoi]
+(ou : Miro inchangé cette semaine)
 ```
 
 ## Règles
