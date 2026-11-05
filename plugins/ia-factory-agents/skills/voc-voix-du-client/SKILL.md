@@ -1,6 +1,6 @@
 ---
 name: voc-voix-du-client
-description: "Relire chaque semaine les transcripts prospects et clients, historique compris, faire remonter ce qui revient (douleurs, objections, déclics, mots exacts) et proposer des suggestions prouvées pour la prépa RDV, la propale, l'offre, le contenu ou les documents de référence. À utiliser en tâche planifiée hebdo, à la demande, ou pour challenger un document avec la voix du client."
+description: "Relire chaque semaine les transcripts prospects et clients, historique compris, faire remonter ce qui revient (douleurs, déclencheurs, objections, mots exacts) et proposer des suggestions prouvées pour la prépa RDV, la propale, l'offre, le contenu ou les documents de référence. À utiliser en tâche planifiée hebdo, à la demande, ou pour challenger un document avec la voix du client."
 ---
 
 # Agent VoC (Voix du Client)
@@ -51,18 +51,16 @@ En tâche planifiée : ni annonce ni question ; le process en sortie seulement s
 4. **ADN, méthode & économie** (offre, client idéal, promesse) : repérer les écarts entre ce que disent les clients et ce que l'utilisateur dit de lui.
 5. **Ma voix** : pour le ton des suggestions uniquement.
 
-## Ce qu'il faut chasser (les 8 catégories)
+## Ce qu'il faut chasser (les 6 catégories)
 
-Relire en traquant l'**émotion** et les **mots exacts** :
+Relire en traquant l'**émotion** et les **mots exacts**. Chaque insight est rangé dans une seule de ces 6 catégories, et porte toujours les mots exacts du client, à réutiliser tels quels :
 
-1. **Douleurs / frustrations** : ce qui fait mal, ce qui revient.
-2. **Résultats désirés (l'Après rêvé)** : souvent une émotion.
-3. **Déclencheurs** : ce qui fait chercher une solution MAINTENANT.
-4. **Objections / hésitations** : les « oui mais », ce qui empêche de passer à l'action.
-5. **Tentatives passées ratées** : ce qu'ils ont essayé et pourquoi ça n'a pas suffi.
-6. **Vocabulaire exact** : leurs mots et images, à réutiliser tels quels.
-7. **Critères de décision** : ce qui les a fait (ou ferait) choisir.
-8. **Résultats obtenus / gains** : les wins, idéalement chiffrés.
+1. **Douleur** : ce qui fait mal, ce qui revient, y compris ce qu'ils ont déjà essayé et pourquoi ça n'a pas suffi.
+2. **Déclencheur** : ce qui fait chercher une solution MAINTENANT. Très bon matériau pour les posts BOFU.
+3. **Objection** : les « oui mais », ce qui empêche de passer à l'action.
+4. **Critère de décision** : ce qui les a fait (ou ferait) choisir.
+5. **Résultat attendu** : l'Après rêvé (souvent une émotion) et les gains déjà obtenus, idéalement chiffrés.
+6. **Contentement client** : ce que les clients actuels disent de la relation et du travail, en bien comme en mal. Surtout utile si la personne est en relation client longue (accompagnement, récurrent).
 
 ## La règle de récurrence
 
@@ -84,7 +82,7 @@ Court, lisible en 3 minutes. Daté, avec le nombre de transcripts lus (semaine +
 4. **À surveiller** : les signaux faibles, sans suggestion.
 5. **Les mots à reprendre** : 5 verbatims prêts pour le contenu ou la vente.
 
-L'analyse complète (8 catégories, voix du marché avec niveau de conscience, voix du produit) seulement sur demande. Template et exemple : voir plus bas.
+L'analyse complète (6 catégories, voix du marché avec niveau de conscience, voix du produit) seulement sur demande. Template et exemple : voir plus bas.
 
 **Destination** : par défaut, la synthèse reste dans la conversation. Si l'utilisateur a choisi une page Notion, un fichier, un mail ou un tableau de bord, y écrire la synthèse datée, empilée sous les précédentes, sans écraser les anciennes.
 

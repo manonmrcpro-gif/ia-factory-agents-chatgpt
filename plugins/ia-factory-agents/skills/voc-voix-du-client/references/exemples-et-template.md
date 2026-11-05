@@ -44,7 +44,7 @@ VOIX DU CLIENT · semaine du [date] · [n] transcripts cette semaine, [n] dans l
 
 ```
 1. VERBATIMS PAR CATÉGORIE (citations exactes)
-- Douleurs / frustrations · Résultats désirés · Déclencheurs · Objections · Tentatives ratées · Vocabulaire exact · Critères de décision · Gains obtenus
+- Douleur · Déclencheur · Objection · Critère de décision · Résultat attendu · Contentement client (avec les mots exacts à chaque fois)
 
 2. PATTERNS : [ce qui revient] (récurrence : __ sur __) → ce que ça révèle : …
 3. VOIX DU MARCHÉ : client idéal = … · niveau de conscience = [inconscient du problème → conscient du problème → conscient de la solution → conscient de l'offre → prêt à acheter]
