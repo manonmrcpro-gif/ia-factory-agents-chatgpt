@@ -45,6 +45,7 @@ En tâche planifiée : ni annonce ni question.
   - Flèches : outil → agent, agent → livrable.
 - Un outil utilisé par plusieurs agents = **une seule tuile**, avec une flèche vers chaque agent. Jamais deux tuiles pour le même outil.
 - Pas d'ordre ni de semaines sur ce schéma : l'ordre, c'est la roadmap.
+- Les frames « Process · <nom du process> » (avant/après en gris et rose) vivent sous le schéma. Chaque carte agent concernée porte une pastille « ▶ Process » qui renvoie vers la frame, et chaque case violette de la frame renvoie vers sa carte. Garder ces liens à jour (un agent renommé, un process qui gagne un agent).
 
 **À chaque passage**, en plus de l'agent créé ou modifié :
 - Vérifier que chaque carte est à jour avec la dernière version du plugin : nom de l'agent, commande dans « Template », ce qu'il produit (ex. une commande renommée, un nombre d'emails qui a changé).
@@ -72,7 +73,7 @@ Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqu�
 2. Lister les différences qui viennent du plugin (nouvelles étapes, règles changées, nouveaux formats de sortie), en laissant de côté ses propres personnalisations.
 3. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte. Puis : « Tu veux l'ajouter ? »
 4. Sur un oui, l'intégrer sans écraser ses personnalisations. En cas de conflit (le plugin dit une chose, sa version une autre), lui montrer les deux et la laisser choisir.
-   Puis mettre à jour son board Miro dans la foulée : la carte de l'agent dans son schéma d'écosystème (commande, ce qu'il lit, ce qu'il produit) et, s'il en a une, la frame « Process · <Agent> » (étapes, gris et rose, outils), avec l'encadré « Ce que l'Agent Maintenance a changé ».
+   Puis mettre à jour son board Miro dans la foulée : la carte de l'agent dans son schéma d'écosystème (commande, ce qu'il lit, ce qu'il produit) et les frames « Process · … » où il apparaît (étapes, gris et rose, outils), avec l'encadré « Ce que l'Agent Maintenance a changé ».
 5. Proposer de faire ce contrôle une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
 
 ## Format de sortie
