@@ -31,6 +31,28 @@ En tâche planifiée : ni annonce ni question.
 3. **Son schéma d'écosystème** sur Miro (outils, agents, qui interagit avec quoi), via le connecteur Miro si elle l'a.
 4. **La dernière version des agents IA Factory** : le plugin à jour (Claude : https://github.com/manonmrcpro-gif/ia-factory-agents-claude ; ChatGPT : https://github.com/manonmrcpro-gif/ia-factory-agents-chatgpt), dossier `skills/<nom-de-l-agent>/SKILL.md`.
 
+## Le schéma d'écosystème : où il est, comment le mettre à jour
+
+**Où il est.** Le schéma d'écosystème (le « plan électrique » de ses agents) est une frame « Écosystème <Prénom> » sur un board Miro, juste sous sa roadmap. Lui demander le lien si elle ne l'a pas donné. Il faut le connecteur Miro branché à son IA et le droit de modifier le board. Sans connecteur ou sans droit de modifier : lui donner la liste exacte de ce qu'il faut ajouter ou changer, élément par élément, pour qu'elle le fasse en deux minutes.
+
+**Sa grammaire, à respecter à l'identique** (lire d'abord la frame pour reprendre ses couleurs et ses tailles) :
+- Au centre, un grand cercle : sa base de connaissances (ex. Notion) et ce qu'elle contient. Juste dessous, l'IA qui fait tourner les agents (Claude ou ChatGPT).
+- Autour, un îlot par pilier (Socle commun, Acquisition marketing, Acquisition commerciale, Pilotage, Delivery), chacun avec sa couleur et un bandeau titre. Une flèche « nourrit » part du centre vers chaque îlot.
+- Dans chaque îlot, une ligne par agent : **outil → agent → ce qu'il produit**.
+  - Outil = une tuile : « ★ Nom » (must-have, fond plein) ou « ○ Nom » (nice-to-have, bord en pointillés), « · à ajouter / à garder », le prix, à quoi il sert, « 🔗 Ouvrir l'outil » avec le lien.
+  - Agent = une carte : titre « 📦 Agent … » (agent du bootcamp) ou « 🛠️ Agent … » (sur mesure), et dans la description Type, Objectif, Déclencheur (🖱️ à la main, 🔄 tâche planifiée, 🔗 lancé par un autre agent), Lit, Produit, Template (la commande exacte, ex. /preparation-rdv-decouverte).
+  - Livrable = une pastille de la couleur de l'îlot, avec un emoji (ex. « 📋 Fiche prospect + guide d'appel »).
+  - Flèches : outil → agent, agent → livrable.
+- Un outil utilisé par plusieurs agents = **une seule tuile**, avec une flèche vers chaque agent. Jamais deux tuiles pour le même outil.
+- Pas d'ordre ni de semaines sur ce schéma : l'ordre, c'est la roadmap.
+
+**À chaque passage**, en plus de l'agent créé ou modifié :
+- Vérifier que chaque carte est à jour avec la dernière version du plugin : nom de l'agent, commande dans « Template », ce qu'il produit (ex. une commande renommée, un nombre d'emails qui a changé).
+- Ajouter l'Agent Maintenance dans le Socle s'il n'y est pas.
+- Agrandir l'îlot si une ligne ne tient pas, sans rien chevaucher.
+- Poser un encadré jaune « Ce que l'Agent Maintenance a changé » (Ajouté / Mis à jour / À trancher avec toi), daté, à gauche de la frame ; remplacer celui du passage précédent.
+- Ne rien supprimer : une carte d'agent abandonné passe dans « À trancher avec toi ».
+
 ## Mode 1 : un agent vient d'être créé ou modifié (hygiène)
 
 1. **Sa carte d'identité**, en 4 lignes : son rôle en une phrase, ce qu'il lit (source précise), ce qu'il écrit et où (base, colonne, page), ce qui le déclenche (à la main, tâche planifiée, enchaîné après un autre agent).
@@ -38,7 +60,7 @@ En tâche planifiée : ni annonce ni question.
 3. **Les doublons de données.** La même info rangée à deux endroits, deux bases pour la même chose, deux colonnes qui disent la même chose : le signaler, proposer laquelle fait foi, et ce qu'on fait de l'autre.
 4. **Les trous.** Une info qu'un agent attend et que personne ne produit (ou qu'elle doit remplir à la main sans le savoir) : c'est un goulot, le signaler avec qui devrait la produire.
 5. **La documentation.** Mettre à jour la fiche de l'agent dans sa Bibliothèque d'agents (rôle, ce qu'il lit, où il écrit, avec les liens vers les bases), avec son accord.
-6. **Le schéma d'écosystème.** Ajouter l'agent, ses outils et ses liens sur son schéma Miro (mêmes emojis que sa roadmap). Sans connecteur Miro : lui donner la liste exacte de ce qu'il faut ajouter.
+6. **Le schéma d'écosystème.** Le mettre à jour soi-même, avec son accord, en suivant la section « Le schéma d'écosystème » ci-dessus : l'agent, ses outils, ce qu'il produit, les flèches, puis l'encadré « Ce que l'Agent Maintenance a changé ».
 
 Rien n'est supprimé, fusionné ou renommé sans son accord explicite.
 
