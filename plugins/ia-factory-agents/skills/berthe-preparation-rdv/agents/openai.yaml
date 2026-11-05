@@ -1,0 +1,4 @@
+interface:
+  display_name: "Berthe, ta Préparation RDV découverte"
+  short_description: "Préparer une découverte commerciale précise et utile"
+  default_prompt: "Utilise $berthe-preparation-rdv pour m’aider à préparer une découverte commerciale précise et utile."

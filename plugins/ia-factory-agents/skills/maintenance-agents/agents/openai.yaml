@@ -1,4 +1,0 @@
-interface:
-  display_name: "Constance, ta Maintenance"
-  short_description: "Garder ses agents sans doublon, documentés et à jour"
-  default_prompt: "Utilise $maintenance-agents pour vérifier mes agents : doublons, schéma d'écosystème et mises à jour disponibles."

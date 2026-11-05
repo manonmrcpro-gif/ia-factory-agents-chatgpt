@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nadia, ta Coach Process et IA"
+  short_description: "Diagnostiquer ses processus et choisir quoi traiter en premier"
+  default_prompt: "Utilise $nadia-coach-process-ia pour diagnostiquer mes processus et décider quoi traiter en premier."

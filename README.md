@@ -22,21 +22,21 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 
 | Agent | Skill |
 | --- | --- |
-| Florence, tes Documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
-| Constance, ta Maintenance | [maintenance-agents](plugins/ia-factory-agents/skills/maintenance-agents/SKILL.md) |
-| Aya, ta Voix du client | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
-| Nadia, ta Coach Process et IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
-| Nicole, ton Analyse de call | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
-| Serena, tes Cas clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
-| Joséphine, ton Cadrage offre et pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
-| Juliette, ton Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
-| Colette, ta Cheffe de projet | [chef-de-projet](plugins/ia-factory-agents/skills/chef-de-projet/SKILL.md) |
-| Tina, ton Transcript | [transcript-next-actions](plugins/ia-factory-agents/skills/transcript-next-actions/SKILL.md) |
-| Berthe, ta Préparation RDV découverte | [preparation-rdv-decouverte](plugins/ia-factory-agents/skills/preparation-rdv-decouverte/SKILL.md) |
-| Simone, ta Coach rédaction | [redaction-contenu](plugins/ia-factory-agents/skills/redaction-contenu/SKILL.md) |
-| Coco, ta Stratégie édito | [strategie-edito](plugins/ia-factory-agents/skills/strategie-edito/SKILL.md) |
-| Nawal, ta Propale | [propale](plugins/ia-factory-agents/skills/propale/SKILL.md) |
-| Mireille, ta Veille offres de mission | [veille-offres-mission](plugins/ia-factory-agents/skills/veille-offres-mission/SKILL.md) |
+| Florence, tes Documents de référence (interview, à lancer en premier) | [florence-documents-de-reference](plugins/ia-factory-agents/skills/florence-documents-de-reference/SKILL.md) |
+| Constance, ta Maintenance | [constance-maintenance](plugins/ia-factory-agents/skills/constance-maintenance/SKILL.md) |
+| Aya, ta Voix du client | [aya-voix-du-client](plugins/ia-factory-agents/skills/aya-voix-du-client/SKILL.md) |
+| Nadia, ta Coach Process et IA | [nadia-coach-process-ia](plugins/ia-factory-agents/skills/nadia-coach-process-ia/SKILL.md) |
+| Nicole, ton Analyse de call | [nicole-analyse-call](plugins/ia-factory-agents/skills/nicole-analyse-call/SKILL.md) |
+| Serena, tes Cas clients | [serena-cas-clients](plugins/ia-factory-agents/skills/serena-cas-clients/SKILL.md) |
+| Joséphine, ton Cadrage offre et pricing | [josephine-cadrage-offre](plugins/ia-factory-agents/skills/josephine-cadrage-offre/SKILL.md) |
+| Juliette, ton Lead Magnet | [juliette-lead-magnet](plugins/ia-factory-agents/skills/juliette-lead-magnet/SKILL.md) |
+| Colette, ta Cheffe de projet | [colette-cheffe-de-projet](plugins/ia-factory-agents/skills/colette-cheffe-de-projet/SKILL.md) |
+| Tina, ton Transcript | [tina-transcript](plugins/ia-factory-agents/skills/tina-transcript/SKILL.md) |
+| Berthe, ta Préparation RDV découverte | [berthe-preparation-rdv](plugins/ia-factory-agents/skills/berthe-preparation-rdv/SKILL.md) |
+| Simone, ta Coach rédaction | [simone-coach-redaction](plugins/ia-factory-agents/skills/simone-coach-redaction/SKILL.md) |
+| Coco, ta Stratégie édito | [coco-strategie-edito](plugins/ia-factory-agents/skills/coco-strategie-edito/SKILL.md) |
+| Nawal, ta Propale | [propale](plugins/ia-factory-agents/skills/nawal-propale/SKILL.md) |
+| Mireille, ta Veille offres de mission | [mireille-veille-missions](plugins/ia-factory-agents/skills/mireille-veille-missions/SKILL.md) |
 
 ## Le socle commun
 
@@ -46,11 +46,11 @@ Chaque agent suit le même socle : il annonce en démarrant à quoi il sert, où
 
 Exemples de demandes :
 
-- « Utilise $transcript-next-actions pour classer ce transcript et extraire les prochaines actions. »
-- « Utilise $strategie-edito pour construire mon calendrier de contenu du mois. »
-- « Utilise $propale pour préparer une proposition à partir de ces notes de découverte. »
+- « Utilise $tina-transcript pour classer ce transcript et extraire les prochaines actions. »
+- « Utilise $coco-strategie-edito pour construire mon calendrier de contenu du mois. »
+- « Utilise $nawal-propale pour préparer une proposition à partir de ces notes de découverte. »
 
-Commencer par « Utilise $documents-de-reference pour lancer mon interview » : il crée tes 3 documents de référence (ADN, méthode & économie ; Ma voix ; Mes règles IA). Ranger ensuite ADN, méthode & économie et Ma voix dans Notion ou Google Drive et brancher le connecteur, pour que les skills les lisent ; à défaut, les joindre. Joindre les autres documents utiles selon le skill (transcripts, VoC, fiches projet). Mes règles IA se collent dans les instructions personnalisées de ChatGPT. Ces documents propres à chaque utilisateur ne sont pas inclus. Les skills peuvent aussi être sélectionnés automatiquement selon la demande.
+Commencer par « Utilise $florence-documents-de-reference pour lancer mon interview » : il crée tes 3 documents de référence (ADN, méthode & économie ; Ma voix ; Mes règles IA). Ranger ensuite ADN, méthode & économie et Ma voix dans Notion ou Google Drive et brancher le connecteur, pour que les skills les lisent ; à défaut, les joindre. Joindre les autres documents utiles selon le skill (transcripts, VoC, fiches projet). Mes règles IA se collent dans les instructions personnalisées de ChatGPT. Ces documents propres à chaque utilisateur ne sont pas inclus. Les skills peuvent aussi être sélectionnés automatiquement selon la demande.
 
 Notion et Drive sont optionnels : connecter son propre compte pour y lire ou mettre à jour les données. Sans connecteur, les skills travaillent sur les fichiers fournis et livrent du contenu prêt à intégrer. Le plugin ne contient aucun compte, aucune base client, aucun identifiant de connecteur et aucune automatisation active. Les messages sont préparés en brouillon, l’envoi ou la publication nécessite une demande explicite.
 

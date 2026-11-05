@@ -1,4 +1,0 @@
-interface:
-  display_name: "Juliette, ton Lead Magnet"
-  short_description: "Créer un lead magnet et son funnel complet"
-  default_prompt: "Utilise $lead-magnet-funnel pour m’aider à créer un lead magnet et son funnel complet."

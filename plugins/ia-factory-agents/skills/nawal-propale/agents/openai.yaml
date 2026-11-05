@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nawal, ta Propale"
+  short_description: "Rédiger une proposition ancrée dans le diagnostic"
+  default_prompt: "Utilise $nawal-propale pour m’aider à rédiger une proposition ancrée dans le diagnostic."

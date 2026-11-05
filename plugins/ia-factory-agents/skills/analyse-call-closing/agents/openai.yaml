@@ -1,4 +1,0 @@
-interface:
-  display_name: "Nicole, ton Analyse de call"
-  short_description: "Analyser un appel de vente et préparer le suivi commercial"
-  default_prompt: "Utilise $analyse-call-closing pour analyser mon appel de vente, me faire progresser et préparer le mail de suivi."

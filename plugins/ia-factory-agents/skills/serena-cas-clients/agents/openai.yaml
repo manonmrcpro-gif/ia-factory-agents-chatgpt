@@ -1,0 +1,4 @@
+interface:
+  display_name: "Serena, tes Cas clients"
+  short_description: "Transformer les résultats en cas clients convaincants"
+  default_prompt: "Utilise $serena-cas-clients pour m’aider à transformer les résultats en cas clients convaincants."

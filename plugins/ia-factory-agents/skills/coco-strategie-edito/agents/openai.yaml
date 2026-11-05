@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coco, ta Stratégie édito"
+  short_description: "Calendrier du mois, veille et tableau de bord contenu"
+  default_prompt: "Utilise $coco-strategie-edito pour faire ma veille et construire mon calendrier de contenu du mois avec son tableau de bord."

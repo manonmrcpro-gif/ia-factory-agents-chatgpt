@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aya, ta Voix du client"
+  short_description: "Extraire les mots et besoins réels des clients"
+  default_prompt: "Utilise $aya-voix-du-client pour m’aider à extraire les mots et besoins réels des clients."

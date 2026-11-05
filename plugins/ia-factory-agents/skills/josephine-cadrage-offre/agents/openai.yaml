@@ -1,0 +1,4 @@
+interface:
+  display_name: "Joséphine, ton Cadrage offre et pricing"
+  short_description: "Structurer des offres rentables et leur pricing"
+  default_prompt: "Utilise $josephine-cadrage-offre pour m’aider à structurer des offres rentables et leur pricing."
