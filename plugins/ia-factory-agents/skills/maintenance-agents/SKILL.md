@@ -43,7 +43,8 @@ En tâche planifiée : ni annonce ni question.
   - Agent = une carte : titre « 📦 Agent … » (agent du bootcamp) ou « 🛠️ Agent … » (sur mesure), et dans la description Type, Objectif, Déclencheur (🖱️ à la main, 🔄 tâche planifiée, 🔗 lancé par un autre agent), Lit, Produit, Template (la commande exacte, ex. /preparation-rdv-decouverte).
   - Livrable = une pastille de la couleur de l'îlot, avec un emoji (ex. « 📋 Fiche prospect + guide d'appel »).
   - Flèches : outil → agent, agent → livrable.
-- Un outil utilisé par plusieurs agents = **une seule tuile**, avec une flèche vers chaque agent. Jamais deux tuiles pour le même outil.
+- Un outil utilisé par plusieurs agents du même îlot = **une seule tuile**, avec une flèche vers chaque agent.
+- Un outil partagé entre deux îlots : la tuile pleine reste dans l'îlot principal ; dans l'autre îlot, une tuile « fantôme » en pointillés, texte gris (« ○ Apify · déjà dans Acquisition commerciale, même compte »), reliée à son agent par une flèche fine en pointillés. **Jamais une flèche qui traverse un îlot ou passe sur des cartes.**
 - Pas d'ordre ni de semaines sur ce schéma : l'ordre, c'est la roadmap.
 - Les frames « Process · <nom du process> » (avant/après en gris et rose) vivent sous le schéma, chacune sous l'îlot de son pilier, reliée à l'îlot par une flèche en pointillés « process ». Chaque carte agent concernée porte une pastille « ▶ Process » qui renvoie vers la frame, et chaque case violette de la frame renvoie vers sa carte. Garder ces liens à jour (un agent renommé, un process qui gagne un agent).
 
