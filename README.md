@@ -1,6 +1,6 @@
 # IA Factory — Agents pour Codex
 
-12 skills en français issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
+13 skills en français issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
 
 ## Installer
 
@@ -18,11 +18,12 @@ Alternative locale : cloner le dépôt puis copier les dossiers de `plugins/ia-f
 
 La procédure marketplace suit la [documentation officielle OpenAI](https://developers.openai.com/plugins/build/plugins).
 
-## Les skills (12 agents + l'interview)
+## Les skills (13 agents + l'interview)
 
 | Agent | Skill |
 | --- | --- |
 | Mes documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
+| Agent Maintenance | [maintenance-agents](plugins/ia-factory-agents/skills/maintenance-agents/SKILL.md) |
 | Agent VoC (Voix du Client) | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
 | Coach Process & IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
 | Agent Analyse de call et closing | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
@@ -35,6 +36,10 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 | Agent Rédaction | [redaction-contenu](plugins/ia-factory-agents/skills/redaction-contenu/SKILL.md) |
 | Agent Stratégie édito | [strategie-edito](plugins/ia-factory-agents/skills/strategie-edito/SKILL.md) |
 | Agent Propale | [propale](plugins/ia-factory-agents/skills/propale/SKILL.md) |
+
+## Le socle commun
+
+Chaque agent (sauf Stratégie édito et Rédaction, en cours de refonte) suit le même socle : il annonce en démarrant à quoi il sert, où il lit et où il range, et s'il s'utilise tel quel ou se personnalise ; il vérifie ses sources et ne crée rien en double ; il explique chaque outil qu'il fait entrer ; il va chercher l'info dans le mode agent plutôt que de demander des captures ; il rend le process en fin de séance (gris = l'IA, rouge = à la main, goulots signalés) ; il finit par « Où on en est ».
 
 ## Utilisation
 
