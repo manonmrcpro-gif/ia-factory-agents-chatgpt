@@ -104,7 +104,7 @@ Tu ne passes en Partie 1 que quand tu peux remplir en une phrase nette chacune d
 3. **Une carte score global**, en couleur foncée, avec le chiffre en très gros.
 4. **Deux ou trois cartes repères**, en grand : ce qu'elle veut atteindre (repris de ses réponses), **ce qui la plafonne**, et **ce que ça lui coûte de rester comme elle est** (carte foncée, chiffre en gros quand la méthode permet de l'estimer). Chaque carte renvoie vers le bloc qui la détaille plus bas.
 
-Ensuite seulement, les blocs détaillés (où tu en es, risques, priorités, quoi faire), en cartes numérotées, phrases courtes, une idée par bloc. Les jauges et le radar se remplissent avec ses réponses : on lui donne son résultat, pas un outil à remplir. Référence visuelle validée par Manon : le haut du « rapport de scalabilité » de L'Incubateur Solopreneur (radar, cartes de score, score global, cartes repères). On s'inspire de la mise en page, pas du texte.
+Ensuite seulement, les blocs détaillés (où tu en es, risques, priorités, quoi faire), en cartes numérotées, phrases courtes, une idée par bloc. Les jauges et le radar se remplissent avec ses réponses : on lui donne son résultat, pas un outil à remplir.
 
 **Pas de porte dans une porte.** Le résultat ne renvoie vers aucune autre ressource (template, guide, autre quiz) : chaque ressource en plus est un autre lead magnet, pour plus tard. La seule suite, c'est le rendez-vous.
 
