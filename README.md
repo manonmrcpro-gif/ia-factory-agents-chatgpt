@@ -1,6 +1,6 @@
-# IA Factory — Agents pour Codex
+# IA Factory : Agents pour Codex
 
-13 skills en français issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
+15 skills en français (14 agents + l'interview) issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
 
 ## Installer
 
@@ -12,34 +12,35 @@ Ajouter le dépôt comme marketplace :
 codex plugin marketplace add manonmrcpro-gif/ia-factory-agents-chatgpt
 ```
 
-Dans l’annuaire des plugins Codex, sélectionner cette marketplace (`personal` / `Personal`) puis installer **IA Factory — Agents**. Ouvrir ensuite une nouvelle tâche pour charger les skills. Si une autre marketplace porte déjà le nom `personal`, utiliser l’installation locale des skills ci-dessous pour éviter une collision.
+Dans l’annuaire des plugins Codex, sélectionner cette marketplace (`personal` / `Personal`) puis installer **IA Factory : Agents**. Ouvrir ensuite une nouvelle tâche pour charger les skills. Si une autre marketplace porte déjà le nom `personal`, utiliser l’installation locale des skills ci-dessous pour éviter une collision.
 
 Alternative locale : cloner le dépôt puis copier les dossiers de `plugins/ia-factory-agents/skills/` dans `~/.codex/skills/`, en vérifiant au préalable qu’aucun skill du même nom ne serait écrasé.
 
 La procédure marketplace suit la [documentation officielle OpenAI](https://developers.openai.com/plugins/build/plugins).
 
-## Les skills (13 agents + l'interview)
+## Les skills (14 agents + l'interview)
 
 | Agent | Skill |
 | --- | --- |
-| Mes documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
-| Agent Maintenance | [maintenance-agents](plugins/ia-factory-agents/skills/maintenance-agents/SKILL.md) |
-| Agent VoC (Voix du Client) | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
-| Coach Process & IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
-| Agent Analyse de call et closing | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
-| Agent Cas Clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
-| Agent Cadrage d'offre & Pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
-| Agent Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
-| Agent Chef de projet | [chef-de-projet](plugins/ia-factory-agents/skills/chef-de-projet/SKILL.md) |
-| Agent Transcript to Drive/Notion + Next Actions | [transcript-next-actions](plugins/ia-factory-agents/skills/transcript-next-actions/SKILL.md) |
-| Agent Préparation RDV découverte | [preparation-rdv-decouverte](plugins/ia-factory-agents/skills/preparation-rdv-decouverte/SKILL.md) |
-| Agent Rédaction | [redaction-contenu](plugins/ia-factory-agents/skills/redaction-contenu/SKILL.md) |
-| Agent Stratégie édito | [strategie-edito](plugins/ia-factory-agents/skills/strategie-edito/SKILL.md) |
-| Agent Propale | [propale](plugins/ia-factory-agents/skills/propale/SKILL.md) |
+| Florence, tes Documents de référence (interview, à lancer en premier) | [documents-de-reference](plugins/ia-factory-agents/skills/documents-de-reference/SKILL.md) |
+| Constance, ta Maintenance | [maintenance-agents](plugins/ia-factory-agents/skills/maintenance-agents/SKILL.md) |
+| Aya, ta Voix du client | [voc-voix-du-client](plugins/ia-factory-agents/skills/voc-voix-du-client/SKILL.md) |
+| Nadia, ta Coach Process et IA | [coach-process-ia](plugins/ia-factory-agents/skills/coach-process-ia/SKILL.md) |
+| Nicole, ton Analyse de call | [analyse-call-closing](plugins/ia-factory-agents/skills/analyse-call-closing/SKILL.md) |
+| Serena, tes Cas clients | [cas-clients](plugins/ia-factory-agents/skills/cas-clients/SKILL.md) |
+| Joséphine, ton Cadrage offre et pricing | [cadrage-offre-pricing](plugins/ia-factory-agents/skills/cadrage-offre-pricing/SKILL.md) |
+| Juliette, ton Lead Magnet | [lead-magnet-funnel](plugins/ia-factory-agents/skills/lead-magnet-funnel/SKILL.md) |
+| Colette, ta Cheffe de projet | [chef-de-projet](plugins/ia-factory-agents/skills/chef-de-projet/SKILL.md) |
+| Tina, ton Transcript | [transcript-next-actions](plugins/ia-factory-agents/skills/transcript-next-actions/SKILL.md) |
+| Berthe, ta Préparation RDV découverte | [preparation-rdv-decouverte](plugins/ia-factory-agents/skills/preparation-rdv-decouverte/SKILL.md) |
+| Simone, ta Coach rédaction | [redaction-contenu](plugins/ia-factory-agents/skills/redaction-contenu/SKILL.md) |
+| Coco, ta Stratégie édito | [strategie-edito](plugins/ia-factory-agents/skills/strategie-edito/SKILL.md) |
+| Nawal, ta Propale | [propale](plugins/ia-factory-agents/skills/propale/SKILL.md) |
+| Mireille, ta Veille offres de mission | [veille-offres-mission](plugins/ia-factory-agents/skills/veille-offres-mission/SKILL.md) |
 
 ## Le socle commun
 
-Chaque agent (sauf Stratégie édito et Rédaction, en cours de refonte) suit le même socle : il annonce en démarrant à quoi il sert, où il lit et où il range, et s'il s'utilise tel quel ou se personnalise ; il vérifie ses sources et ne crée rien en double ; il explique chaque outil qu'il fait entrer ; il va chercher l'info dans le mode agent plutôt que de demander des captures ; il rend le process en fin de séance (gris = l'IA, rose = à la main, goulots signalés) ; il finit par « Où on en est ».
+Chaque agent suit le même socle : il annonce en démarrant à quoi il sert, où il lit et où il range, et s'il s'utilise tel quel ou se personnalise ; il vérifie ses sources et ne crée rien en double ; il explique chaque outil qu'il fait entrer ; il va chercher l'info dans le mode agent plutôt que de demander des captures ; il rend le process en fin de séance (gris = l'IA, rose = à la main, goulots signalés) ; il finit par « Où on en est ». Aucun agent ne rédige un message à copier-coller pour une personne réelle : il suggère une piste, tu écris.
 
 ## Utilisation
 
@@ -53,7 +54,7 @@ Commencer par « Utilise $documents-de-reference pour lancer mon interview » : 
 
 Notion et Drive sont optionnels : connecter son propre compte pour y lire ou mettre à jour les données. Sans connecteur, les skills travaillent sur les fichiers fournis et livrent du contenu prêt à intégrer. Le plugin ne contient aucun compte, aucune base client, aucun identifiant de connecteur et aucune automatisation active. Les messages sont préparés en brouillon, l’envoi ou la publication nécessite une demande explicite.
 
-Chaînes possibles : Transcript → VoC → Stratégie édito → Rédaction ; Préparation RDV découverte → Closing → Propale ; suivi de mission → Cas clients. Elles indiquent des passages de contexte, pas une exécution automatique.
+Chaînes possibles : Aya, ta Voix du client → Coco, ta Stratégie édito → Simone, ta Coach rédaction ; Mireille, ta Veille offres de mission → Berthe, ta Préparation RDV découverte → Nicole, ton Analyse de call → Nawal, ta Propale ; Tina, ton Transcript → Colette, ta Cheffe de projet → Serena, tes Cas clients. Elles indiquent des passages de contexte, pas une exécution automatique.
 
 ## Sources et adaptation
 

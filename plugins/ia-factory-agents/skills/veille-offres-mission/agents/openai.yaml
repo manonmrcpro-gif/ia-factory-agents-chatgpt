@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mireille, ta Veille offres de mission"
+  short_description: "Repère les offres de mission pour toi sur LinkedIn, Malt et Welcome to the Jungle"
+  default_prompt: "Utilise $veille-offres-mission pour régler mes mots-clés avec moi et me trouver les offres de mission qui correspondent à mon offre."

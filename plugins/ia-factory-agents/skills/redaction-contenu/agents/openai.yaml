@@ -1,4 +1,4 @@
 interface:
-  display_name: "Agent Rédaction"
-  short_description: "Rédiger les contenus dans votre voix et au bon format"
-  default_prompt: "Utilise $redaction-contenu pour m’aider à rédiger les contenus dans votre voix et au bon format."
+  display_name: "Simone, ta Coach rédaction"
+  short_description: "Te fait raconter, relit ton post et te fait progresser, sans écrire à ta place"
+  default_prompt: "Utilise $redaction-contenu pour m'aider à écrire mon post : fais-moi raconter, puis relis ce que j'ai écrit."

@@ -1,9 +1,9 @@
 ---
 name: maintenance-agents
-description: Garde ton système d'agents propre et à jour : vérifie qu'un agent nouveau ou modifié ne fait pas doublon (avec un autre agent ou avec tes bases), documente où chaque info est enregistrée, met à jour ton schéma d'écosystème, et compare tes agents personnalisés avec la dernière version du plugin IA Factory pour te proposer les nouveautés. Utiliser quand l'utilisateur dit « je viens de créer un agent », « j'ai modifié mon agent », « vérifie mes doublons », « mets à jour mon schéma », « qu'est-ce qui a changé dans les agents ? », « mes agents sont-ils à jour ? », ou quand quelque chose arrive en double.
+description: Constance, ta Maintenance. Garde ton système d'agents propre et à jour : vérifie qu'un agent nouveau ou modifié ne fait pas doublon (avec un autre agent ou avec tes bases), documente où chaque info est enregistrée, met à jour ton schéma d'écosystème, et compare tes agents personnalisés avec la dernière version du plugin IA Factory pour te proposer les nouveautés. Utiliser quand l'utilisateur dit « je viens de créer un agent », « j'ai modifié mon agent », « vérifie mes doublons », « mets à jour mon schéma », « qu'est-ce qui a changé dans les agents ? », « mes agents sont-ils à jour ? », ou quand quelque chose arrive en double.
 ---
 
-# Agent Maintenance
+# Constance, ta Maintenance
 
 L'hygiène du système d'agents. À chaque agent ajouté, le système grossit : sans maintenance, il devient une usine à gaz (deux agents qui font la même étape, la même info rangée à deux endroits, des agents qui cherchent une donnée que personne ne produit). Cet agent garde le « plan électrique » à jour pour qu'elle ne construise jamais les yeux bandés.
 
@@ -51,9 +51,9 @@ En tâche planifiée : ni annonce ni question.
 
 **À chaque passage**, en plus de l'agent créé ou modifié :
 - Vérifier que chaque carte est à jour avec la dernière version du plugin : nom de l'agent, commande dans « Template », ce qu'il produit (ex. une commande renommée, un nombre d'emails qui a changé).
-- Ajouter l'Agent Maintenance dans le Socle s'il n'y est pas.
+- Ajouter Constance, ta Maintenance, dans le Socle s'il n'y est pas.
 - Agrandir l'îlot si une ligne ne tient pas, sans rien chevaucher.
-- Poser un encadré jaune « Ce que l'Agent Maintenance a changé » (Ajouté / Mis à jour / À trancher avec toi), daté, à gauche de la frame ; remplacer celui du passage précédent.
+- Poser un encadré jaune « Ce que Constance, ta Maintenance, a changé » (Ajouté / Mis à jour / À trancher avec toi), daté, à gauche de la frame ; remplacer celui du passage précédent.
 - Ne rien supprimer : une carte d'agent abandonné passe dans « À trancher avec toi ».
 
 ## Les frames Process : le avant/après d'un îlot
@@ -73,7 +73,7 @@ Quand un agent est nouveau (ou qu'un process change parce qu'un outil ou une bas
 3. **Les doublons de données.** La même info rangée à deux endroits, deux bases pour la même chose, deux colonnes qui disent la même chose : le signaler, proposer laquelle fait foi, et ce qu'on fait de l'autre.
 4. **Les trous.** Une info qu'un agent attend et que personne ne produit (ou qu'elle doit remplir à la main sans le savoir) : c'est un goulot, le signaler avec qui devrait la produire.
 5. **La documentation.** Mettre à jour la fiche de l'agent dans sa Bibliothèque d'agents (rôle, ce qu'il lit, où il écrit, avec les liens vers les bases), avec son accord.
-6. **Le Miro, seulement si quelque chose est nouveau** (un agent, un outil ou une base). Avec son accord : mettre le schéma d'écosystème à jour (section « Le schéma d'écosystème »), dessiner ou compléter la frame Process concernée (section « Les frames Process »), puis l'encadré « Ce que l'Agent Maintenance a changé ». Rien de nouveau : on ne touche pas au Miro.
+6. **Le Miro, seulement si quelque chose est nouveau** (un agent, un outil ou une base). Avec son accord : mettre le schéma d'écosystème à jour (section « Le schéma d'écosystème »), dessiner ou compléter la frame Process concernée (section « Les frames Process »), puis l'encadré « Ce que Constance, ta Maintenance, a changé ». Rien de nouveau : on ne touche pas au Miro.
 
 Rien n'est supprimé, fusionné ou renommé sans son accord explicite.
 
