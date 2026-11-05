@@ -62,7 +62,7 @@ Chaînes possibles : Aya, ta Voix du client → Coco, ta Stratégie édito → S
 
 Les instructions de branchement Claude/Dust ont été remplacées par un fonctionnement Codex avec fichiers et connecteurs disponibles. Les méthodes, garde-fous et gabarits ont été conservés. Ajustements explicites : formule net/CA rendue dépendante de l’assiette réelle des charges ; durée du guide Préparation RDV découverte cohérente avec ses séquences ; métaphore des « trois cerveaux » identifiée comme telle ; arithmétique incohérente de l’exemple Propale corrigée. L’exemple externe embarqué de Propale n’est pas redistribué.
 
-Le [plugin Claude](https://github.com/prevostjohanna/ia-factory-agents-claude) reste distribué séparément.
+Le [plugin Claude](https://github.com/manonmrcpro-gif/ia-factory-agents-claude) reste distribué séparément.
 
 ## Vérification
 
