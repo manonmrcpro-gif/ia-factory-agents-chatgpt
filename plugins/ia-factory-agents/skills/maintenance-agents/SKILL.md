@@ -19,7 +19,7 @@ Utiliser les connecteurs disponibles (Notion, Google Drive, Miro) dans le périm
 2. **Sources vérifiées, rien en double.** Vérifier que les sources existent avant de lancer. Une source manque ou existe en double : le dire et demander laquelle fait foi, ne pas en recréer une.
 3. **Chaque outil expliqué.** Quand je fais entrer un outil : à quoi il sert, pourquoi il est dans son écosystème, s'il est obligatoire ou non, ce qu'il coûte. Une ligne par outil.
 4. **Zéro capture d'écran.** Une info est sur un site ou dans un outil sans connecteur : proposer d'aller la chercher moi-même avec le mode agent de ChatGPT plutôt que de lui demander une capture. Seule exception : les clés et mots de passe, qu'elle renseigne elle-même.
-5. **Le process en sortie.** Gris = l'IA s'en charge ; rouge = elle garde la main (❤️ si c'est là qu'est sa valeur) ; « plus tard » = automatisable ensuite ; les goulots signalés.
+5. **Le process en sortie.** C'est moi qui le dessine sur Miro pour tous les agents (section « Les frames Process »).
 6. **Fin de session.** Finir par « Où on en est » : ce qui est fait, ce qui reste, où reprendre. Proposer de mettre à jour le contexte.
 
 En tâche planifiée : ni annonce ni question.
@@ -29,7 +29,8 @@ En tâche planifiée : ni annonce ni question.
 1. **La liste de ses agents** : ceux du plugin IA Factory qu'elle utilise tels quels, ceux qu'elle a dupliqués ou personnalisés (skills, projets, GPT personnalisés, instructions), et ceux qu'elle a créés elle-même. La Bibliothèque d'agents de son Hub Notion si elle l'a. Si la liste n'existe nulle part, la reconstruire avec elle une fois, puis la ranger dans le hub.
 2. **Ses bases et documents** : le Hub Notion (ou son Google Drive) via le connecteur, avec leur schéma réel (colonnes, relations).
 3. **Son schéma d'écosystème** sur Miro (outils, agents, qui interagit avec quoi), via le connecteur Miro si elle l'a.
-4. **La dernière version des agents IA Factory** : le plugin à jour (Claude : https://github.com/manonmrcpro-gif/ia-factory-agents-claude ; ChatGPT : https://github.com/manonmrcpro-gif/ia-factory-agents-chatgpt), dossier `skills/<nom-de-l-agent>/SKILL.md`.
+4. **Le Hub Freelance modèle** (Notion) : https://no-code-flow-edito.notion.site/Hub-Freelance-ton-cockpit-business-380f25a59ace81b39bcdf17247d73fc1
+5. **La dernière version des agents IA Factory** : le plugin à jour (Claude : https://github.com/manonmrcpro-gif/ia-factory-agents-claude ; ChatGPT : https://github.com/manonmrcpro-gif/ia-factory-agents-chatgpt), dossier `skills/<nom-de-l-agent>/SKILL.md`.
 
 ## Le schéma d'écosystème : où il est, comment le mettre à jour
 
@@ -55,6 +56,16 @@ En tâche planifiée : ni annonce ni question.
 - Poser un encadré jaune « Ce que l'Agent Maintenance a changé » (Ajouté / Mis à jour / À trancher avec toi), daté, à gauche de la frame ; remplacer celui du passage précédent.
 - Ne rien supprimer : une carte d'agent abandonné passe dans « À trancher avec toi ».
 
+## Les frames Process : le avant/après d'un process
+
+Quand un agent est nouveau (ou qu'un process change parce qu'un outil ou une base arrive), dessiner son process sur le board Miro, sous le schéma d'écosystème, juste sous l'îlot du pilier concerné, reliée à cet îlot par une flèche en pointillés « process ». **Une frame par process**, pas par agent : « Process · <nom du process> » (ex. « Préparer un rendez-vous de découverte »), car un process enchaîne souvent plusieurs agents. Si la frame de ce process existe déjà, la compléter au lieu d'en créer une. Partir du process que l'agent lui a rendu dans la conversation ; sinon lui poser 2 ou 3 questions sur comment elle fait aujourd'hui.
+   - En haut : le titre, une phrase d'explication, un bouton « ← Retour à ton écosystème » (lien vers sa frame d'écosystème), puis la légende : le mot « Légende » en simple titre (pas dans une case), et sur la même ligne gris = l'IA s'en charge · rose = tu le gardes à la main · ❤️ ta valeur · post-it bleu = outil · violet = agent · post-it orange = à vérifier.
+   - Un trait de séparation, puis **AVANT** (étiquette noire à gauche) : comment elle fait aujourd'hui, une case blanche par étape (2 ou 3 questions pour le savoir si ce n'est pas déjà dit), et un post-it jaune avec ce que ça lui coûte.
+   - Un trait de séparation, puis **APRÈS** : une case par étape, grise (`#e6e6e6`) si l'IA s'en charge, rose (`#da0063`, opacité 0,2) si elle la garde ; le ❤️ collé au coin de la case qui fait sa valeur ; l'outil en post-it bleu au-dessus (un vrai outil : Calendly, Notion, Gmail, « Claude (recherche web) », jamais « Web ») ; l'agent en violet (`#dedaff`) en dessous, avec un lien vers sa carte dans l'écosystème. Tous les agents du process y sont.
+   - Sous les étapes concernées, un post-it orange « À vérifier : … » avec un grand ⚠️ collé à son coin, pour chaque goulot (une étape à faire à la main sans laquelle l'agent suivant ne peut pas avancer).
+   - En bas, deux encadrés côte à côte, bien espacés : où vit ce process, et ce que ça change (temps avant/après, ce qu'on pourra automatiser plus tard). Titre en gras, une ligne vide, puis le texte ; hauteur ajustée au texte (pas de grand encadré à moitié vide).
+   - Navigation : sur chaque carte agent du schéma d'écosystème concernée, une petite pastille « ▶ Process » collée à la carte, avec le lien vers la frame. Frame ajustée au contenu, rien qui se chevauche.
+
 ## Mode 1 : un agent vient d'être créé ou modifié (hygiène)
 
 1. **Sa carte d'identité**, en 4 lignes : son rôle en une phrase, ce qu'il lit (source précise), ce qu'il écrit et où (base, colonne, page), ce qui le déclenche (à la main, tâche planifiée, enchaîné après un autre agent).
@@ -62,11 +73,11 @@ En tâche planifiée : ni annonce ni question.
 3. **Les doublons de données.** La même info rangée à deux endroits, deux bases pour la même chose, deux colonnes qui disent la même chose : le signaler, proposer laquelle fait foi, et ce qu'on fait de l'autre.
 4. **Les trous.** Une info qu'un agent attend et que personne ne produit (ou qu'elle doit remplir à la main sans le savoir) : c'est un goulot, le signaler avec qui devrait la produire.
 5. **La documentation.** Mettre à jour la fiche de l'agent dans sa Bibliothèque d'agents (rôle, ce qu'il lit, où il écrit, avec les liens vers les bases), avec son accord.
-6. **Le schéma d'écosystème.** Le mettre à jour soi-même, avec son accord, en suivant la section « Le schéma d'écosystème » ci-dessus : l'agent, ses outils, ce qu'il produit, les flèches, puis l'encadré « Ce que l'Agent Maintenance a changé ».
+6. **Le Miro, seulement si quelque chose est nouveau** (un agent, un outil ou une base). Avec son accord : mettre le schéma d'écosystème à jour (section « Le schéma d'écosystème »), dessiner ou compléter la frame Process concernée (section « Les frames Process »), puis l'encadré « Ce que l'Agent Maintenance a changé ». Rien de nouveau : on ne touche pas au Miro.
 
 Rien n'est supprimé, fusionné ou renommé sans son accord explicite.
 
-## Mode 2 : ses agents sont-ils à jour ? (mises à jour)
+## Mode 2 : ses agents et son hub Notion sont-ils à jour ? (mises à jour)
 
 Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqué ou personnalisé ne reçoit plus les mises à jour.
 
@@ -74,8 +85,9 @@ Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqu�
 2. Lister les différences qui viennent du plugin (nouvelles étapes, règles changées, nouveaux formats de sortie), en laissant de côté ses propres personnalisations.
 3. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte. Puis : « Tu veux l'ajouter ? »
 4. Sur un oui, l'intégrer sans écraser ses personnalisations. En cas de conflit (le plugin dit une chose, sa version une autre), lui montrer les deux et la laisser choisir.
-   Puis mettre à jour son board Miro dans la foulée : la carte de l'agent dans son schéma d'écosystème (commande, ce qu'il lit, ce qu'il produit) et les frames « Process · … » où il apparaît (étapes, gris et rose, outils), avec l'encadré « Ce que l'Agent Maintenance a changé ».
-5. Proposer de faire ce contrôle une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
+   Le Miro ne bouge que si la mise à jour fait entrer un nouvel outil, une nouvelle base ou un nouvel agent : dans ce cas, appliquer le point 6 du mode 1.
+5. **Le hub Notion aussi.** Un hub dupliqué ne reçoit pas non plus les évolutions du modèle. Comparer son hub au Hub Freelance modèle (https://no-code-flow-edito.notion.site/Hub-Freelance-ton-cockpit-business-380f25a59ace81b39bcdf17247d73fc1) : bases, colonnes, relations, pages ressources, fiches de la Bibliothèque d'agents. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte, « Tu veux l'ajouter ? ». Sur un oui, l'ajouter sans toucher à ses données ni à ce qu'elle a construit elle-même. Une nouvelle base ajoutée = quelque chose de nouveau : appliquer le point 6 du mode 1.
+6. Proposer de faire ce contrôle (plugin + hub Notion) une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
 
 ## Format de sortie
 
