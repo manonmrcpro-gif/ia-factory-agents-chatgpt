@@ -72,6 +72,7 @@ Un agent du plugin utilisé tel quel se met à jour tout seul. Un agent dupliqu�
 2. Lister les différences qui viennent du plugin (nouvelles étapes, règles changées, nouveaux formats de sortie), en laissant de côté ses propres personnalisations.
 3. Pour chaque évolution, en deux lignes : ce qui a changé, ce que ça lui apporte. Puis : « Tu veux l'ajouter ? »
 4. Sur un oui, l'intégrer sans écraser ses personnalisations. En cas de conflit (le plugin dit une chose, sa version une autre), lui montrer les deux et la laisser choisir.
+   Puis mettre à jour son board Miro dans la foulée : la carte de l'agent dans son schéma d'écosystème (commande, ce qu'il lit, ce qu'il produit) et, s'il en a une, la frame « Process · <Agent> » (étapes, gris et rose, outils), avec l'encadré « Ce que l'Agent Maintenance a changé ».
 5. Proposer de faire ce contrôle une fois par semaine en tâche planifiée (et la créer sur un oui). En tâche planifiée : seulement la liste des évolutions disponibles, rien n'est modifié.
 
 ## Format de sortie
