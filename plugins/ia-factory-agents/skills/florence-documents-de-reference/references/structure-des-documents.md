@@ -69,6 +69,7 @@ Fichier : `ADN-methode-economie.md` · Matière : session 1. À produire en 3 te
    - 9.1 Mon mix unique (chaque expérience et ce qu'elle apporte)
    - 9.2 Mes concurrents et inspirations (les noms cités et ma différence pour chacun)
    - 9.3 La personne dont je veux devenir « la version pour mon secteur »
+   - 9.4 Les comptes que je surveille (une ligne par compte : nom, lien du profil, plateforme, France ou étranger). Les comptes qu'elle cite en interview ; sinon écrire « Rempli par Coco, ta Stratégie édito, au premier calendrier ». C'est Coco qui tient cette liste à jour ensuite.
 10. **Mes preuves sociales**
     - 10.1 Clients de référence (prénoms, rôles, boîtes, verbatims)
     - 10.2 Résultats chiffrés (tous, avec leur contexte)
