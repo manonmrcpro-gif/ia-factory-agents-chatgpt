@@ -43,17 +43,38 @@
 
 ## La roue des émotions
 
-Au centre, la famille ; vers l'extérieur, les nuances. On cherche d'abord la famille, puis le mot le plus précis. Si l'utilisatrice a sa propre roue (image ou PDF), on utilise la sienne ; sinon, celle-ci :
+Trois anneaux : au centre la famille, puis l'émotion, puis la nuance. On part du centre et on va vers l'extérieur pour trouver le mot juste. La roue imprimable (même contenu) est dans le Hub Freelance ; si l'utilisatrice a sa propre roue, on utilise la sienne.
 
-| Famille (centre) | Nuances (vers l'extérieur) |
-|---|---|
-| Peur | inquiet·e, anxieux·se, méfiant·e, dépassé·e, vulnérable, paniqué·e, en insécurité |
-| Tristesse | découragé·e, déçu·e, seul·e, épuisé·e, impuissant·e, abattu·e, nostalgique |
-| Colère | frustré·e, agacé·e, irrité·e, exaspéré·e, impatient·e, vexé·e, à bout |
-| Honte | coupable, gêné·e, illégitime, nul·le, mal à l'aise, jugé·e |
-| Surprise | étonné·e, déstabilisé·e, intrigué·e, ébloui·e, pris·e de court |
-| Joie | soulagé·e, enthousiaste, fier·ère, reconnaissant·e, léger·ère, optimiste, inspiré·e |
-| Confiance | rassuré·e, compris·e, en sécurité, en contrôle, serein·e, légitime, autonome |
+| Famille (centre) | Émotion | Nuances (extérieur) |
+|---|---|---|
+| Joie | Fier·ère | reconnu·e, légitime |
+| Joie | Confiant·e | serein·e, en sécurité |
+| Joie | Soulagé·e | léger·ère, libéré·e |
+| Joie | Optimiste | inspiré·e, plein·e d'espoir |
+| Joie | Reconnaissant·e | touché·e, valorisé·e |
+| Joie | Enthousiaste | motivé·e, curieux·se |
+| Surprise | Étonné·e | ébahi·e, sans voix |
+| Surprise | Intrigué·e | fasciné·e, captivé·e |
+| Surprise | Déstabilisé·e | perplexe, désorienté·e |
+| Surprise | Pris·e de court | choqué·e, déconcerté·e |
+| Tristesse | Seul·e | isolé·e, abandonné·e |
+| Tristesse | Découragé·e | impuissant·e, sans espoir |
+| Tristesse | Déçu·e | désillusionné·e, blessé·e |
+| Tristesse | Coupable | honteux·se, illégitime |
+| Tristesse | Épuisé·e | vidé·e, à bout |
+| Colère | Frustré·e | agacé·e, impatient·e |
+| Colère | Irrité·e | exaspéré·e, à cran |
+| Colère | Trahi·e | lésé·e, pas respecté·e |
+| Colère | Humilié·e | rabaissé·e, ridiculisé·e |
+| Colère | Critique | sceptique, méfiant·e |
+| Peur | Inquiet·ète | anxieux·se, nerveux·se |
+| Peur | Dépassé·e | submergé·e, débordé·e |
+| Peur | En insécurité | vulnérable, fragile |
+| Peur | Pas à la hauteur | nul·le, imposteur·rice |
+| Peur | Menacé·e | exposé·e, jugé·e |
+| Rejet | Réticent·e | braqué·e, fermé·e |
+| Rejet | Lassé·e | saturé·e, écœuré·e |
+| Rejet | Mal à l'aise | gêné·e, embarrassé·e |
 
 ## L'expérience à faire vivre : idées de ce qui fait naître une émotion
 
