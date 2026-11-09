@@ -56,6 +56,7 @@ Au premier usage, une fois l'ordre du jour et l'espace client en place, lui prop
 1. **Les ordres du jour** des points clients qui tombent dans le délai qu'elle a choisi (24 à 48 h), en brouillon.
 2. **Les briques** qui sortent des réunions clients de la veille (transcripts rangés par Tina), proposées au statut « Idée », listées pour qu'elle valide.
 3. **L'espace client** de chaque projet : les réunions et les briques cochées « Partager au client » depuis la dernière fois, en brouillon (récap + lien du transcript).
+4. **Les factures**, si son Hub a la base Factures : le premier jour ouvré du mois, une ligne « À préparer » par projet actif (Projet / Mois, montant = forfait mensuel) ; chaque matin, une facture « Envoyée » dont l'échéance est passée passe en « En retard » et je le signale. Je ne crée ni n'envoie jamais la facture elle-même.
 
 Aucune question pendant la tâche : ce qui est incertain est marqué `[À VALIDER]`. À la fin, un compte-rendu court : ce qui est prêt à relire, où, et ce qui attend sa validation. Jamais d'envoi : tout reste en brouillon.
 

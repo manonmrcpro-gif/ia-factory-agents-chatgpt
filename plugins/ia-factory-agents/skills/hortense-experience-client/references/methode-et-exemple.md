@@ -150,7 +150,7 @@ Les questions pour brainstormer sur le brouillon :
 
 On redessine à chaque tour, jusqu'à ce qu'elle dise que c'est bon.
 
-## La fiche rendez-vous (étape 6, pré-remplie par Hortense)
+## La carte rendez-vous (étape 6, pré-remplie par Hortense, posée sur la frise dans son Miro)
 
 | | |
 |---|---|
@@ -198,7 +198,7 @@ Les coulisses, en échange :
 
 Premier brouillon : 6 cases, au-dessus de la case 4 un vide (aucun point, aucun envoi pendant 3 semaines). Le brainstorm fait sortir trois choses : les messages WhatsApp passent dans l'espace client (ce qu'il envoie y est rangé), le récap après chaque point passe en gris (Colette prépare, Inès relit), et un point de 30 minutes à mi-parcours comble le creux.
 
-Fiche rendez-vous, point de mi-parcours : objectif = préparer les entretiens annuels sans stress ; 30 min, une fois ; le dirigeant ; avant = kit entretiens envoyé à J-3 (gris, préparé par l'IA, relu par elle, 20 min) ; pendant = où on en est, ses doutes, le plan des entretiens ; après = récap et prochaines étapes dans l'espace client sous 24 h (gris, 10 min).
+Carte rendez-vous, point de mi-parcours : objectif = préparer les entretiens annuels sans stress ; 30 min, une fois ; le dirigeant ; avant = kit entretiens envoyé à J-3 (gris, préparé par l'IA, relu par elle, 20 min) ; pendant = où on en est, ses doutes, le plan des entretiens ; après = récap et prochaines étapes dans l'espace client sous 24 h (gris, 10 min).
 
 Semaine type : environ 2 h à 2 h 30 par client et par semaine en moyenne (estimation). Avec 4 jours pour ses clients, elle tient 5 clients en simultané. Objectif : 4. **Verdict : tenable**, avec la marge pour ajouter le point de mi-parcours.
 

@@ -111,7 +111,11 @@ Puis on brainstorme dessus : « Qu'est-ce que tu enlèves ? Qu'est-ce qui manque
 
 ### Étape 6 : ses rendez-vous
 
-À partir de ce qu'elle a dit, je pré-remplis une fiche par rendez-vous (lancement, points de suivi, mi-parcours, restitution, bilan) : l'objectif (ce que le client a tranché en sortant), la fréquence et la durée, qui est là, ce qu'on envoie avant (ordre du jour 24 à 48 h avant, délai qu'elle choisit), le déroulé en 3 ou 4 temps, ce qu'on envoie après (récap sous 24 h par exemple) et où ça se range. Elle corrige. Je place les rendez-vous sur la frise.
+À partir de ce qu'elle a dit, je pré-remplis une carte par rendez-vous (lancement, points de suivi, mi-parcours, restitution, bilan) : l'objectif (ce que le client a tranché en sortant), la fréquence et la durée, qui est là, ce qu'on envoie avant (ordre du jour 24 à 48 h avant, délai qu'elle choisit), le déroulé en 3 ou 4 temps, ce qu'on envoie après (récap sous 24 h par exemple) et où ça se range. Elle corrige. Je place les rendez-vous sur la frise.
+
+### Valider, puis mettre sur son Miro
+
+On brainstorme dans la conversation. Dès qu'elle dit que c'est bon, je mets la version validée sur **son Miro personnel** (le board de sa roadmap et de son écosystème) avec le connecteur Miro : une frame « Mon expérience client » avec la frise (parcours client en bas, coulisses au-dessus, aux couleurs gris, rose, ❤️) et une carte par rendez-vous posée sur la frise. Rien ne part sur Miro tant qu'elle n'a pas validé. Je vérifie d'abord que la frame n'existe pas déjà : si elle existe, je la mets à jour. Sans connecteur Miro, je lui donne le visuel et le pas-à-pas pour le poser. Si un agent ou un outil nouveau est apparu dans les coulisses, je lui propose ensuite Constance, ta Maintenance, pour mettre son schéma d'écosystème à jour.
 
 ### Étape 7 : sa semaine type, et le retour à l'offre
 
@@ -135,7 +139,7 @@ C'est moi qui produis le livrable. Visuel d'abord : un seul schéma qui s'est co
 2. **Ta courbe d'émotion** sous les 6 cases, avec ton moment clé.
 3. **L'expérience que tu veux faire vivre** : sous chaque case, l'émotion visée et ce qui la fait naître ; ce qu'il emporte à la fin.
 4. **Tes coulisses** au-dessus des cases : ce que ton client t'envoie, ce que tu lui livres, qui le fait, l'outil (la fonction), le temps estimé, la couleur.
-5. **Tes rendez-vous** : une fiche par rendez-vous, placés sur la frise.
+5. **Tes rendez-vous** : une carte par rendez-vous, placée sur la frise.
 6. **Ta semaine type** et le nombre de clients en simultané.
 7. **Le verdict offre** : tenable ou non face à ton Excel de pilotage, et les leviers chiffrés (estimation).
 8. **Ton changement n° 1.**
