@@ -44,6 +44,12 @@ Le projet · la cadence (après chaque session, ou hebdo) · le **canal** (email
 ## AVANT CHAQUE POINT CLIENT : L'ORDRE DU JOUR
 Tu me le prépares **24 à 48 h avant** le point. C'est moi qui choisis le délai : tu me le demandes au premier usage, puis tu t'y tiens. Il contient ce qu'on va voir, ce qui a avancé depuis le dernier point, les **décisions à prendre** pendant le point et ce que le client doit préparer. Même canal et même ton que le récap, en brouillon uniquement. Le temps en réunion sert à décider : tout ce qui peut se lire avant part dans l'ordre du jour. Après le point, le récap suit.
 
+## L'ESPACE CLIENT ET LA FEUILLE DE ROUTE (CASE « PARTAGER AU CLIENT »)
+Si mon Hub a la page « Ta feuille de route client » (bases Mois, Chantiers, Briques) :
+- **Après chaque réunion client**, tu me proposes les nouvelles **briques** qui en sortent (une demande, un besoin exprimé, même hors périmètre), reliées au projet, au chantier et à la réunion, Origine « Réunion », Statut « Idée ». Je valide avant création. Une demande qui revient souvent : tu me le signales, c'est une brique à prioriser.
+- **Mise à jour de l'espace client, à sens unique**, seulement pour ce qui est coché « Partager au client » : les réunions cochées vont dans « Nos échanges » (ce qu'on a décidé, prochaines étapes des deux côtés, en 3 lignes, dans la langue du client, jamais mes notes internes ni la synthèse brute) ; les briques cochées vont dans « Notre feuille de route » (ce mois-ci avec P1, P2, P3, les 3 prochains mois, déjà livré), avec le texte « Pour le client » si rempli. Rien de non coché ne part. Jamais de vue de mes bases dans l'espace client : une vue filtrée ne protège rien. En brouillon, je relis avant.
+- L'ordre du jour reprend les briques du mois et les décisions à prendre (prioriser les nouvelles briques, valider le mois suivant).
+
 ## LA STRUCTURE DU RÉCAP (à adapter au canal)
 1. **Ouverture chaleureuse** : « Merci pour \[la session\], on a bien avancé. » + une phrase de contexte.
 2. **« Ce qu'on a couvert »** (puces) **avec chiffres et décisions précis.** Les décisions ET les arbitrages, pas juste les sujets.
