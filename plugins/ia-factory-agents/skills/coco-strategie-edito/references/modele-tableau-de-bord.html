@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemple : tableau de bord contenu (Coco, ta Stratégie édito)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f7f6f3;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#e7e5e0;--tofu:#5b7cfa;--mofu:#f2a541;--bofu:#2fa36b;--up:#2fa36b;--down:#d1495b;--accent:#1d1d1f}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.5}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 56px}
+  .banner{background:#fff4d6;border:1px solid #f0dca0;border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:20px}
+  header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:24px}
+  h1{font-size:26px;margin:0}
+  .sub{color:var(--mute);font-size:14px}
+  h2{font-size:16px;margin:0 0 14px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:20px}
+  .hero{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;align-items:center}
+  .hook{font-size:20px;font-weight:600;line-height:1.35;margin:6px 0 12px}
+  .tags span{display:inline-block;font-size:12px;padding:3px 10px;border-radius:99px;background:#f1efea;margin:0 6px 6px 0}
+  .tags .tofu{background:#e8edff;color:#3550c9}.tags .mofu{background:#fdf0dc;color:#9a5d0a}.tags .bofu{background:#dff3e8;color:#1d6e47}
+  .heroStats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .heroStats div{background:#faf9f6;border-radius:10px;padding:12px}
+  .big{font-size:24px;font-weight:700}
+  .lbl{font-size:12px;color:var(--mute)}
+  .why{font-size:14px;color:var(--mute);margin-top:4px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .kpi .v{font-size:24px;font-weight:700;margin:2px 0}
+  .delta{font-size:13px;font-weight:600}
+  .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--mute)}
+  .src{font-size:11px;color:var(--mute);margin-top:4px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+  th{font-size:12px;color:var(--mute);font-weight:600}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+  .bar{height:8px;border-radius:4px;background:#d9d6cf}
+  .legend{display:flex;gap:16px;font-size:13px;color:var(--mute);margin-top:8px}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  .adt{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .adt div{border-radius:12px;padding:16px}
+  .adt b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+  .stop{background:#fbe9ec}.double{background:#dff3e8}.test{background:#e8edff}
+  .person{padding:12px 0;border-bottom:1px solid var(--line)}
+  .person:last-child{border-bottom:0}
+  .person .who{font-weight:600}
+  .person .ctx{font-size:13px;color:var(--mute)}
+  .person .piste{font-size:14px;margin-top:4px}
+  .person .piste:before{content:"➜ "}
+  .tabs{display:inline-flex;background:#efede8;border-radius:99px;padding:3px;margin-bottom:14px}
+  .tabs button{border:0;background:transparent;padding:6px 16px;border-radius:99px;font:inherit;font-size:13px;cursor:pointer;color:var(--mute)}
+  .tabs button.on{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+  .hide{display:none}
+  a{color:#3550c9;text-decoration:none}a:hover{text-decoration:underline}
+  .go{font-size:13px;white-space:nowrap}
+  .note{font-size:12px;color:var(--mute);margin-top:10px}
+  footer{font-size:12px;color:var(--mute);margin-top:12px}
+  footer li{margin-bottom:3px}
+  @media (max-width:760px){.hero,.grid2,.grid3,.adt{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="banner">MODÈLE : reprendre cette structure et ce style, remplacer toutes les données par les siennes, retirer ce bandeau. Données d’exemple fictives (Inès, consultante RH).</div>
+
+  <header>
+    <div>
+      <h1>Tableau de bord contenu</h1>
+      <div class="sub">Inès · LinkedIn · semaine 3 du mois, comparée à la semaine 2</div>
+    </div>
+    <div class="sub">4 posts publiés · mis à jour au point hebdo du lundi</div>
+  </header>
+
+  <!-- POST DE LA SEMAINE -->
+  <section class="card">
+    <h2>🏆 Le post de la semaine</h2>
+    <div class="hero">
+      <div>
+        <div class="hook">« J'ai refusé une mission à 18 000 €. Le client voulait un process de recrutement, il avait un problème de manager. »</div>
+        <div class="tags"><span>Pilier : Toi</span><span class="mofu">MOFU</span><span>Style : récit</span><span>Source : vécu</span></div>
+        <div class="why">Pourquoi il a peut-être marché : un chiffre et un refus dès la première ligne ? une histoire vraie ? la question de fin qui a fait parler la cible ? À confirmer sur les prochains récits.</div>
+        <div style="margin-top:10px"><a class="go" href="https://www.linkedin.com/" target="_blank">Voir le post ↗</a></div>
+      </div>
+      <div class="heroStats">
+        <div><div class="big">6 840</div><div class="lbl">impressions</div></div>
+        <div><div class="big">×2,6</div><div class="lbl">plus d'interactions que tes posts habituels</div></div>
+        <div><div class="big">142</div><div class="lbl">réactions</div></div>
+        <div><div class="big">47</div><div class="lbl">commentaires, dont 11 de la cible</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KPIs -->
+  <section class="card">
+    <h2>📊 En chiffres</h2>
+    <div class="tabs"><button class="on" data-v="sem">La semaine</button><button data-v="mois">Le mois (4 semaines)</button></div>
+    <div class="kpis" id="sem">
+      <div class="kpi"><div class="lbl">Impressions</div><div class="v">14 920</div><div class="delta up">▲ +38 % (10 810)</div><div class="src">LinkedIn, Claude in Chrome</div></div>
+      <div class="kpi"><div class="lbl">Abonnés gagnés</div><div class="v">+86</div><div class="delta up">▲ +31 (55)</div><div class="src">Apify, différence d'abonnés</div></div>
+      <div class="kpi"><div class="lbl">Interactions</div><div class="v">412</div><div class="delta up">▲ +22 % (337)</div><div class="src">Apify, réactions + commentaires</div></div>
+      <div class="kpi"><div class="lbl">Taux d'engagement</div><div class="v">2,8 %</div><div class="delta down">▼ −0,3 pt (3,1 %)</div><div class="src">interactions ÷ impressions</div></div>
+      <div class="kpi"><div class="lbl">Commentaires de la cible</div><div class="v">19</div><div class="delta up">▲ +7 (12)</div><div class="src">Apify, filtré sur sa cible</div></div>
+      <div class="kpi"><div class="lbl">Visites de profil</div><div class="v">312</div><div class="delta up">▲ +64 (248)</div><div class="src">LinkedIn, Claude in Chrome</div></div>
+      <div class="kpi"><div class="lbl">Inscrits lead magnet</div><div class="v">9</div><div class="delta up">▲ +5 (4)</div><div class="src">Brevo</div></div>
+      <div class="kpi"><div class="lbl">Conversations ouvertes</div><div class="v">6</div><div class="delta up">▲ +2 (4)</div><div class="src">Inès, au point hebdo</div></div>
+      <div class="kpi"><div class="lbl">RDV grâce au contenu</div><div class="v">2</div><div class="delta flat">= (2)</div><div class="src">formulaire « Comment tu m'as connue ? »</div></div>
+      <div class="kpi"><div class="lbl">Clients signés</div><div class="v">1 · 4 200 €</div><div class="delta up">▲ +1 (0)</div><div class="src">suivi commercial</div></div>
+    </div>
+    <div class="kpis hide" id="mois">
+      <div class="kpi"><div class="lbl">Impressions</div><div class="v">48 300</div><div class="delta up">▲ +21 % (39 900)</div><div class="src">vs les 4 semaines d'avant</div></div>
+      <div class="kpi"><div class="lbl">Abonnés gagnés</div><div class="v">+262</div><div class="delta up">▲ +74 (188)</div><div class="src">Apify, différence d'abonnés</div></div>
+      <div class="kpi"><div class="lbl">Interactions</div><div class="v">1 418</div><div class="delta up">▲ +12 % (1 266)</div><div class="src">Apify</div></div>
+      <div class="kpi"><div class="lbl">Taux d'engagement</div><div class="v">2,9 %</div><div class="delta down">▼ −0,3 pt (3,2 %)</div><div class="src">interactions ÷ impressions</div></div>
+      <div class="kpi"><div class="lbl">Commentaires de la cible</div><div class="v">57</div><div class="delta up">▲ +18 (39)</div><div class="src">Apify, filtré sur sa cible</div></div>
+      <div class="kpi"><div class="lbl">Visites de profil</div><div class="v">1 040</div><div class="delta up">▲ +19 % (874)</div><div class="src">LinkedIn, Claude in Chrome</div></div>
+      <div class="kpi"><div class="lbl">Inscrits lead magnet</div><div class="v">23</div><div class="delta up">▲ +11 (12)</div><div class="src">Brevo</div></div>
+      <div class="kpi"><div class="lbl">Conversations ouvertes</div><div class="v">17</div><div class="delta up">▲ +6 (11)</div><div class="src">Inès, aux points hebdo</div></div>
+      <div class="kpi"><div class="lbl">RDV grâce au contenu</div><div class="v">5</div><div class="delta up">▲ +2 (3)</div><div class="src">formulaire « Comment tu m'as connue ? »</div></div>
+      <div class="kpi"><div class="lbl">Clients signés</div><div class="v">2 · 8 900 €</div><div class="delta up">▲ +1 (1)</div><div class="src">suivi commercial</div></div>
+    </div>
+    <div class="note">La semaine bouge beaucoup (un post qui part, un jour férié) : regarde le mois pour la tendance.</div>
+  </section>
+
+  <!-- POSTS DE LA SEMAINE -->
+  <section class="card">
+    <h2>📝 Chaque post, lu selon son objectif</h2>
+    <table>
+      <thead><tr><th>Post</th><th>Étape</th><th>Jugé sur</th><th class="n">Impressions</th><th class="n">Interactions</th><th class="n">vs tes posts habituels</th><th>Lecture (hypothèse)</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://www.linkedin.com/" target="_blank">Refus de la mission à 18 000 € ↗</a></td><td><span style="color:#9a5d0a">MOFU</span></td><td>commentaires de la cible</td><td class="n">6 840</td><td class="n">189</td><td class="n up">×2,6</td><td>🔥 Le récit chiffré ? à revérifier sur le prochain</td></tr>
+        <tr><td><a href="https://www.linkedin.com/" target="_blank">3 signes que ton turnover vient du management ↗</a></td><td><span style="color:#3550c9">TOFU</span></td><td>portée et abonnés</td><td class="n">4 910</td><td class="n">121</td><td class="n up">×1,7</td><td>Bon pour la portée (+38 abonnés) : le format liste ?</td></tr>
+        <tr><td><a href="https://www.linkedin.com/" target="_blank">Mon diagnostic RH en 10 questions (lead magnet) ↗</a></td><td><span style="color:#1d6e47">BOFU</span></td><td>inscriptions et RDV</td><td class="n">1 650</td><td class="n">58</td><td class="n">×0,8</td><td>Peu de vues mais 7 inscrits : il a sans doute fait son job</td></tr>
+        <tr><td><a href="https://www.linkedin.com/" target="_blank">Les entretiens annuels ne servent à rien ↗</a></td><td><span style="color:#3550c9">TOFU</span></td><td>portée et abonnés</td><td class="n">1 520</td><td class="n">44</td><td class="n down">×0,4</td><td>Flop ? Hook trop vu, ou mauvais jour (vendredi) ?</td></tr>
+      </tbody>
+    </table>
+    <div class="note">« vs tes posts habituels » : interactions du post ÷ interactions d'un post typique de toi (la médiane de tes 15 derniers posts). ×2 = deux fois plus que d'habitude. Sous ×0,5 : flop possible. Un post vit plusieurs semaines : ces lectures sont des pistes, pas des verdicts.</div>
+    <div class="legend"><span><i style="background:var(--tofu)"></i>TOFU : faire connaître</span><span><i style="background:var(--mofu)"></i>MOFU : faire réfléchir</span><span><i style="background:var(--bofu)"></i>BOFU : faire signer</span></div>
+  </section>
+
+  <!-- PAR PILIER / ETAPE / STYLE -->
+  <section class="grid3">
+    <div class="card">
+      <h2>Par pilier (4 semaines)</h2>
+      <table>
+        <tr><th>Pilier</th><th class="n">Interactions moy.</th></tr>
+        <tr><td>Toi</td><td class="n">164</td></tr>
+        <tr><td>Ta méthode</td><td class="n">98</td></tr>
+        <tr><td>Le marché</td><td class="n">61</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h2>Par étape (4 semaines)</h2>
+      <table>
+        <tr><th>Étape</th><th class="n">Posts</th><th class="n">Résultat</th></tr>
+        <tr><td>TOFU</td><td class="n">7</td><td class="n">+212 abonnés</td></tr>
+        <tr><td>MOFU</td><td class="n">5</td><td class="n">41 comm. cible</td></tr>
+        <tr><td>BOFU</td><td class="n">4</td><td class="n">23 inscrits · 5 RDV</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h2>Par style (4 semaines)</h2>
+      <table>
+        <tr><th>Style</th><th class="n">Interactions moy.</th></tr>
+        <tr><td>Récit</td><td class="n">171</td></tr>
+        <tr><td>Liste / conseils</td><td class="n">96</td></tr>
+        <tr><td>Opinion</td><td class="n">72</td></tr>
+        <tr><td>Carrousel</td><td class="n">65</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- ARRETE DOUBLE TESTE -->
+  <section class="card">
+    <h2>🎯 La semaine prochaine</h2>
+    <div class="adt">
+      <div class="stop"><b>Arrête ?</b>Les hooks « X ne sert à rien » : 2 posts sous la moyenne sur 2 ce mois-ci. Pas sûr que ce soit le sujet : les entretiens annuels méritent une 2e chance avec un récit.</div>
+      <div class="double"><b>Double</b>Les récits de mission avec un chiffre dans la 1re ligne : ×2,1 en moyenne sur 4 semaines.</div>
+      <div class="test"><b>Teste</b>Un carrousel BOFU qui reprend les 3 questions du diagnostic qui font le plus réagir, avec le lien en PS.</div>
+    </div>
+    <div class="why" style="margin-top:12px">Décidé au point précédent : publier le mardi plutôt que le vendredi. Résultat : +29 % d'impressions sur les posts du mardi. On garde.</div>
+  </section>
+
+  <!-- PERSONNES CHAUDES -->
+  <section class="grid2">
+    <div class="card">
+      <h2>💬 Elles commentent</h2>
+      <div class="person"><div class="who"><a href="https://www.linkedin.com/" target="_blank">Sarah L. ↗</a> · DRH, PME industrielle (120 salariés)</div><div class="ctx">3 commentaires ce mois · mardi : « on a exactement ce problème avec deux managers »</div><div class="piste">Tu pourrais lui demander comment ça se passe avec ces deux managers depuis.</div><div class="ctx" style="margin-top:4px"><a href="https://www.linkedin.com/" target="_blank">Son commentaire ↗</a></div></div>
+      <div class="person"><div class="who"><a href="https://www.linkedin.com/" target="_blank">Karim B. ↗</a> · Dirigeant, cabinet d'expertise comptable</div><div class="ctx">1er commentaire · sur le post du refus de mission</div><div class="piste">Tu pourrais lui demander ce qui l'a fait réagir dans l'histoire.</div></div>
+      <div class="person"><div class="who"><a href="https://www.linkedin.com/" target="_blank">Julie M. ↗</a> · Office manager, start-up (45 salariés)</div><div class="ctx">2 commentaires · demande « tu as un modèle d'entretien de recadrage ? »</div><div class="piste">Tu pourrais lui demander dans quelle situation elle en a besoin.</div></div>
+    </div>
+    <div class="card">
+      <h2>👍 Elles likent</h2>
+      <div class="person"><div class="who"><a href="https://www.linkedin.com/" target="_blank">Nadia R. ↗</a> · DAF, ETI de la distribution</div><div class="ctx">4 posts likés sur les 6 derniers</div><div class="piste">Tu pourrais lui demander si le sujet du turnover se pose chez eux en ce moment.</div></div>
+      <div class="person"><div class="who"><a href="https://www.linkedin.com/" target="_blank">Thomas P. ↗</a> · Fondateur, agence web (25 salariés)</div><div class="ctx">3 posts likés, dont les 2 BOFU</div><div class="piste">Tu pourrais lui demander s'il a pu tester le diagnostic.</div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>✍️ À commenter cette semaine</h2>
+    <table>
+      <tr><th>Qui</th><th>Son post</th><th>Pourquoi</th><th></th></tr>
+      <tr><td>Sarah L. · DRH</td><td>« Recruter vite ou recruter bien ? »</td><td>elle commente tes posts, c'est le moment de lui rendre la pareille</td><td class="go"><a href="https://www.linkedin.com/" target="_blank">Commenter ↗</a></td></tr>
+      <tr><td>Nadia R. · DAF</td><td>« Notre turnover nous coûte 2 postes par an »</td><td>en plein dans ton sujet, elle like sans commenter</td><td class="go"><a href="https://www.linkedin.com/" target="_blank">Commenter ↗</a></td></tr>
+      <tr><td>Compte suivi · 28 k abonnés</td><td>« Le management intermédiaire est le grand oublié »</td><td>il surperforme (×3,1) : ta cible est dans les commentaires</td><td class="go"><a href="https://www.linkedin.com/" target="_blank">Commenter ↗</a></td></tr>
+    </table>
+    <div class="note">Un commentaire qui apporte un vrai point de vue, pas « super post ». Tu l'écris avec tes mots.</div>
+  </section>
+  <div class="why" style="margin:-8px 0 20px">Rappel : un message court, une question simple, facile à répondre, sans pitch. Tu l'écris avec tes mots.</div>
+
+  <footer class="card">
+    <h2>D'où viennent les chiffres</h2>
+    <ul>
+      <li>Posts, réactions, commentaires, qui commente, qui like, nombre d'abonnés : Apify (scrapers sans cookie), une fois par semaine.</li>
+      <li>Impressions et visites de profil : statistiques LinkedIn, lues par Coco avec Claude in Chrome (ou ton export LinkedIn).</li>
+      <li>Inscrits lead magnet : Brevo. RDV grâce au contenu : réponses à « Comment tu m'as connue ? ». Clients signés : ton suivi commercial.</li>
+      <li>Les liens ouvrent LinkedIn (ici des liens d'exemple). Les posts à commenter viennent d'Apify, sur les profils des personnes chaudes et de tes comptes suivis.</li>
+      <li>Tout est stocké dans ta base Notion « Tableau de bord contenu ». Cette page n'en est que l'affichage.</li>
+    </ul>
+  </footer>
+
+</div>
+<script>
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('on',x===b));
+  document.getElementById('sem').classList.toggle('hide',b.dataset.v!=='sem');
+  document.getElementById('mois').classList.toggle('hide',b.dataset.v!=='mois');
+}));
+</script>
+</body>
+</html>

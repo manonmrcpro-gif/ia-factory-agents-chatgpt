@@ -36,13 +36,28 @@ Si son formulaire de prise de rendez-vous n'a pas la question « Comment tu m'as
 - **Les chiffres de chaque post** dans la base « Calendrier de contenu » (`Lien du post`, `Impressions`, `Réactions`, `Commentaires`, `Engagement`, `Statut` → Publié).
 - **Le tableau de bord** (obligatoire) : la base Notion stocke, elle n'est pas le tableau de bord. À chaque point hebdo, l'agent montre un tableau de bord qui reprend toutes les stats de la base (dans un canevas s'il peut l'afficher, sinon en tableau) : en haut le post qui a le mieux marché, puis les chiffres de la semaine comparés à la semaine précédente, les résultats par pilier, par étape et par style, et les personnes chaudes.
 
+## Le tableau de bord : toujours le même modèle
+
+Modèle à suivre : `references/modele-tableau-de-bord.html` (exemple fictif d'Inès, consultante RH). Toutes les participantes ont la même structure : la reprendre telle quelle, dans cet ordre, avec ses données à elle. Pas de graphiques improvisés à la place.
+
+1. **Le post de la semaine** : son hook, pilier, étape, style, source ; impressions, réactions, commentaires (dont ceux de la cible) ; son score « ×2,6 plus d'interactions que tes posts habituels » ; pourquoi il a **peut-être** marché ; le lien du post.
+2. **En chiffres, avec deux onglets : la semaine et le mois** (4 dernières semaines), chacun comparé à la période d'avant : impressions, abonnés gagnés, interactions, taux d'engagement, commentaires de la cible, visites de profil, inscrits lead magnet, conversations ouvertes, RDV grâce au contenu, clients signés et montant. Chaque chiffre dit d'où il vient. Une ligne rappelle que la semaine bouge beaucoup et que le mois donne la tendance.
+3. **Chaque post, lu selon son objectif** : lien du post, étape, ce sur quoi il est jugé, impressions, interactions, « vs tes posts habituels », et une **lecture en hypothèse** (« Flop ? Hook trop vu, ou mauvais jour ? »). Une ligne explique le score en mots simples : interactions du post ÷ celles d'un post typique d'elle (médiane de ses 15 derniers posts). Ne jamais écrire « médiane » seul sans l'expliquer.
+4. **Par pilier, par étape, par style**, sur 4 semaines.
+5. **Arrête ? / Double / Teste**, formulés en pistes, avec le résultat de ce qui avait été décidé au point précédent.
+6. **Elles commentent / Elles likent** : lien du profil, contexte (avec le lien du commentaire), piste de conversation.
+7. **À commenter cette semaine** : 3 posts récents, avec leur lien, de personnes chaudes ou de comptes suivis qui surperforment (récupérés par Apify), et pourquoi les commenter. Elle écrit le commentaire avec ses mots.
+8. **D'où viennent les chiffres**, en pied de page.
+
+**Lectures = hypothèses.** On n'est jamais sûr à 100 % de pourquoi un post a marché ou fait un flop : toujours un point d'interrogation ou un « peut-être », jamais un verdict.
+
 ## Le point hebdo
 
 Même jour chaque semaine. Elle peut le lancer d'une phrase (« fais mon point hebdo »).
 
 1. **Récupérer** les chiffres (tableau ci-dessus) : Apify d'abord, puis lire ses impressions et ses visites de profil dans son navigateur (ou, si ça bloque, son export). Les stocker dans la base et le calendrier, puis lui montrer le tableau de bord. Le point hebdo n'est pas fini tant qu'elle ne l'a pas vu.
 2. **Lire chaque post selon son objectif.** Un TOFU se juge sur la portée et les abonnés gagnés. Un MOFU sur les commentaires de la cible et les messages privés. Un BOFU sur les inscriptions et les rendez-vous, même s'il fait peu de vues. On ne juge jamais un post isolé : un post vit plusieurs semaines sur LinkedIn, et quelques semaines de données, c'est peu.
-3. **Les flops** : un post sous la moitié de sa médiane habituelle. Chercher la cause probable (le hook, le sujet, le format, le jour) et dire si le sujet mérite une deuxième chance avec un autre hook.
+3. **Les flops possibles** : un post sous la moitié de ce que font ses posts habituels. Proposer des causes possibles, en questions (le hook ? le sujet ? le format ? le jour ?) et dire si le sujet mérite une deuxième chance avec un autre hook.
 4. **Arrête / double / teste** : une chose à arrêter, une chose à doubler, une chose à tester la semaine suivante. Pas plus. Présentées comme des pistes.
 5. **Comparer avec le point précédent** : ce qui avait été décidé, ce que ça a donné.
 6. **Les personnes chaudes**, en deux listes séparées, filtrées sur sa cible (titre, entreprise, secteur) :
