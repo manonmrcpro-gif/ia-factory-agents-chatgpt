@@ -49,7 +49,7 @@ Au démarrage, je lui donne la consigne complète de la partie A (les 6 cases), 
 
 ### Partie A : le parcours en 6 cases, côté client (sur papier, 45 min à 1 h)
 
-Deux consignes pour tout l'exercice : **sur papier**, et **à la première personne du client** (« je ressens », pas « il ressent »). Avec un dictionnaire d'émotions à côté (banque d'émotions dans les références) pour dépasser « stressé » et « content ».
+Deux consignes pour tout l'exercice : **sur papier**, et **à la première personne du client** (« je ressens », pas « il ressent »). Avec **la roue des émotions** à côté, comme un dictionnaire, pour dépasser « stressé » et « content » : d'abord la famille d'émotion, puis le mot le plus précis. Je lui donne la roue (dans les références) au démarrage et je m'en sers pour nommer les émotions dans le schéma.
 
 **Temps 1 : les deux bouts d'abord.** Il prend un vrai client type de son offre principale (un client réel de cette année ; s'il démarre, son client idéal).
 - **Case 1, juste avant qu'il te contacte.** Dans quel état il est ? Qu'est-ce qui ne va pas dans son activité à ce moment précis ? Qu'est-ce qu'il se dit à lui-même un soir dans sa cuisine ? Quelles émotions il traverse ?

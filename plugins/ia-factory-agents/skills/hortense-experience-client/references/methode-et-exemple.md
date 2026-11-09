@@ -10,7 +10,7 @@
 > 1. **Fais-le sur papier**, une simple feuille A4 et un stylo. Plie-la en deux dans la longueur, puis en trois : tu as tes 6 cases. Numérote-les de 1 à 6, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
 > 2. **Parle à la première personne de ton client.** Pas « il ressent » mais « je ressens ». Mets-toi dans sa peau. C'est inconfortable au début, c'est ce qui fait tout passer.
 >
-> Garde la liste d'émotions ci-dessous à côté de toi, comme un dictionnaire : on a tendance à rester sur « stressé » ou « content », alors qu'il y a tout un paysage entre les deux.
+> Garde **la roue des émotions** à côté de toi (imprime-la si tu peux), comme un dictionnaire : on a tendance à rester sur « stressé » ou « content », alors qu'il y a tout un paysage entre les deux. Pars du centre (la famille d'émotion), puis va vers l'extérieur pour trouver le mot le plus précis.
 >
 > **L'ordre compte : on commence par les deux bouts, avant de remplir le milieu.**
 >
@@ -41,10 +41,19 @@
 | Ce que j'apporte : | | | | | |
 | Mon énergie : + / 0 / − | | | | | |
 
-## Banque d'émotions (le dictionnaire)
+## La roue des émotions
 
-- Côté négatif : submergé, débordé, perdu, seul, inquiet, frustré, honteux, coupable, méfiant, sceptique, épuisé, découragé, agacé, impatient, ignoré, déçu, en doute.
-- Côté positif : soulagé, rassuré, compris, en confiance, curieux, enthousiaste, fier, serein, léger, en contrôle, autonome, reconnu, légitime, inspiré, reconnaissant.
+Au centre, la famille ; vers l'extérieur, les nuances. On cherche d'abord la famille, puis le mot le plus précis. Si l'utilisatrice a sa propre roue (image ou PDF), on utilise la sienne ; sinon, celle-ci :
+
+| Famille (centre) | Nuances (vers l'extérieur) |
+|---|---|
+| Peur | inquiet, anxieux, méfiant, dépassé, vulnérable, paniqué, en insécurité |
+| Tristesse | découragé, déçu, seul, épuisé, impuissant, abattu, nostalgique |
+| Colère | frustré, agacé, irrité, exaspéré, impatient, vexé, à bout |
+| Honte | coupable, gêné, illégitime, nul, mal à l'aise, jugé |
+| Surprise | étonné, déstabilisé, intrigué, ébloui, pris de court |
+| Joie | soulagé, enthousiaste, fier, reconnaissant, léger, optimiste, inspiré |
+| Confiance | rassuré, compris, en sécurité, en contrôle, serein, légitime, autonome |
 
 ## L'expérience à faire vivre : idées de ce qui fait naître une émotion
 
