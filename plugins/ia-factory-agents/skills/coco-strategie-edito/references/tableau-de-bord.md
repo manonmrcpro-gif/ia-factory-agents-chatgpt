@@ -2,7 +2,7 @@
 
 ## D'où viennent les chiffres
 
-Elle ne colle aucun lien de post. Tout ce qu'Apify peut récupérer, l'agent le récupère. Il ne lui reste que deux chiffres à donner : ses impressions et ses visites de profil.
+Elle ne colle aucun lien de post. Tout ce qu'Apify peut récupérer, l'agent le récupère. Restent deux chiffres privés, ses impressions et ses visites de profil : l'agent va les lire lui-même dans son navigateur, elle n'a qu'à autoriser.
 
 | Chiffre | D'où il vient | Qui le récupère |
 |---|---|---|
@@ -11,17 +11,24 @@ Elle ne colle aucun lien de post. Tout ce qu'Apify peut récupérer, l'agent le 
 | **Noms des personnes qui commentent** (et leur commentaire) | Apify, scraper de commentaires sans cookie, sur ses posts des 2 dernières semaines | l'agent |
 | **Noms des personnes qui likent** | Apify, scraper de réactions sans cookie, sur les mêmes posts | l'agent |
 | **Nombre d'abonnés** de son profil | public : Apify, scraper de profil LinkedIn sans cookie | l'agent. **Abonnés gagnés** = différence avec le point précédent (le premier point sert de point de départ). Vérifier que le scraper choisi renvoie bien le nombre d'abonnés ; sinon, le lui demander avec les deux chiffres ci-dessous |
-| Impressions, visites de profil | privés : seule elle les voit dans ses statistiques LinkedIn | elle, en une phrase au point hebdo, ou elle envoie l'export de ses statistiques LinkedIn (fichier Excel) et l'agent le lit. Pas de navigateur par défaut (lent, et une tâche planifiée qui passe par le navigateur ne marche que si son ordinateur est allumé) : seulement si elle le demande |
+| Impressions, visites de profil | privés : seule elle les voit dans ses statistiques LinkedIn | **l'agent, avec le mode agent** : elle lance le point hebdo, se connecte elle-même à LinkedIn quand le mode agent le lui demande, l'agent lit les chiffres (voir « Les chiffres privés » ci-dessous). Sinon : elle envoie l'export de ses statistiques ou tape les deux chiffres |
 | Inscrits au lead magnet | Brevo (connecteur, ou navigateur) | l'agent |
 | Conversations ouvertes (messages privés, mails, visios) | elle, en une phrase au point hebdo | elle |
 | Rendez-vous obtenus grâce au contenu | question « Comment tu m'as connue ? » dans son formulaire de prise de rendez-vous | l'agent lit les réponses |
 | Clients signés et montant | son suivi commercial | l'agent lit la base |
 
-**Pourquoi Apify ne donne pas les impressions** : LinkedIn ne les montre qu'à elle. Les scrapers qui les lisent demandent son cookie de session LinkedIn, c'est-à-dire l'accès à son compte : jamais (risque de restriction du compte). Le lui dire en une ligne si elle demande pourquoi ces deux chiffres restent à la main.
+**Pourquoi Apify ne donne pas les impressions** : LinkedIn ne les montre qu'à elle. Les scrapers qui les lisent demandent son cookie de session LinkedIn, c'est-à-dire l'accès à son compte : jamais (risque de restriction du compte). Le lui dire en une ligne si elle demande pourquoi ces deux chiffres passent par le navigateur.
 
 **Le coût, à lui dire en une ligne** : une fois par semaine, sur ses posts des 2 dernières semaines, la récupération tient dans les 5 $ gratuits d'Apify (de l'ordre de 3 $ par mois pour une personne qui publie 4 fois par semaine ; ça dépend du nombre de réactions). Si elle veut une mise à jour **tous les jours**, c'est possible mais ça dépasse le gratuit : compter le plan Starter d'Apify (19 $ par mois), et une tâche planifiée quotidienne consomme aussi son quota d'utilisation de l'IA. Vérifier les prix sur l'onglet Pricing de chaque scraper avant de les lui annoncer.
 
 Si son formulaire de prise de rendez-vous n'a pas la question « Comment tu m'as connue ? », le lui dire : c'est le seul chiffre qui relie le contenu au chiffre d'affaires.
+
+## Les chiffres privés : comment l'agent les lit
+
+- **Quand** : au point hebdo qu'elle lance elle-même (« fais mon point hebdo »), avec le mode agent. Le mode agent lui demande de se connecter à LinkedIn : c'est elle qui tape ses identifiants, jamais l'agent.
+- **Vite** : les impressions dans les statistiques de contenu de son profil (période « 7 derniers jours »), les visites de profil sur la page des vues du profil (LinkedIn les donne sur 90 jours : noter le chiffre avec sa période). Si une adresse a changé, passer par son profil, section Statistiques.
+- **Jamais** : rien publier, liker, commenter ni envoyer ; ne pas toucher aux réglages de son compte.
+- **Si ça bloque** : lui proposer l'export (profil ➜ Statistiques ➜ « Afficher toutes les statistiques » ➜ impressions de posts ➜ Exporter) ou les deux chiffres tapés.
 
 ## Où c'est rangé
 
@@ -33,7 +40,7 @@ Si son formulaire de prise de rendez-vous n'a pas la question « Comment tu m'as
 
 Même jour chaque semaine. Elle peut le lancer d'une phrase (« fais mon point hebdo »).
 
-1. **Récupérer** les chiffres (tableau ci-dessus) : Apify d'abord, puis lui demander ses impressions et ses visites de profil (ou son export). Les stocker dans la base et le calendrier, puis lui montrer le tableau de bord. Le point hebdo n'est pas fini tant qu'elle ne l'a pas vu.
+1. **Récupérer** les chiffres (tableau ci-dessus) : Apify d'abord, puis lire ses impressions et ses visites de profil dans son navigateur (ou, si ça bloque, son export). Les stocker dans la base et le calendrier, puis lui montrer le tableau de bord. Le point hebdo n'est pas fini tant qu'elle ne l'a pas vu.
 2. **Lire chaque post selon son objectif.** Un TOFU se juge sur la portée et les abonnés gagnés. Un MOFU sur les commentaires de la cible et les messages privés. Un BOFU sur les inscriptions et les rendez-vous, même s'il fait peu de vues. On ne juge jamais un post isolé : un post vit plusieurs semaines sur LinkedIn, et quelques semaines de données, c'est peu.
 3. **Les flops** : un post sous la moitié de sa médiane habituelle. Chercher la cause probable (le hook, le sujet, le format, le jour) et dire si le sujet mérite une deuxième chance avec un autre hook.
 4. **Arrête / double / teste** : une chose à arrêter, une chose à doubler, une chose à tester la semaine suivante. Pas plus. Présentées comme des pistes.
