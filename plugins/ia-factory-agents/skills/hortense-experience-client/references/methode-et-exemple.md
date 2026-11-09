@@ -117,15 +117,15 @@ Trois anneaux : au centre la famille, puis l'émotion, puis la nuance. On part d
 
 Un cercle de 8 étapes, une flèche de l'une à l'autre, et la dernière qui revient à la première :
 1. **Ta roadmap** (où tu vas, tes chantiers)
-2. **Ton offre et ta promesse** (Joséphine)
-3. **Tes fondations** : tes documents de référence (Florence)
-4. **Ta mémoire client** : tes transcripts et ta Voix du client (Tina, Aya)
-5. **Tes rendez-vous de vente** (Berthe, Nicole, Nawal)
-6. **Ton lead magnet** (Juliette)
-7. **Ton contenu** (Coco, Simone)
-8. **Ton expérience client** (Hortense), qui revient à ton offre et à ta promesse.
+2. **Ton offre et ta promesse** (Joséphine, ton Cadrage offre et pricing)
+3. **Tes fondations** : tes documents de référence (Florence, tes Documents de référence)
+4. **Ta mémoire client** : tes transcripts et ta Voix du client (Tina, ton Transcript ; Aya, ta Voix du client)
+5. **Tes rendez-vous de vente** (Berthe, ta Préparation RDV découverte ; Nicole, ton Analyse de call ; Nawal, ta Propale)
+6. **Ton lead magnet** (Juliette, ton Lead Magnet)
+7. **Ton contenu** (Coco, ta Stratégie édito ; Simone, ta Coach rédaction)
+8. **Ton expérience client** (Hortense, ton Expérience client), qui revient à ton offre et à ta promesse.
 
-Puis les flèches qui traversent le cercle, depuis l'expérience client : vers la **promesse** (la distance entre les cases 1 et 6), vers le **lead magnet** (ta méthode est plus visible), vers le **contenu** (tes points de vue sur ton marché), vers les **cas clients** (Serena : la case 6), vers la **Voix du client** (les retours de tes clients).
+Puis les flèches qui traversent le cercle, depuis l'expérience client : vers la **promesse** (la distance entre les cases 1 et 6), vers le **lead magnet** (ta méthode est plus visible), vers le **contenu** (tes points de vue sur ton marché), vers les **cas clients** (Serena, tes Cas clients : la case 6), vers la **Voix du client** (les retours de tes clients).
 
 Au centre, la **boucle d'itération** : je conçois, je livre au prochain client, je mesure (indicateurs de l'offre, retours, temps réellement passé), j'ajuste. Puis on refait un tour. Le message : on n'a pas besoin de tout traiter en même temps, mais chaque tour rend le suivant plus simple, la promesse plus claire et la vente plus facile.
 
@@ -196,7 +196,7 @@ Les coulisses, en échange :
 - Hortense : « Qu'est-ce que tu lui livres ? » Inès : « Le diagnostic au bout de 3 semaines, les process un par un, un kit entretiens. »
 - Hortense : « Qui fait quoi ? » Inès : « Tout moi. »
 
-Premier brouillon : 6 cases, au-dessus de la case 4 un vide (aucun point, aucun envoi pendant 3 semaines). Le brainstorm fait sortir trois choses : les messages WhatsApp passent dans l'espace client (ce qu'il envoie y est rangé), le récap après chaque point passe en gris (Colette prépare, Inès relit), et un point de 30 minutes à mi-parcours comble le creux.
+Premier brouillon : 6 cases, au-dessus de la case 4 un vide (aucun point, aucun envoi pendant 3 semaines). Le brainstorm fait sortir trois choses : les messages WhatsApp passent dans l'espace client (ce qu'il envoie y est rangé), le récap après chaque point passe en gris (Colette, ta Cheffe de projet, prépare, Inès relit), et un point de 30 minutes à mi-parcours comble le creux.
 
 Carte rendez-vous, point de mi-parcours : objectif = préparer les entretiens annuels sans stress ; 30 min, une fois ; le dirigeant ; avant = kit entretiens envoyé à J-3 (gris, préparé par l'IA, relu par elle, 20 min) ; pendant = où on en est, ses doutes, le plan des entretiens ; après = récap et prochaines étapes dans l'espace client sous 24 h (gris, 10 min).
 
