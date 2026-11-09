@@ -7,7 +7,7 @@
 > **Prévois 45 minutes à 1 heure, cerveau frais.**
 >
 > **Deux conseils avant de commencer.**
-> 1. **Fais-le sur papier**, une feuille A3 si possible, un stylo, des post-it et des couleurs si tu veux. Dessine les 6 cases, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
+> 1. **Fais-le sur papier**, une simple feuille A4 et un stylo. Plie-la en deux dans la longueur, puis en trois : tu as tes 6 cases. Numérote-les de 1 à 6, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
 > 2. **Parle à la première personne de ton client.** Pas « il ressent » mais « je ressens ». Mets-toi dans sa peau. C'est inconfortable au début, c'est ce qui fait tout passer.
 >
 > Garde la liste d'émotions ci-dessous à côté de toi, comme un dictionnaire : on a tendance à rester sur « stressé » ou « content », alors qu'il y a tout un paysage entre les deux.
