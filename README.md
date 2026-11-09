@@ -1,6 +1,6 @@
 # IA Factory : Agents pour Codex
 
-15 skills en français (14 agents + l'interview) issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
+16 skills en français (15 agents + l'interview) issus de la bibliothèque Notion IA Factory. Version 1.0.0, adaptée le 22 septembre 2026. Chaque skill conserve sa méthode métier, ses données d’entrée et ses livrables ; les exemples et gabarits sont chargés séparément.
 
 ## Installer
 
@@ -18,7 +18,7 @@ Alternative locale : cloner le dépôt puis copier les dossiers de `plugins/ia-f
 
 La procédure marketplace suit la [documentation officielle OpenAI](https://developers.openai.com/plugins/build/plugins).
 
-## Les skills (14 agents + l'interview)
+## Les skills (15 agents + l'interview)
 
 | Agent | Skill |
 | --- | --- |
@@ -26,6 +26,7 @@ La procédure marketplace suit la [documentation officielle OpenAI](https://deve
 | Constance, ta Maintenance | [constance-maintenance](plugins/ia-factory-agents/skills/constance-maintenance/SKILL.md) |
 | Aya, ta Voix du client | [aya-voix-du-client](plugins/ia-factory-agents/skills/aya-voix-du-client/SKILL.md) |
 | Nadia, ta Coach Process et IA | [nadia-coach-process-ia](plugins/ia-factory-agents/skills/nadia-coach-process-ia/SKILL.md) |
+| Hortense, ton Expérience client | [hortense-experience-client](plugins/ia-factory-agents/skills/hortense-experience-client/SKILL.md) |
 | Nicole, ton Analyse de call | [nicole-analyse-call](plugins/ia-factory-agents/skills/nicole-analyse-call/SKILL.md) |
 | Serena, tes Cas clients | [serena-cas-clients](plugins/ia-factory-agents/skills/serena-cas-clients/SKILL.md) |
 | Joséphine, ton Cadrage offre et pricing | [josephine-cadrage-offre](plugins/ia-factory-agents/skills/josephine-cadrage-offre/SKILL.md) |

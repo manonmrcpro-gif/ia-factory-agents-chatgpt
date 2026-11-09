@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hortense, ton Expérience client"
+  short_description: "Designer l'expérience client que tu veux vendre et vérifier qu'elle est tenable"
+  default_prompt: "Utilise $hortense-experience-client pour designer l'expérience que je veux faire vivre à mes clients."

@@ -88,5 +88,11 @@
     "agent": "Mireille, ta Veille offres de mission",
     "notion_url": "https://app.notion.com/p/40ff25a59ace81709672e4b0017d1bc9",
     "source_last_edited_at": "2026-11-05T16:18:00.000Z"
+  },
+  {
+    "skill": "hortense-experience-client",
+    "agent": "Hortense, ton Expérience client",
+    "notion_url": "https://app.notion.com/p/413f25a59ace81b09952e31f46e009ff",
+    "source_last_edited_at": "2026-11-09T10:20:00.000Z"
   }
 ]
