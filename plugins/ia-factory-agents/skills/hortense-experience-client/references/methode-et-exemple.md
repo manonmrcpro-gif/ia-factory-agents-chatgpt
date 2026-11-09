@@ -7,7 +7,7 @@
 > **Prévois 45 minutes à 1 heure, cerveau frais.**
 >
 > **Deux conseils avant de commencer.**
-> 1. **Fais-le sur papier**, une simple feuille A4 et un stylo. Plie-la en deux dans la longueur, puis en trois : tu as tes 6 cases. Numérote-les de 1 à 6, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
+> 1. **Fais-le sur papier**, une simple feuille A4 et un stylo. Plie-la en accordéon, avec 5 plis, dans la longueur : tu as 6 volets côte à côte, tes 6 cases. Numérote-les de 1 à 6, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
 > 2. **Parle à la première personne de ton client.** Pas « il ressent » mais « je ressens ». Mets-toi dans sa peau. C'est inconfortable au début, c'est ce qui fait tout passer.
 >
 > Garde **la roue des émotions** à côté de toi (imprime-la si tu peux), comme un dictionnaire : on a tendance à rester sur « stressé » ou « content », alors qu'il y a tout un paysage entre les deux. Pars du centre (la famille d'émotion), puis va vers l'extérieur pour trouver le mot le plus précis.
@@ -47,13 +47,13 @@ Au centre, la famille ; vers l'extérieur, les nuances. On cherche d'abord la fa
 
 | Famille (centre) | Nuances (vers l'extérieur) |
 |---|---|
-| Peur | inquiet, anxieux, méfiant, dépassé, vulnérable, paniqué, en insécurité |
-| Tristesse | découragé, déçu, seul, épuisé, impuissant, abattu, nostalgique |
-| Colère | frustré, agacé, irrité, exaspéré, impatient, vexé, à bout |
-| Honte | coupable, gêné, illégitime, nul, mal à l'aise, jugé |
-| Surprise | étonné, déstabilisé, intrigué, ébloui, pris de court |
-| Joie | soulagé, enthousiaste, fier, reconnaissant, léger, optimiste, inspiré |
-| Confiance | rassuré, compris, en sécurité, en contrôle, serein, légitime, autonome |
+| Peur | inquiet·e, anxieux·se, méfiant·e, dépassé·e, vulnérable, paniqué·e, en insécurité |
+| Tristesse | découragé·e, déçu·e, seul·e, épuisé·e, impuissant·e, abattu·e, nostalgique |
+| Colère | frustré·e, agacé·e, irrité·e, exaspéré·e, impatient·e, vexé·e, à bout |
+| Honte | coupable, gêné·e, illégitime, nul·le, mal à l'aise, jugé·e |
+| Surprise | étonné·e, déstabilisé·e, intrigué·e, ébloui·e, pris·e de court |
+| Joie | soulagé·e, enthousiaste, fier·ère, reconnaissant·e, léger·ère, optimiste, inspiré·e |
+| Confiance | rassuré·e, compris·e, en sécurité, en contrôle, serein·e, légitime, autonome |
 
 ## L'expérience à faire vivre : idées de ce qui fait naître une émotion
 
