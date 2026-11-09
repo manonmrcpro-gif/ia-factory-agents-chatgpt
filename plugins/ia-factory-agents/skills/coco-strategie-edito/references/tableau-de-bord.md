@@ -2,7 +2,7 @@
 
 ## D'où viennent les chiffres
 
-Elle ne colle aucun chiffre et aucun lien de post. Les chiffres viennent de trois endroits.
+Elle ne colle aucun lien de post. Tout ce qu'Apify peut récupérer, l'agent le récupère. Il ne lui reste que deux chiffres à donner : ses impressions et ses visites de profil.
 
 | Chiffre | D'où il vient | Qui le récupère |
 |---|---|---|
@@ -10,11 +10,14 @@ Elle ne colle aucun chiffre et aucun lien de post. Les chiffres viennent de troi
 | Réactions, commentaires, republications par post | même scraper | l'agent |
 | **Noms des personnes qui commentent** (et leur commentaire) | Apify, scraper de commentaires sans cookie, sur ses posts des 2 dernières semaines | l'agent |
 | **Noms des personnes qui likent** | Apify, scraper de réactions sans cookie, sur les mêmes posts | l'agent |
-| Impressions, abonnés gagnés, visites de profil | privés : statistiques LinkedIn de son compte | l'agent, avec le mode agent dans son navigateur, ou elle exporte ses statistiques |
+| **Nombre d'abonnés** de son profil | public : Apify, scraper de profil LinkedIn sans cookie | l'agent. **Abonnés gagnés** = différence avec le point précédent (le premier point sert de point de départ). Vérifier que le scraper choisi renvoie bien le nombre d'abonnés ; sinon, le lui demander avec les deux chiffres ci-dessous |
+| Impressions, visites de profil | privés : seule elle les voit dans ses statistiques LinkedIn | elle, en une phrase au point hebdo, ou elle envoie l'export de ses statistiques LinkedIn (fichier Excel) et l'agent le lit. Pas de navigateur par défaut (lent, et une tâche planifiée qui passe par le navigateur ne marche que si son ordinateur est allumé) : seulement si elle le demande |
 | Inscrits au lead magnet | Brevo (connecteur, ou navigateur) | l'agent |
 | Conversations ouvertes (messages privés, mails, visios) | elle, en une phrase au point hebdo | elle |
 | Rendez-vous obtenus grâce au contenu | question « Comment tu m'as connue ? » dans son formulaire de prise de rendez-vous | l'agent lit les réponses |
 | Clients signés et montant | son suivi commercial | l'agent lit la base |
+
+**Pourquoi Apify ne donne pas les impressions** : LinkedIn ne les montre qu'à elle. Les scrapers qui les lisent demandent son cookie de session LinkedIn, c'est-à-dire l'accès à son compte : jamais (risque de restriction du compte). Le lui dire en une ligne si elle demande pourquoi ces deux chiffres restent à la main.
 
 **Le coût, à lui dire en une ligne** : une fois par semaine, sur ses posts des 2 dernières semaines, la récupération tient dans les 5 $ gratuits d'Apify (de l'ordre de 3 $ par mois pour une personne qui publie 4 fois par semaine ; ça dépend du nombre de réactions). Si elle veut une mise à jour **tous les jours**, c'est possible mais ça dépasse le gratuit : compter le plan Starter d'Apify (19 $ par mois), et une tâche planifiée quotidienne consomme aussi son quota d'utilisation de l'IA. Vérifier les prix sur l'onglet Pricing de chaque scraper avant de les lui annoncer.
 
@@ -24,13 +27,13 @@ Si son formulaire de prise de rendez-vous n'a pas la question « Comment tu m'as
 
 - **La base « Tableau de bord contenu »** du Hub Freelance, une ligne par semaine : Semaine, Début de semaine, Posts publiés, Impressions, Abonnés gagnés, Interactions (réactions + commentaires), Taux d'engagement (formule), Commentaires de la cible, Visites de profil, Inscrits lead magnet, Conversations ouvertes, RDV grâce au contenu, Clients signés, Montant signé, Post de la semaine, Arrête / Double / Teste, Elles commentent, Elles likent. À créer si elle n'existe pas ; ajouter les colonnes qui manquent sans toucher aux autres.
 - **Les chiffres de chaque post** dans la base « Calendrier de contenu » (`Lien du post`, `Impressions`, `Réactions`, `Commentaires`, `Engagement`, `Statut` → Publié).
-- **L'interface** : la base Notion fait foi. À chaque point hebdo, l'agent en montre la lecture en tableau (ou dans un canevas s'il peut l'afficher) : en haut le post qui a le mieux marché, puis les chiffres de la semaine comparés à la semaine précédente, les résultats par pilier, par étape et par style, et les personnes chaudes.
+- **Le tableau de bord** (obligatoire) : la base Notion stocke, elle n'est pas le tableau de bord. À chaque point hebdo, l'agent montre un tableau de bord qui reprend toutes les stats de la base (dans un canevas s'il peut l'afficher, sinon en tableau) : en haut le post qui a le mieux marché, puis les chiffres de la semaine comparés à la semaine précédente, les résultats par pilier, par étape et par style, et les personnes chaudes.
 
 ## Le point hebdo
 
 Même jour chaque semaine. Elle peut le lancer d'une phrase (« fais mon point hebdo »).
 
-1. **Récupérer** les chiffres (tableau ci-dessus) et mettre à jour la base et le calendrier.
+1. **Récupérer** les chiffres (tableau ci-dessus) : Apify d'abord, puis lui demander ses impressions et ses visites de profil (ou son export). Les stocker dans la base et le calendrier, puis lui montrer le tableau de bord. Le point hebdo n'est pas fini tant qu'elle ne l'a pas vu.
 2. **Lire chaque post selon son objectif.** Un TOFU se juge sur la portée et les abonnés gagnés. Un MOFU sur les commentaires de la cible et les messages privés. Un BOFU sur les inscriptions et les rendez-vous, même s'il fait peu de vues. On ne juge jamais un post isolé : un post vit plusieurs semaines sur LinkedIn, et quelques semaines de données, c'est peu.
 3. **Les flops** : un post sous la moitié de sa médiane habituelle. Chercher la cause probable (le hook, le sujet, le format, le jour) et dire si le sujet mérite une deuxième chance avec un autre hook.
 4. **Arrête / double / teste** : une chose à arrêter, une chose à doubler, une chose à tester la semaine suivante. Pas plus. Présentées comme des pistes.
