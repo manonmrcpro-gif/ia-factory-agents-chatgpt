@@ -1,81 +1,95 @@
-# Hortense, ton Expérience client : questions, émotions, gabarits, exemple
+# Hortense, ton Expérience client : consignes, émotions, gabarits, exemple
 
-## Avant tout : le gabarit papier
+## La consigne de la partie A, à donner telle quelle au démarrage
 
-À donner tel quel si l'utilisateur arrive sans rien. Il le remplit à la main ou à l'oral (20 minutes, en vrac), puis il me le colle ou me le dicte.
+> **Le parcours de ton client, en 6 cases.** C'est un exercice de design produit : on cartographie le voyage de ton client sur ton offre principale. Pas ton process interne, pas tes outils, pas ton Notion. Lui.
+>
+> **Prévois 45 minutes à 1 heure, cerveau frais.**
+>
+> **Deux conseils avant de commencer.**
+> 1. **Fais-le sur papier**, une feuille A3 si possible, un stylo, des post-it et des couleurs si tu veux. Dessine les 6 cases, fais des flèches, laisse de la place dans les marges. Tu verras des choses que tu ne verrais pas au clavier. Envoie-moi ensuite la photo de ta feuille, ou dicte-moi ce que tu as écrit.
+> 2. **Parle à la première personne de ton client.** Pas « il ressent » mais « je ressens ». Mets-toi dans sa peau. C'est inconfortable au début, c'est ce qui fait tout passer.
+>
+> Garde la liste d'émotions ci-dessous à côté de toi, comme un dictionnaire : on a tendance à rester sur « stressé » ou « content », alors qu'il y a tout un paysage entre les deux.
+>
+> **L'ordre compte : on commence par les deux bouts, avant de remplir le milieu.**
+>
+> **Temps 1 : avant et après.** Prends un vrai client de ton offre principale, un que tu as accompagné cette année (si tu démarres, ton client idéal).
+> - **Case 1 : juste avant qu'il te contacte.** Il est dans quel état ? Qu'est-ce qui ne va pas dans son activité à ce moment précis ? Qu'est-ce qu'il se dit à lui-même un soir dans sa cuisine ? Quelles émotions il traverse : frustration de ne pas avancer, honte, peur de se planter, fatigue d'avoir déjà essayé ? Va chercher les mots précis.
+> - **Case 6 : six mois après la fin de ton accompagnement.** Tu le recroises pour un café. Qu'est-ce qui est différent concrètement chez lui, et qui tient encore dans le temps ? Pas juste « il a son livrable » : est-ce qu'il parle autrement de son activité ? Est-ce qu'il a obtenu quelque chose qu'il n'aurait pas eu sans toi ? Est-ce qu'il se sent plus serein, plus légitime, plus fier ? Quelles émotions il éprouve maintenant qu'il n'avait pas en case 1 ?
+>
+> La distance entre la case 1 et la case 6, c'est ta vraie valeur. Pas le livrable : le trajet entre ces deux points.
+>
+> **Temps 2 : le milieu du chemin.** Maintenant seulement, remplis les cases 2 à 5.
+> - **Case 2 : le premier contact.** Il te découvre comment ? Il t'écrit quoi en premier ? Qu'est-ce qu'il espère, et qu'est-ce qu'il craint en prenant rendez-vous : que tu sois trop chère, trop technique, pas pour lui ?
+> - **Case 3 : le premier rendez-vous.** Qu'est-ce qu'il comprend pendant qu'il te parle ? Qu'est-ce qu'il n'avait jamais formulé comme ça avant ? Qu'est-ce qu'il ressent en raccrochant : soulagement, excitation, encore un peu de méfiance ?
+> - **Case 4 : le milieu de l'accompagnement**, quand il découvre ton premier vrai livrable, ou quand l'effort commence à peser. Qu'est-ce qui se passe dans sa tête ?
+> - **Case 5 : la fin.** Livraison, restitution, dernier rendez-vous. Qu'est-ce qu'il ressent sur le coup, et dans les jours qui suivent ?
+>
+> **Temps 3 : deux regards sur chaque case.**
+> - **Côté transformation** : qu'est-ce que moi, à cette étape, j'apporte concrètement qui ne serait pas là sans moi ? Pas ce que je produis : ce qui change chez lui parce que je suis là. Une phrase courte par case.
+> - **Côté énergie** : cette étape me nourrit (+), elle est neutre (0) ou elle me vide (−) ? En deux mots, pourquoi, et quelle émotion précise je ressens : fierté, ennui, agacement, inspiration ?
+>
+> Quand c'est fait, envoie-moi la photo ou dicte-moi tes 6 cases et tes deux regards. On construira ensuite l'expérience que tu veux faire vivre.
+
+## Le gabarit papier
 
 | Case 1 | Case 2 | Case 3 | Case 4 | Case 5 | Case 6 |
 |---|---|---|---|---|---|
-| Quand mon client arrive | Moment clé | Moment clé | Moment clé | Moment clé | À la fin |
-| Il vit… / il ressent… / il se dit… | | | | | Il vit… / il ressent… / il se dit… |
+| Juste avant qu'il te contacte | Le premier contact | Le premier rendez-vous | Le milieu de l'accompagnement | La fin | Six mois après |
+| « Je vis… je ressens… je me dis… » | | | | | « Je vis… je ressens… je me dis… » |
+| Ce que j'apporte : | | | | | |
+| Mon énergie : + / 0 / − | | | | | |
 
-Règle : remplir d'abord la case 1 et la case 6. Le milieu vient après.
+## Banque d'émotions (le dictionnaire)
 
-## Étape 1 : les deux bouts
+- Côté négatif : submergé, débordé, perdu, seul, inquiet, frustré, honteux, coupable, méfiant, sceptique, épuisé, découragé, agacé, impatient, ignoré, déçu, en doute.
+- Côté positif : soulagé, rassuré, compris, en confiance, curieux, enthousiaste, fier, serein, léger, en contrôle, autonome, reconnu, légitime, inspiré, reconnaissant.
 
-**Case 1, quand ton client arrive**
-- Juste avant de te contacter, qu'est-ce qui s'est passé ? Quel a été le déclencheur ?
-- Qu'est-ce qu'il vit au quotidien avec ce problème ? Qu'est-ce que ça lui coûte (argent, temps, énergie, image) ?
-- Qu'est-ce qu'il ressent ? Qu'est-ce qu'il se dit le soir en y pensant ?
-- Qu'est-ce qu'il a déjà essayé ?
-- Quelle phrase exacte un client t'a dite qui résume ça ? (sinon `[HYPOTHÈSE]`)
+## L'expérience à faire vivre : idées de ce qui fait naître une émotion
 
-**Case 6, à la fin**
-- Qu'est-ce qui a changé, concrètement et de façon vérifiable ?
-- Qu'est-ce qu'il ne porte plus ?
-- Qu'est-ce qu'il ressent ? Qu'est-ce qu'il raconte à ses pairs en parlant de toi ?
-- Qu'est-ce qu'il sait faire seul maintenant ?
-
-**Contrôle avec la promesse** « En [durée], [résultat vérifiable], sans [ce qu'il n'a plus à porter] » : le « sans » se lit dans la case 1, le résultat dans la case 6, la durée sépare les deux. Si ce n'est pas le cas, soit la promesse soit l'expérience est à revoir.
-
-## Étape 2 : les moments clés possibles
-
-À proposer seulement s'il sèche. Il en garde 4.
-
-- **La décision et la signature** : il hésite, il engage de l'argent. Risque : regret de l'achat.
-- **Le démarrage** : il ne sait pas encore à quoi s'attendre. Risque : flou, impression de démarrer seul.
-- **Le premier résultat visible** : la preuve que ça marche. Risque : qu'il arrive trop tard.
-- **Le creux du milieu** : l'effort, la fatigue, le doute. Risque : abandon, perte de confiance.
-- **La fin et la restitution** : il mesure le chemin. Risque : fin sèche, valeur pas perçue.
-- **L'après** : il continue seul. Risque : retomber dans les vieilles habitudes, ne jamais recommander.
-
-## Étape 3 : banque d'émotions
-
-À viser : soulagé, rassuré, compris, en confiance, fier, serein, enthousiaste, en contrôle, autonome, reconnu.
-À éviter : perdu, seul, submergé, inquiet, coupable, déçu, ignoré, pressé, débordé, en doute.
-
-Questions pour chaque moment :
-- À ce moment-là, qu'est-ce que tu veux qu'il ressente ? Et qu'est-ce que tu ne veux surtout pas qu'il ressente ?
-- Qu'est-ce qui pourrait faire naître ça : un message, un livrable, un rituel, un appel, un outil ?
-- Est-ce que ça a besoin de toi, ou est-ce que ça peut tourner tout seul ?
-
-Idées de ce qui fait naître une émotion (à proposer, jamais à imposer) :
-- Rassuré au démarrage : un mail de démarrage qui dit ce qui va se passer semaine par semaine, un espace client prêt le jour J.
-- Compris : une restitution de ce qu'on s'est dit au premier appel, dans ses mots à lui.
+À proposer, jamais à imposer.
+- Rassuré au démarrage : un mail de lancement qui dit ce qui va se passer semaine par semaine, un espace client prêt le jour J.
+- Compris : une restitution du premier rendez-vous, dans ses mots à lui.
 - Fier : un avant/après chiffré à mi-parcours.
 - Pas seul dans le creux : un message de suivi programmé, un point court à mi-parcours.
 - En contrôle : un espace client qui se met à jour (où on en est, ce qui reste, ce qui a été livré).
 - Reconnu à la fin : une restitution visuelle de son chemin, une demande d'avis au bon moment.
 
-## Étapes 5 et 6 : la grille interne et la semaine type
+## Partie B : la grille du parcours interne
 
-Grille par moment :
+Format linéaire : les étapes en colonnes, côté client en bas, côté interne au-dessus.
 
-| Moment client | Étape interne | Qui | Outil | Temps estimé | Couleur |
-|---|---|---|---|---|---|
+| Étape | Point de contact (qui, comment, canal) | Production interne (qui, ma méthode) | Livrable en un mot | Outil (la fonction) | Essentiel / à optimiser | Temps estimé | Couleur |
+|---|---|---|---|---|---|---|---|
 
-Couleurs : gris = l'IA ou une automatisation ; rose = à la main ; ❤️ = là où est sa valeur ; plus tard = automatisable ensuite.
+Couleurs : gris = l'IA ou une automatisation ; rose = à la main ; ❤️ = là où est ma valeur ; plus tard = automatisable ensuite.
 
-Calcul de la charge (estimations, en fourchette) :
-- Temps par client sur toute la durée = somme des moments.
-- Temps par client et par semaine = moments récurrents + moments ponctuels étalés sur la durée.
+## Partie B : la fiche rendez-vous (une par rendez-vous)
+
+| | |
+|---|---|
+| Rendez-vous | (lancement, point de suivi, mi-parcours, restitution, bilan) |
+| Objectif | Ce que le client a tranché ou obtenu en sortant |
+| Fréquence et durée | |
+| Qui est là | Côté client / côté moi |
+| Avant | Ce que j'envoie, à J-combien (ordre du jour, document à relire, ce qu'il doit préparer) ; ce que je prépare et en combien de temps |
+| Pendant | Le déroulé en 3 ou 4 temps |
+| Après | Ce que j'envoie et sous combien de temps (récap, prochaines étapes) ; où ça se range ; qui fait quoi ensuite, des deux côtés |
+| Couleurs | Ordre du jour et récap souvent en gris (l'IA prépare, je relis) ; l'animation en rose ou ❤️ |
+
+## Le calcul de la charge
+
+Estimations, en fourchette, à réajuster après le premier client sur ce parcours.
+- Temps par client sur toute la durée = étapes + rendez-vous (préparation, animation, suivi).
+- Temps par client et par semaine = ce qui revient chaque semaine + le ponctuel étalé sur la durée.
 - Clients en simultané = temps disponible pour les clients par semaine ÷ temps par client et par semaine, en gardant au moins une journée par semaine pour son propre business.
 
-## Étape 7 : le retour à l'offre
+## Le retour à l'offre
 
-- Objectif (Excel de pilotage) : combien de clients en simultané lui faut-il pour atteindre son objectif ?
-- Capacité (semaine type) : combien peut-il en suivre avec cette expérience ?
-- Écart : si la capacité est sous l'objectif, les 4 leviers : automatiser un moment, passer un moment en asynchrone ou en collectif, remonter le prix, plafonner les clients. Chiffrer l'effet de chacun, en estimation.
+- Objectif (Excel de pilotage) : combien de clients en simultané pour atteindre l'objectif ?
+- Capacité (semaine type) : combien avec cette expérience ?
+- Écart : 4 leviers, chiffrés en estimation : automatiser un moment, passer un moment en asynchrone ou en collectif, remonter le prix, plafonner les clients.
 
 ## Exemple (fictif)
 
@@ -83,15 +97,16 @@ Calcul de la charge (estimations, en fourchette) :
 
 | | Case 1 | Case 2 | Case 3 | Case 4 | Case 5 | Case 6 |
 |---|---|---|---|---|---|---|
-| Moment | Quand il arrive | Le démarrage | Le premier résultat | Le creux du milieu | La restitution | À la fin |
-| Le client vit | Le dirigeant fait les entretiens, les fiches de paie et les conflits entre deux rendez-vous clients | Il ouvre son espace RH, il sait ce qui se passe semaine par semaine | Ses deux postes ouverts ont une fiche et un process de recrutement | Les entretiens annuels arrivent, ça lui paraît énorme | Il voit son avant/après | Il a des process qui tournent, un outil, une personne relais |
-| Il ressent | Submergé, coupable de mal faire | Rassuré | Soulagé | En doute | Fier | Serein, en contrôle |
-| Ce qui le fait naître | (verbatim : « je fais la RH le dimanche soir ») | Mail de démarrage + espace client prêt le jour J | Livrable concret dès la semaine 3 | Point de 30 min à mi-parcours + kit entretiens prêt | Restitution visuelle de son chemin | Guide d'autonomie + demande d'avis |
+| Étape | Juste avant | Premier contact | Premier rendez-vous | Milieu | Fin | Six mois après |
+| Le client (« je ») | « Je fais la RH le dimanche soir, je me sens nul face aux conflits » | « Une amie dirigeante m'a parlé d'elle, j'ai peur que ce soit encore un audit qui finit dans un tiroir » | « Pour la première fois, quelqu'un met des mots sur mon bazar » | « Les entretiens annuels arrivent, je doute de tenir » | « Je vois tout ce qui a été posé » | « J'ai des process qui tournent et une personne relais, je ne fais plus la RH le dimanche » |
+| Émotion | Submergé, coupable | Méfiant, curieux | Compris, soulagé | En doute | Fier | Serein, en contrôle |
+| Ce qu'elle apporte | | | Un diagnostic clair en une heure | Le cadre quand il doute | La preuve du chemin fait | Son autonomie |
+| Son énergie | | + | ❤️ + | − (aujourd'hui elle n'est pas là) | + | |
 
-Courbe d'émotion : bas (case 1), remonte (cases 2 et 3), creux (case 4), pic (case 5), stable (case 6). Le creux de la case 4 était non traité dans son offre actuelle : c'est son changement n° 1.
+Courbe d'émotion : bas (case 1), remonte (cases 2 et 3), creux (case 4), pic (case 5), stable (case 6). Le creux de la case 4 n'est pas traité aujourd'hui : c'est son changement n° 1.
 
-Parcours interne (estimations) : démarrage 2 h (rose ❤️ pour l'appel, gris pour l'espace client créé depuis le modèle) ; suivi hebdo 1 h par semaine (rose) ; récap hebdo 15 min (gris, préparé par l'IA, relu) ; point mi-parcours 30 min (rose ❤️) ; restitution 3 h (rose ❤️ pour la séance, gris pour la mise en forme).
+Fiche rendez-vous, point de mi-parcours : objectif = préparer les entretiens annuels sans stress ; 30 min, une fois ; le dirigeant ; avant = kit entretiens envoyé à J-3 (gris, préparé par l'IA, relu par elle, 20 min) ; pendant = où on en est, ses doutes, le plan des entretiens ; après = récap et prochaines étapes dans l'espace client sous 24 h (gris, 10 min).
 
-Semaine type : environ 2 h à 2 h 30 par client et par semaine en moyenne (estimation). Avec 4 jours pour ses clients, elle tient 5 clients en simultané. Objectif : 4. **Verdict : tenable**, avec une marge pour ajouter le point de mi-parcours qui manquait.
+Semaine type : environ 2 h à 2 h 30 par client et par semaine en moyenne (estimation). Avec 4 jours pour ses clients, elle tient 5 clients en simultané. Objectif : 4. **Verdict : tenable**, avec la marge pour ajouter le point de mi-parcours.
 
-Changement n° 1 : le point de mi-parcours de 30 minutes, avec le kit entretiens annuels prêt à l'emploi.
+Changement n° 1 : le point de mi-parcours de 30 minutes, avec le kit entretiens envoyé trois jours avant.
