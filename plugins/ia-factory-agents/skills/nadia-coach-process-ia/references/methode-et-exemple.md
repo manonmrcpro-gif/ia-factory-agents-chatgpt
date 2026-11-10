@@ -1,6 +1,45 @@
-# Nadia, ta Coach Process et IA : questions, grille, ROI, exemple
+# Nadia, ta Coach Process et IA : questions, grille, ROI, exemples
 
-## Étape 1 : l'objectif du chantier
+## Mode A : cartographier un process déjà choisi
+
+Une question d'ouverture si la personne n'a pas encore raconté : « Raconte-moi la dernière fois que tu as fait ce process, du début à la fin, comme à quelqu'un qui va te remplacer trois semaines. »
+
+**Le cadre**
+- Qu'est-ce qui lance ce process ? À quel moment il est vraiment terminé ?
+- Qui y participe : toi, tes salariés, un prestataire, tes clients ?
+- Qu'est-ce que tu veux gagner sur ce process, et à quoi tu verras que c'est réussi ?
+
+**Pour chaque étape**
+| Champ | Question |
+|---|---|
+| Quoi | Que se passe-t-il, concrètement, à cette étape ? |
+| Qui | Qui la fait ? |
+| Outil | Avec quoi : papier, tableur, logiciel métier, messagerie, IA ? |
+| Temps | Combien de temps prend cette étape, à chaque fois ? |
+| Fréquence | Combien de fois par jour, par semaine, par mois ? |
+| Ce qui coince | Où ça plante, où tu corriges, où tu ressaisis, où tu attends quelqu'un ? |
+
+**Ensuite**
+- Ce qui sort : quelles données sortent de ce process, et où elles vont ensuite (un logiciel, la comptabilité, un client, un partenaire) ?
+- Ta valeur : à quelles étapes ton regard ou ton métier comptent vraiment ?
+- Les cas à part : une absence, une erreur, une semaine chargée, un cas inhabituel. Comment tu fais aujourd'hui ?
+- L'idéal : à quoi ressemble ce process quand il est parfait, et combien de temps il te prend ?
+
+**Signaux à repérer** : copier-coller entre outils, double saisie, la même info demandée deux fois, une synthèse refaite à la main, une étape qui dépend d'une seule personne, une donnée qui vit à plusieurs endroits.
+
+**Pour proposer l'après** : pour chaque étape, se demander dans l'ordre : je la supprime ? je la regroupe avec une autre ? je la simplifie (modèle, formulaire, saisie unique) ? elle suit toujours la même règle (automatisation simple) ? elle demande du jugement (IA) ? c'est là qu'est sa valeur (rose et ❤️) ?
+
+### Exemple (cas fictif : gérant d'une entreprise de paysagisme, 8 salariés)
+
+> **AVANT** · Les salariés notent leurs heures sur papier (5 min/jour chacun) → le gérant ramasse les feuilles le vendredi → il les recopie dans un tableur (1 h) → il corrige les erreurs de chantier (30 min) → il ressaisit tout dans son logiciel de paie (45 min). 💸 2 h 15 chaque semaine, le week-end, et des erreurs de chantier une semaine sur deux.
+>
+> **APRÈS** · Saisie des heures sur téléphone par chaque salarié, avec la liste des chantiers imposée (rose : le salarié saisit) → contrôle automatique des totaux (gris : automatisation) → le gérant valide les anomalies (rose ❤️ : il connaît ses chantiers) → envoi automatique vers le logiciel de paie (gris : automatisation). Temps visé : 20 min par semaine.
+>
+> ⚠️ À vérifier : la liste des chantiers doit être à jour dans une base avant tout, sinon l'automatisation recopie les erreurs.
+
+## Mode B : diagnostic et priorisation
+
+### Étape 1 : l'objectif du chantier
 
 - Qu'est-ce que tu veux obtenir en traitant ce sujet ? (gagner du temps, moins d'erreurs, relancer plus vite, closer plus, mieux piloter…)
 - Comment tu sauras que c'est réussi ? Quel indicateur, même approximatif ? (« passer de 1 h 30 à 20 min par prépa de call », « zéro relance oubliée »)
@@ -8,9 +47,9 @@
 - Quelle est la dernière action que tu as faite qui aurait pu être faite par un stagiaire ou une IA ?
 - Avec quoi tu pilotes ton activité aujourd'hui (prospects, clients, trésorerie) ?
 
-## Étape 2-3 : cartographier l'existant
+### Étape 2-3 : cartographier l'existant (en surface)
 
-Méthode : lister ses grands domaines (offre, prospection, vente, delivery, admin, pilotage), se concentrer sur celui qui pèse le plus sur le CA ou le temps, puis lister les tâches et les outils de ce domaine.
+Méthode : lister ses grands domaines (pour un indépendant : offre, prospection, vente, delivery, admin, pilotage ; pour une entreprise : production ou opérations, équipe, achats, ventes, administratif, pilotage), se concentrer sur celui qui pèse le plus sur le CA ou le temps, puis lister les tâches et les outils de ce domaine.
 
 Pour chaque processus :
 
@@ -30,7 +69,7 @@ Conseil à rappeler : décrire le processus tel qu'il est aujourd'hui, pas tel q
 
 Signaux à repérer : copier-coller entre outils, double saisie, infos demandées deux fois au client, tâche « à faire chaque semaine » que personne ne fait, plusieurs sources de vérité.
 
-## Étape 4 : le coût de l'inaction
+### Étape 4 : le coût de l'inaction
 
 La bonne question à se poser : « combien ça me coûte de ne rien faire ? »
 
@@ -39,7 +78,7 @@ La bonne question à se poser : « combien ça me coûte de ne rien faire ? »
 - Opportunités perdues (« si je n'avais pas à faire ça, je relancerais plus vite et je closerais plus »).
 - Expérience client dégradée : lenteur, relances, erreurs.
 
-## Étape 5 : le sweet spot IA
+### Étape 5 : le sweet spot IA
 
 | Critère | Bon candidat si… |
 |---|---|
@@ -51,15 +90,15 @@ La bonne question à se poser : « combien ça me coûte de ne rien faire ? »
 
 Si un processus coche « fréquent, irritant » mais pas « explicable » ou « données » : le niveau d'intervention est la mise à jour des process ou la base de données, pas l'IA.
 
-## Étape 6 : le niveau d'intervention minimum
+### Étape 6 : le niveau d'intervention minimum
 
 1. **Clarification** : le problème est flou ou mal posé.
 2. **Mise à jour des process** : le processus n'est pas stable, pas écrit ou pas à jour.
 3. **Base de données** : les infos sont éparpillées, il faut les structurer dans une base de données, source de vérité.
-4. **Automatisation, avec ou sans IA** : une suite d'étapes connues, dont certaines peuvent être faites par l'IA (rédiger, résumer, classer).
+4. **Automatisation, avec ou sans IA** : une suite d'étapes connues. Si l'étape suit toujours la même règle, une automatisation simple, sans IA (moins chère, plus fiable, plus facile à maintenir). L'IA seulement là où il faut du jugement (rédiger, résumer, classer).
 5. **Agent IA** : plusieurs étapes avec du jugement, sur un processus stable et des données propres.
 
-## Étape 7 : prioriser et calculer le ROI
+### Étape 7 : prioriser et calculer le ROI
 
 **Matrice impact / effort** : on commence par impact élevé et effort faible. Exemples :
 - Centraliser les données clients dans un seul outil : impact élevé, effort moyen.
@@ -74,7 +113,7 @@ Si un processus coche « fréquent, irritant » mais pas « explicable » ou « 
 - Délai de rentabilité = coût du projet ÷ gain mensuel.
 - Exemple : 2 h gagnées par semaine sur un temps valorisé à 50 €/h = 100 €/semaine, environ 400 €/mois et 4 800 €/an. Pour un projet à 1 200 € : ROI = (4 800 − 1 200) ÷ 1 200 = 300 %, rentabilisé en 3 mois.
 
-## Exemple de sortie (extrait, cas fictif : consultante RH indépendante)
+### Exemple de sortie (extrait, cas fictif : consultante RH indépendante)
 
 > **Tes processus**
 > 1. Prospection et prise de RDV · 2. Préparation et suivi des appels de vente · 3. Rédaction des propositions · 4. Delivery des missions · 5. Facturation et relances de paiement

@@ -1,4 +1,4 @@
 interface:
   display_name: "Nadia, ta Coach Process et IA"
-  short_description: "Diagnostiquer ses processus et choisir quoi traiter en premier"
-  default_prompt: "Utilise $nadia-coach-process-ia pour diagnostiquer mes processus et décider quoi traiter en premier."
+  short_description: "Cartographier un process dans Miro, ou prioriser ses sujets"
+  default_prompt: "Utilise $nadia-coach-process-ia pour cartographier mon process et le dessiner dans mon Miro, ou pour prioriser mes sujets."
