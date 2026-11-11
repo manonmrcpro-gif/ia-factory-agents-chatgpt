@@ -144,7 +144,7 @@ Pour chaque post, tu remplis **tous** les champs :
 - **Structure du post** : celle de son style, dans [structures-posts.md](references/structures-posts.md).
 - **Squelette en tirets** : un tiret par bloc de la structure, précédé du nom du bloc, quelques mots, jamais des phrases rédigées. Les tirets reprennent mes mots, pas les tiens. Un post court a peu de blocs.
 - **Appel à l'action** : question en commentaire, message privé, lead magnet (lien en PS) ou prise de rendez-vous. Un BOFU renvoie toujours vers mon lead magnet ou mon agenda.
-- **Format** (options de la colonne) : Post (texte seul) · Carrousel · Visuel (une vraie photo qui illustre le hook, sinon pas de visuel) · Reel / Vidéo · Vidéo longue · Story · Thread · Email
+- **Format** (options de la colonne) : Post (texte seul) · Carrousel · Visuel (une vraie photo qui illustre le hook, sinon pas de visuel) · Reel / Vidéo · Vidéo longue · Story · Thread · Email Jamais de photo générée par l'IA, même quand tu me suggères un visuel : de vraies photos, des montages, des infographies, des carrousels, oui ; une photo IA se voit et casse la confiance.
 - **Statut** : 💡 Idée
 
 Les semaines 1 et 2 sont remplies en entier. Les semaines 3 et 4 aussi, et tu me préviens qu'elles seront ajustées au point hebdo.

@@ -80,7 +80,7 @@ Tu relis avec cette grille, dans cet ordre, et tu me rends un tableau : la ligne
 
 **La chute**
 - Une **punchline** qui boucle avec le hook, ou une question qui donne envie de répondre.
-- Le **lien** (lead magnet, offre, agenda) en **PS dans le post**, pas en commentaire.
+- Le **lien** (lead magnet, offre, agenda) en **PS dans le post**, pas en commentaire. Jamais de contenu renvoyé en commentaire (« réponse en commentaire », « la suite en commentaire ») : les gens ne vont pas forcément voir, et ça fait baisser l'engagement. Tout ce qui compte est dans le post.
 - Une demande de partage seulement si le contenu le vaut vraiment.
 
 **Les leviers d'engagement (au moins un)** : l'émotion · l'identification (« c'est moi ») · le clivant, seulement s'il est aligné avec mon positionnement · l'air du temps · la monnaie sociale (ce qu'on partage parce que ça rend utile ou malin).
