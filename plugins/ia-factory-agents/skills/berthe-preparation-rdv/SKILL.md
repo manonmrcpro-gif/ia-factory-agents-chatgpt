@@ -126,7 +126,7 @@ Mon créneau de relecture (socle, point 10), ce sont les 15 minutes de battement
 
 ## QUAND LE DÉCLENCHER (cas d'usage concrets)
 - **À la prise de RDV** : un call se cale → fiche prête la veille.
-- **Tâche planifiée matinale** : prépare les fiches des R1 du jour depuis l'agenda.
+- **Tâche planifiée chaque matin** : prépare les fiches des R1 des 48 h depuis Calendly et les range dans la page du prospect.
 - **À la main** : « prépare mon R1 avec \{prospect\} ».
 - **Avant un R2** : intègre le R1 et révise la qualification.
 
